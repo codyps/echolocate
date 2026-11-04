@@ -28,6 +28,10 @@ $('load-data').addEventListener('click',async()=>{try{if(processing)return;const
   activity('Flight data loaded.');
 }catch(e){activity(e.message,true);}finally{$('load-data').disabled=processing||!hostedCatalog;}});
 hostedData();
+// Only expose native execution when the local service is actually available.
+if(['localhost','127.0.0.1','[::1]'].includes(location.hostname)){
+  fetch('/api/health').then(async r=>{if(r.ok&&(r.headers.get('content-type')||'').includes('application/json')&&(await r.json()).ok)$('execution-field').hidden=false;}).catch(()=>{});
+}
 function timeFields(){const mode=$('time-mode').value;$('time-fields').hidden=mode==='none';$('sigma-field').hidden=mode!=='estimate';$('end-field').hidden=mode!=='range';$('start-label').textContent=mode==='range'?'Earliest start · UTC':'Estimated start · UTC';}
 $('time-mode').addEventListener('change',timeFields);
 const utcInput=unix=>new Date(unix*1000).toISOString().slice(0,19);
@@ -114,7 +118,7 @@ function render(){
   $('warning-count').textContent=`${result.warnings.length} notes`;
   if(result.config.robust_shape){const li=document.createElement('li');li.textContent='Coherent research mode compares flight curves with a linear chirp. Some matches use a declared part of a detected curve. Separate-recording tests still leave distant alternatives; scores are not confidence.';$('warnings').append(li);$('warning-count').textContent=`${result.warnings.length+1} notes`;}
   $('coverage').textContent=result.search?`${result.search.cells_evaluated} cells · ${result.search.hypotheses_evaluated.toLocaleString()} hypotheses · ${result.search.budget_exhausted?'BUDGET EXHAUSTED':'configured search finished'} · ${result.data_source}`:'Acoustic analysis only. No geographic search performed.';
-  $('export-json').disabled=false;$('export-geo').disabled=!result.candidates.length||result.coordinate_frame!=='wgs84';
+  $('export-json').disabled=false;$('export-geo').disabled=!result.candidates.length||result.coordinate_frame!=='wgs84';$('export-geo').hidden=$('export-geo').disabled;
   $('map-footnote').textContent=result.synthetic?'Synthetic demo. Scores are not probabilities.':'Scores are not probabilities; blank cells are unscored.';
   drawAll();
 }

@@ -16,7 +16,7 @@
 <details id="advanced"><summary>Advanced settings</summary>
 <label class="field">Tracker<select id="tracking"><option value="coherent">Coherent (experimental)</option><option value="legacy">Peak following (legacy)</option></select></label>
 <div class="two-fields"><label class="field">Grid (m)<input id="grid" type="number" value="400" min="25" max="20000"></label><label class="field">Height (m WGS84)<input id="height" type="number" value="0" min="-500" max="9000"></label></div>
-<label class="field">Execution<select id="execution"><option value="wasm">Browser</option><option value="native">Local Rust service</option></select></label>
+<label class="field" id="execution-field" hidden>Execution<select id="execution"><option value="wasm">Browser</option><option value="native">Local Rust service</option></select></label>
 <label class="field">Config overrides (JSON)<textarea id="overrides" rows="4" spellcheck="false">{}</textarea></label>
 </details>
 <div class="actions"><button id="analyze" class="primary" disabled>Analyze</button><button id="cancel" hidden>Cancel</button></div>
