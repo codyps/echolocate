@@ -8,14 +8,14 @@ function chooseAudio(file){
   if(processing){activity('Cancel or finish the current analysis before changing audio.');return;}
   if(!file)return;
   if(file.size>64*1024*1024){activity('Audio exceeds 64 MiB. Extract a shorter lossless excerpt.',true);return;}
-  clearResults();audioFile=file;$('audio-name').textContent=file.name;$('source-state').textContent='LOADED';$('analyze').disabled=false;
+  clearResults();audioFile=file;if($('audio-file').files[0]!==file){const files=new DataTransfer();files.items.add(file);$('audio-file').files=files.files;}$('analyze').disabled=false;
   if(previewURL)URL.revokeObjectURL(previewURL);previewURL=URL.createObjectURL(file);$('player').src=previewURL;$('player').hidden=false;
-  activity('Ready. Analysis runs on this device.');
+  activity('Ready.');
 }
-function clearResults(){result=null;selected=0;$('candidates').hidden=true;$('candidates').querySelector('tbody').replaceChildren();$('candidate-empty').hidden=false;$('candidate-empty').textContent='Run analysis to inspect this recording.';$('map-empty').hidden=false;$('spectrum-empty').hidden=false;$('event-chips').replaceChildren();$('event-count').textContent='0 events';$('status-badge').textContent='READY TO LISTEN';$('status-badge').classList.remove('warn');$('export-json').disabled=true;$('export-geo').disabled=true;$('coverage').textContent='';$('warnings').replaceChildren();$('warning-count').textContent='';drawAll();}
+function clearResults(){result=null;selected=0;$('candidates').hidden=true;$('candidates').querySelector('tbody').replaceChildren();$('candidate-empty').hidden=false;$('candidate-empty').textContent='No candidates.';$('results').hidden=true;$('results-empty').hidden=false;$('event-chips').replaceChildren();$('event-count').textContent='0 events';$('status-badge').textContent='Ready';$('status-badge').classList.remove('warn');$('export-json').disabled=true;$('export-geo').disabled=true;$('coverage').textContent='';$('warnings').replaceChildren();$('warning-count').textContent='';drawAll();}
 $('audio-file').addEventListener('change',e=>chooseAudio(e.target.files[0]));
 for(const type of ['dragover','dragleave','drop'])$('drop').addEventListener(type,e=>{e.preventDefault();$('drop').classList.toggle('drag',type==='dragover');if(type==='drop')chooseAudio(e.dataTransfer.files[0]);});
-$('package-file').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>16*1024*1024)throw new Error('Package exceeds 16 MiB; split it into smaller tiles.');const p=JSON.parse(await file.text());if(p.schema_version!==1 || !Array.isArray(p.flights))throw new Error('Expected a version 1 flight package.');flightPackage=p;$('data-attribution').textContent='';$('package-name').textContent=`${p.name} · ${p.flights.length} flights`;}catch(e){flightPackage=null;$('package-name').textContent='No valid package loaded.';activity(e.message,true);}});
+$('package-file').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>16*1024*1024)throw new Error('Package exceeds 16 MiB; split it into smaller tiles.');const p=JSON.parse(await file.text());if(p.schema_version!==1 || !Array.isArray(p.flights))throw new Error('Expected a version 1 flight package.');flightPackage=p;$('data-attribution').textContent='';$('attribution').hidden=true;$('package-name').textContent=`${p.name} · ${p.flights.length} flights`;}catch(e){flightPackage=null;$('package-name').textContent='No valid package loaded.';activity(e.message,true);}});
 async function hostedData(){
   try{hostedCatalog=await loadCatalog(new URL('data/catalog.json',location.href));const select=$('catalog-package');select.replaceChildren();
     for(const [i,entry] of hostedCatalog.catalog.packages.entries()){const o=document.createElement('option');o.value=String(i);o.textContent=`${entry.name} · ${(entry.transfer_bytes/1024).toFixed(0)} KiB`;select.append(o);}
@@ -24,24 +24,24 @@ async function hostedData(){
 }
 $('load-data').addEventListener('click',async()=>{try{if(processing)return;const entry=hostedCatalog.catalog.packages[Number($('catalog-package').value)];$('load-data').disabled=true;
   const pack=await loadFlightPackage(entry,hostedCatalog.url,(n,total)=>activity(`Downloading flight data · ${(100*n/total).toFixed(0)}% verified bytes`));
-  clearResults();flightPackage=pack;$('package-name').textContent=`${pack.name} · ${pack.flights.length} flights`;$('data-attribution').textContent=entry.attribution;
-  activity('Flight data verified and loaded. Choose audio and its time uncertainty.');
+  clearResults();flightPackage=pack;$('package-name').textContent=`${pack.name} · ${pack.flights.length} flights`;$('data-attribution').textContent=entry.attribution;$('attribution').hidden=!entry.attribution;
+  activity('Flight data loaded.');
 }catch(e){activity(e.message,true);}finally{$('load-data').disabled=processing||!hostedCatalog;}});
 hostedData();
 function timeFields(){const mode=$('time-mode').value;$('time-fields').hidden=mode==='none';$('sigma-field').hidden=mode!=='estimate';$('end-field').hidden=mode!=='range';$('start-label').textContent=mode==='range'?'Earliest start · UTC':'Estimated start · UTC';}
 $('time-mode').addEventListener('change',timeFields);
 const utcInput=unix=>new Date(unix*1000).toISOString().slice(0,19);
 $('demo').addEventListener('click',async()=>{try{
-  activity('Loading the generated example…');
+  activity('Loading demo…');
   const responses=await Promise.all(['demo.wav','demo.package.json','demo.config.json'].map(p=>fetch(p)));
   if(responses.some(r=>!r.ok))throw new Error('Demo fixtures missing. Run scripts/build.sh.');
   const [blob,p,c]=await Promise.all([responses[0].blob(),responses[1].json(),responses[2].json()]);
-  $('tracking').value='legacy';flightPackage=p;$('data-attribution').textContent='';chooseAudio(new File([blob],'synthetic-two-flyovers.wav',{type:'audio/wav'}));
+  $('tracking').value='legacy';flightPackage=p;$('data-attribution').textContent='';$('attribution').hidden=true;chooseAudio(new File([blob],'synthetic-two-flyovers.wav',{type:'audio/wav'}));
   $('package-name').textContent=`SYNTHETIC · ${p.flights.length} simulated flight tracks`;
   $('grid').value=c.grid_spacing_m;$('height').value=c.observer_height_ellipsoid_m;
   $('time-mode').value='range';$('time-start').value=utcInput(c.time_prior.windows[0].start_unix_s);$('time-end').value=utcInput(c.time_prior.windows[0].end_unix_s);timeFields();
   $('overrides').value=JSON.stringify({max_hz:c.max_hz,max_hypotheses:c.max_hypotheses},null,2);
-  activity('Synthetic example ready. Click Analyze recording; this example is not field validation.');
+  activity('Demo loaded. Select Analyze.');
 }catch(e){activity(e.message,true);}});
 function request(){
   const override=JSON.parse($('overrides').value||'{}');if(!override || typeof override!=='object' || Array.isArray(override))throw new Error('Config overrides must be a JSON object.');
@@ -55,7 +55,7 @@ function request(){
   }
   return {config,package:flightPackage};
 }
-function setBusy(busy){processing=busy;for(const input of document.querySelectorAll('.controls input,.controls select,.controls textarea'))input.disabled=busy;$('analyze').disabled=busy||!audioFile;$('demo').disabled=busy;$('cancel').hidden=!busy;if(busy){start=Date.now();$('status-badge').textContent='ANALYZING';timer=setInterval(()=>{$('source-state').textContent=`${((Date.now()-start)/1000).toFixed(0)}s ELAPSED`;},1000);}else{clearInterval(timer);$('source-state').textContent=audioFile?'LOADED':'WAITING';}}
+function setBusy(busy){processing=busy;for(const input of document.querySelectorAll('.controls input,.controls select,.controls textarea'))input.disabled=busy;$('analyze').disabled=busy||!audioFile;$('demo').disabled=busy;$('cancel').hidden=!busy;if(busy){$('results-empty').textContent='Analyzing…';start=Date.now();$('status-badge').textContent='ANALYZING';timer=setInterval(()=>{$('elapsed').textContent=`${((Date.now()-start)/1000).toFixed(0)} s`;},1000);}else{clearInterval(timer);$('elapsed').textContent='';$('results-empty').textContent='No analysis yet.';}}
 $('analyze').addEventListener('click',async()=>{
   try{
     const req=request();if(!audioFile)throw new Error('Choose an audio file.');
@@ -63,7 +63,7 @@ $('analyze').addEventListener('click',async()=>{
     if($('execution').value==='native'){
       const health=await fetch('/api/health');if(!health.ok || !(health.headers.get('content-type')||'').includes('application/json'))throw new Error('Native execution needs echo-locate serve on this origin. Select browser execution on a static host.');
       const meta=new TextEncoder().encode(JSON.stringify(req));const envelope=new Uint8Array(4+meta.length+bytes.byteLength);new DataView(envelope.buffer).setUint32(0,meta.length,true);envelope.set(meta,4);envelope.set(new Uint8Array(bytes),4+meta.length);
-      activity('Sending audio to your local Rust service…');const response=await fetch('/api/jobs',{method:'POST',headers:{'Content-Type':'application/octet-stream'},body:envelope});
+      activity('Processing with the local service…');const response=await fetch('/api/jobs',{method:'POST',headers:{'Content-Type':'application/octet-stream'},body:envelope});
       const data=await response.json();if(!response.ok)throw new Error(data.error||'Local service unavailable. Run echo-locate serve, or select browser execution.');
       job=data.id;localStorage.setItem('echo-native-job',job);await pollJob();
     }else{
@@ -92,19 +92,20 @@ $('cancel').addEventListener('click',async()=>{
   if(job){try{await fetch(`/api/jobs/${job}/cancel`,{method:'POST'});activity('Cancellation requested; Rust stops at its next search checkpoint.');}catch(e){activity(e.message,true);}}
 });
 function render(){
-  document.querySelector('.map-label span').textContent=result.coordinate_frame==='local_cartesian_embedded'?'SOURCE LOCAL FRAME / ARBITRARY MAP ORIGIN':'WGS84 / OFFLINE COORDINATE MAP';
+  $('results').hidden=false;$('results-empty').hidden=true;const showMap=!!result.search&&result.heatmap.length>0;document.querySelector('.map-panel').hidden=!showMap;document.querySelector('.candidates-panel').hidden=!result.candidates.length;$('results').classList.toggle('spectrum-only',!showMap);
+  document.querySelector('.map-label span').textContent=result.coordinate_frame==='local_cartesian_embedded'?'Local frame':'WGS84';
   document.querySelector('#candidates thead th:nth-child(3)').textContent=result.clock_domain==='utc'?'START · UTC':'START · INTERNAL CLOCK';
   const labels={no_usable_events:'NO USABLE EVENTS',needs_flight_data:'NEEDS FLIGHT DATA',no_match:'NO MATCH',ambiguous:'AMBIGUOUS',search_incomplete:'SEARCH INCOMPLETE',candidates_uncalibrated:'UNCALIBRATED CANDIDATES'};
   $('status-badge').textContent=result.synthetic?'SYNTHETIC / '+(result.candidates.length?'CANDIDATES':'DISCOVERY'):labels[result.status]||result.status;
   $('status-badge').classList.toggle('warn',!result.synthetic);
   $('signal-meta').textContent=`${result.audio.analyzed_duration_s.toFixed(1)}s · CH ${result.audio.analyzed_channel+1}/${result.audio.channels} · ${(result.audio.sample_rate/1000).toFixed(0)} kHz`;
   $('event-count').textContent=`${result.events.length} events`;
-  $('spectrum-empty').hidden=true;$('event-chips').replaceChildren();
-  for(const e of result.events){const b=document.createElement('button');b.className='event-chip';b.textContent=`E${e.id+1} / ${e.start_s.toFixed(1)}–${e.end_s.toFixed(1)}s / ${e.drop_hz.toFixed(1)} Hz drop`;b.onclick=()=>{$('player').currentTime=e.start_s;};$('event-chips').append(b);}
+  $('event-chips').replaceChildren();
+  for(const e of result.events){const b=document.createElement('button');b.className='event-chip';b.textContent=`${e.id+1}: ${e.start_s.toFixed(1)}–${e.end_s.toFixed(1)} s`;b.title=`${e.drop_hz.toFixed(1)} Hz drop; seek to event`;b.onclick=()=>{$('player').currentTime=e.start_s;};$('event-chips').append(b);}
   const tbody=$('candidates').querySelector('tbody');tbody.replaceChildren();
   result.candidates.forEach((c,i)=>{
     const row=document.createElement('tr');row.tabIndex=0;row.className=i===selected?'selected':'';row.setAttribute('aria-label',`Select candidate ${i+1}`);
-    for(const s of [`${String(i+1).padStart(2,'0')} / Region`,`${c.lat.toFixed(5)}, ${c.lon.toFixed(5)}`,result.clock_domain==='utc'?new Date(c.start_unix_s*1000).toISOString().replace('T',' ').slice(0,19):`${c.start_unix_s.toFixed(3)} s`,`${c.matched_events}/${result.events.length}`,c.score.toFixed(2)]){const td=document.createElement('td');td.textContent=s;row.append(td);}
+    for(const s of [`${i+1}`,`${c.lat.toFixed(5)}, ${c.lon.toFixed(5)}`,result.clock_domain==='utc'?new Date(c.start_unix_s*1000).toISOString().replace('T',' ').slice(0,19):`${c.start_unix_s.toFixed(3)} s`,`${c.matched_events}/${result.events.length}`,c.score.toFixed(2)]){const td=document.createElement('td');td.textContent=s;row.append(td);}
     row.onclick=()=>{selected=i;render();};row.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();row.click();}};tbody.append(row);
   });
   $('candidates').hidden=!result.candidates.length;$('candidate-empty').hidden=!!result.candidates.length;
@@ -113,15 +114,13 @@ function render(){
   $('warning-count').textContent=`${result.warnings.length} notes`;
   if(result.config.robust_shape){const li=document.createElement('li');li.textContent='Coherent research mode compares flight curves with a linear chirp. Some matches use a declared part of a detected curve. Separate-recording tests still leave distant alternatives; scores are not confidence.';$('warnings').append(li);$('warning-count').textContent=`${result.warnings.length+1} notes`;}
   $('coverage').textContent=result.search?`${result.search.cells_evaluated} cells · ${result.search.hypotheses_evaluated.toLocaleString()} hypotheses · ${result.search.budget_exhausted?'BUDGET EXHAUSTED':'configured search finished'} · ${result.data_source}`:'Acoustic analysis only. No geographic search performed.';
-  $('map-empty').hidden=!!result.search;$('export-json').disabled=false;$('export-geo').disabled=!result.candidates.length||result.coordinate_frame!=='wgs84';
-  $('map-footnote').textContent=result.synthetic?'Generated scenario · independent analytic audio renderer · no real-world accuracy claim.':'Profiled match strength; unscored cells have unknown support.';
+  $('export-json').disabled=false;$('export-geo').disabled=!result.candidates.length||result.coordinate_frame!=='wgs84';
+  $('map-footnote').textContent=result.synthetic?'Synthetic demo. Scores are not probabilities.':'Scores are not probabilities; blank cells are unscored.';
   drawAll();
 }
 function context(id){const canvas=$(id);const rect=canvas.getBoundingClientRect();const ratio=Math.min(devicePixelRatio||1,2);canvas.width=Math.max(1,Math.round(rect.width*ratio));canvas.height=Math.max(1,Math.round(rect.height*ratio));const ctx=canvas.getContext('2d');ctx.scale(ratio,ratio);return [ctx,rect.width,rect.height];}
 function drawMap(){
-  const [ctx,w,h]=context('map');ctx.fillStyle='#e5ecdf';ctx.fillRect(0,0,w,h);
-  ctx.strokeStyle='#ccdac8';ctx.lineWidth=.5;
-  for(let x=0;x<w;x+=45){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,h);ctx.stroke();}for(let y=0;y<h;y+=45){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(w,y);ctx.stroke();}
+  const [ctx,w,h]=context('map');ctx.fillStyle='#f6f8fa';ctx.fillRect(0,0,w,h);
   if(!result?.search)return;const b=result.search.bounds;const pad=35;
   const xy=(lat,lon)=>[pad+(lon-b.west)/(b.east-b.west)*(w-2*pad),h-pad-(lat-b.south)/(b.north-b.south)*(h-2*pad)];
   const max=result.heatmap[0]?.score||1;

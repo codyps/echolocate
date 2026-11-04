@@ -18,7 +18,7 @@ From this directory:
 bash scripts/run-local.sh
 ```
 
-Open **http://127.0.0.1:8765**, load the synthetic field example, and select **Analyze recording**. Browser execution uses the shipped Rust Wasm module. Choose **Local service · native Rust** to run through the native job service instead.
+Open **http://127.0.0.1:8765**, load the synthetic field example, and select **Analyze**. Browser execution uses the shipped Rust Wasm module. Choose **Local service · native Rust** to run through the native job service instead.
 
 The project archive includes a prebuilt Linux x86-64 binary under `bin/` and a browser bundle under `web/`; the launch script uses them without rebuilding on that platform. The workspace also has Cargo's build outputs. Rebuilding requires Rust/Cargo and the `wasm32-unknown-unknown` target:
 

@@ -11,7 +11,7 @@ async function engine() {
 self.onmessage = async ({data}) => {
   const buffers=[];
   try {
-    postMessage({type:'stage',message:'Loading the Rust engine…'});
+    postMessage({type:'stage',message:'Loading analyzer…'});
     const e=await engine();
     const metadata=new TextEncoder().encode(JSON.stringify(data.request));
     const audio=new Uint8Array(data.audio);
@@ -20,7 +20,7 @@ self.onmessage = async ({data}) => {
     new Uint8Array(e.memory.buffer,rp,metadata.length).set(metadata);
     const ap=e.echo_alloc(audio.length);buffers.push([ap,audio.length]);
     new Uint8Array(e.memory.buffer,ap,audio.length).set(audio);
-    postMessage({type:'stage',message:'Rust: decoding audio → detecting ridges → matching trajectories…'});
+    postMessage({type:'stage',message:'Analyzing audio…'});
     const packed=e.echo_run(rp,metadata.length,ap,audio.length);
     const ptr=Number(packed>>32n),len=Number(packed&0xffffffffn);buffers.push([ptr,len]);
     const text=new TextDecoder().decode(new Uint8Array(e.memory.buffer,ptr,len));
