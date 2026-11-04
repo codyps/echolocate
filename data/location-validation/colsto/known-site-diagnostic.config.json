@@ -1,0 +1,16 @@
+{
+  "bounds": {
+    "west": -73.526484,
+    "east": -73.526384,
+    "south": 40.876678,
+    "north": 40.876778
+  },
+  "grid_spacing_m": 25,
+  "refinement_levels": 0,
+  "max_cells": 100,
+  "max_hypotheses": 30000,
+  "clock_step_s": 0.5,
+  "clock_radius_s": 40,
+  "frequency_sigma_hz": 1,
+  "max_track_gap_s": 30
+}

@@ -1,0 +1,3 @@
+# Global half-hour replay chunks are acquisition intermediates, not static assets.
+*/replay/*.bin.ttf
+*.partial

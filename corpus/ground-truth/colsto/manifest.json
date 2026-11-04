@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "colsto-two-pass-contiguous",
+  "source_url": "https://www.youtube.com/watch?v=4CxVxuMVkMc",
+  "source_creator": "colsto",
+  "source_title": "Unknown location - raw audio",
+  "creator_explainer_url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+  "audio": {
+    "path": "35m00s-53m00s.wav",
+    "sha256": "47c0155241a131687b8b8184724e12ed5de9a74b00e057978a22c76053dd7dc2",
+    "bytes": 34560044,
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "sample_width_bytes": 2,
+    "frames": 17280000,
+    "duration_s": 1080.0
+  },
+  "extraction": {
+    "source_format": "YouTube itag140 AAC/M4A",
+    "source_start_s": 2100,
+    "duration_s": 1080,
+    "discontinuous_edits": false,
+    "resample_hz": 16000,
+    "channels": 1,
+    "source_container_sha256": "4fee89ade0a1f5e6e48eaec33499f710ded907e3ab483c7e6d3f064da86537cd"
+  },
+  "provisional_reference": {
+    "lat": 40.876466,
+    "lon": -73.524951,
+    "date": "2026-09-08",
+    "original_start_utc": "2026-09-08T20:17:30Z",
+    "excerpt_start_utc": "2026-09-08T20:52:30Z",
+    "primary_source_verification": "The date and site-level visual identification are verified in creator video frames; exact microphone coordinate and UTC clock are not verified.",
+    "coordinate_uncertainty_m": null,
+    "is_surveyed_truth": false,
+    "note": "These values were supplied as reconstruction reference parameters to the acquisition task. They are not independently verified ground truth."
+  },
+  "rights": {
+    "license": "not established; standard publisher rights apply",
+    "redistribute_in_default_public_static": false,
+    "use": "local research validation of creator-published demonstration material"
+  },
+  "primary_evidence": [
+    {
+      "source_url": "https://www.youtube.com/watch?v=UytYrhYLOKI&t=30s",
+      "time_s": 30,
+      "path": "evidence/colsto-date00m30s.png",
+      "observation": "Onscreen caption says in continentalUS, filmed9/8/26.",
+      "sha256": "e23546642ca106cdc2fd671da5ccdf583753895f3a92a045be91beed8179981c"
+    },
+    {
+      "source_url": "https://www.youtube.com/watch?v=UytYrhYLOKI&t=1530s",
+      "time_s": 1530,
+      "path": "evidence/colsto-map25m30s.png",
+      "observation": "GoogleMaps searchpin shown at40.876728,-73.526434, OysterBayNY. This is a displayed reference, not a surveyed microphone coordinate.",
+      "sha256": "f503840a6acb7e9de991bcc74c29dcfbee5da43402dc947453a4d74edc8a4613"
+    },
+    {
+      "source_url": "https://www.youtube.com/watch?v=UytYrhYLOKI&t=1568s",
+      "time_s": 1568,
+      "path": "evidence/colsto-camera26m08s.png",
+      "observation": "Creator shows StreetView camera on a utility pole at19BayviewAve, OysterBay, after comparing treeline. The StreetView imagery saysSeptember2025; it is visual site evidence, not recording date/clock.",
+      "sha256": "4be2b50ee4b6d90a7edf030fb74891ad804a36defd064fd9847a57d5203d0024"
+    }
+  ],
+  "reference_locations": [
+    {
+      "label": "primary_creator_displayed_map_reference",
+      "lat": 40.876728,
+      "lon": -73.526434,
+      "exact_microphone_coordinate": false,
+      "uncertainty_m": null,
+      "evidence_index": 1
+    },
+    {
+      "label": "secondary_reconstruction_reference_supplied_to_task",
+      "lat": 40.876466,
+      "lon": -73.524951,
+      "exact_microphone_coordinate": false,
+      "uncertainty_m": null,
+      "primary_verified": false
+    }
+  ],
+  "date_based_clock_prior": {
+    "original_start_utc_range": [
+      "2026-09-08T04:00:00+00:00",
+      "2026-09-09T04:00:00+00:00"
+    ],
+    "excerpt_start_utc_range": [
+      "2026-09-08T04:35:00+00:00",
+      "2026-09-09T04:35:00+00:00"
+    ],
+    "timezone": "America/New_York",
+    "evidence": "Creator datecaption plus visually identified NewYorksite. Date-only constraint, not exactUTC."
+  },
+  "validation_eligibility": {
+    "actual_audio_flight_matching": true,
+    "site_level_reference_comparison": true,
+    "surveyed_microphone_error": false,
+    "independent_utc_error": false,
+    "known_implementation_reference_case": true,
+    "held_out_independent_recording": false,
+    "note": "Report distances to each published/provisional reference with their labels. Successful matching is a reproduction of the known demonstration, not new blind geolocation accuracy."
+  }
+}

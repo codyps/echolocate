@@ -1,0 +1,686 @@
+{
+  "query": {
+    "center_lat": 40.88,
+    "center_lon": -73.53,
+    "radius_m": 20000,
+    "start_utc": "2026-09-08T20:30:00Z",
+    "end_utc": "2026-09-08T21:30:00Z"
+  },
+  "discovered_ids": 133,
+  "acquired_traces": 36,
+  "not_exhaustive": true,
+  "source_archive_total_bytes": 3874165248,
+  "source_trace_bytes_sampled": 371828224,
+  "samples": 1419,
+  "traces": [
+    {
+      "icao": "34810b",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/0b/trace_full_34810b.json",
+      "byte_range": [
+        542328320,
+        542400087
+      ],
+      "sha256": "2dac72095721fc5063901416376c16377c361f369f3a440858702d0c8ad4846f",
+      "bytes": 71768,
+      "points": 2561,
+      "geometric_altitude_points": 2200,
+      "registration": "EC-OIL",
+      "aircraft_type": "A21N",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "740821",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/21/trace_full_740821.json",
+      "byte_range": [
+        495227904,
+        495397353
+      ],
+      "sha256": "d40586b93ef9430543e4d6b2c8117146a109bcad7475caa0a9832e00d98a36ec",
+      "bytes": 169450,
+      "points": 6373,
+      "geometric_altitude_points": 6166,
+      "registration": "JY-BAA",
+      "aircraft_type": "B788",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a023a5",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/a5/trace_full_a023a5.json",
+      "byte_range": [
+        96527360,
+        96577078
+      ],
+      "sha256": "a899441be36573d87e7be39014ff1478adac4b8dffc97eb2b3427f2f7d5fbd3d",
+      "bytes": 49719,
+      "points": 1835,
+      "geometric_altitude_points": 1644,
+      "registration": "N108NN",
+      "aircraft_type": "A321",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a1c57e",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/7e/trace_full_a1c57e.json",
+      "byte_range": [
+        547015168,
+        547133177
+      ],
+      "sha256": "dd5a882bed0d5100c36cb181934f6351f61dc6a1583c43b9d0730332369814fa",
+      "bytes": 118010,
+      "points": 4517,
+      "geometric_altitude_points": 4199,
+      "registration": "N213JQ",
+      "aircraft_type": "E75L",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a1dfeb",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/eb/trace_full_a1dfeb.json",
+      "byte_range": [
+        710110720,
+        710147984
+      ],
+      "sha256": "4905b7421312a36a4d09c13ee835af5a9e4f0aa646426414105a6fa97d896b40",
+      "bytes": 37265,
+      "points": 1472,
+      "geometric_altitude_points": 1340,
+      "registration": "N22NY",
+      "aircraft_type": "PC12",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a20120",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/20/trace_full_a20120.json",
+      "byte_range": [
+        1758235648,
+        1758244042
+      ],
+      "sha256": "ad0dcf6126468c20d0ba2b57608a551000c5f7d6d2b362978f1f827a7d5ccc33",
+      "bytes": 8395,
+      "points": 337,
+      "geometric_altitude_points": 337,
+      "registration": "N2280Q",
+      "aircraft_type": "P28A",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a24720",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/20/trace_full_a24720.json",
+      "byte_range": [
+        1760208896,
+        1760345171
+      ],
+      "sha256": "d909e269f78d34525d0dd9fa2a888fe432304913879dfa412a825563b9d690d7",
+      "bytes": 136276,
+      "points": 5286,
+      "geometric_altitude_points": 4405,
+      "registration": "N246JQ",
+      "aircraft_type": "E75L",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a26b80",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/80/trace_full_a26b80.json",
+      "byte_range": [
+        374003200,
+        374049597
+      ],
+      "sha256": "17b91388747c6f32ec3c0f4f0ba017e45af3326811166a17db97873f86ecd770",
+      "bytes": 46398,
+      "points": 1733,
+      "geometric_altitude_points": 1482,
+      "registration": "N255QS",
+      "aircraft_type": "CL60",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a2cbdb",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/db/trace_full_a2cbdb.json",
+      "byte_range": [
+        176292864,
+        176327270
+      ],
+      "sha256": "b86aee83e75e0e7da07c953142e396f1ed8295084678ee51bf5221a833105f06",
+      "bytes": 34407,
+      "points": 1173,
+      "geometric_altitude_points": 1172,
+      "registration": "N28CG",
+      "aircraft_type": "CRJ2",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a33843",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/43/trace_full_a33843.json",
+      "byte_range": [
+        151035392,
+        151099659
+      ],
+      "sha256": "a6696def80bd51bed39a4c64ac950dab5521f65b5838e74e72298f1a6c72ae2c",
+      "bytes": 64268,
+      "points": 2424,
+      "geometric_altitude_points": 1995,
+      "registration": "N3062J",
+      "aircraft_type": "BCS3",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a35854",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/54/trace_full_a35854.json",
+      "byte_range": [
+        600501760,
+        600650274
+      ],
+      "sha256": "3e2fc98a2e0f1f85e833c67f64f6d461abe06db58326add99d3a688f197a9468",
+      "bytes": 148515,
+      "points": 5531,
+      "geometric_altitude_points": 4891,
+      "registration": "N3142J",
+      "aircraft_type": "BCS3",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a3b04f",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/4f/trace_full_a3b04f.json",
+      "byte_range": [
+        1126287872,
+        1126403066
+      ],
+      "sha256": "18afd2c725f380782cce4b65bb0a32c5bacc87ea4f3733a35dbb13fc5e5191df",
+      "bytes": 115195,
+      "points": 4540,
+      "geometric_altitude_points": 4500,
+      "registration": "N337FB",
+      "aircraft_type": "P28A",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a3f88e",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/8e/trace_full_a3f88e.json",
+      "byte_range": [
+        790749184,
+        790877769
+      ],
+      "sha256": "d0edab5ce428b52b18ce6244c5df8d72156a9c77bd63862ee0cce9853a55d30b",
+      "bytes": 128586,
+      "points": 4964,
+      "geometric_altitude_points": 4369,
+      "registration": "N355NB",
+      "aircraft_type": "A319",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a45a19",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/19/trace_full_a45a19.json",
+      "byte_range": [
+        360290816,
+        360326533
+      ],
+      "sha256": "9b1c2c69041444bfb5126a56de7fcf8b112d2c704b168b84aa8a2fc71bb79ba9",
+      "bytes": 35718,
+      "points": 1393,
+      "geometric_altitude_points": 1282,
+      "registration": null,
+      "aircraft_type": null,
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a60b77",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/77/trace_full_a60b77.json",
+      "byte_range": [
+        558104064,
+        558148904
+      ],
+      "sha256": "e5e890e734a81862054322eab3f5abadf23b71e7b34eb4e317a59559d3dcfa31",
+      "bytes": 44841,
+      "points": 1763,
+      "geometric_altitude_points": 1478,
+      "registration": "N489QS",
+      "aircraft_type": "E55P",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a63e21",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/21/trace_full_a63e21.json",
+      "byte_range": [
+        506098176,
+        506147208
+      ],
+      "sha256": "00ecaacd7e684f302086b95e3eedefc4f3c1ae2513e614234064a9563f419dbb",
+      "bytes": 49033,
+      "points": 2221,
+      "geometric_altitude_points": 1905,
+      "registration": "N501EX",
+      "aircraft_type": "C208",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a66ce0",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/e0/trace_full_a66ce0.json",
+      "byte_range": [
+        39894528,
+        40000928
+      ],
+      "sha256": "eb3a78a3fbe31e96ed78524f5db207b01088557c9f7b56116096044d78b026ea",
+      "bytes": 106401,
+      "points": 4398,
+      "geometric_altitude_points": 3561,
+      "registration": "N513DA",
+      "aircraft_type": "A21N",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a69061",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/61/trace_full_a69061.json",
+      "byte_range": [
+        759277568,
+        759402691
+      ],
+      "sha256": "2d4d6f30c1f71c4c79839029a105319649e9854c97b9dfc2a54808795959e569",
+      "bytes": 125124,
+      "points": 4685,
+      "geometric_altitude_points": 4158,
+      "registration": "N522AE",
+      "aircraft_type": "CRJ7",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "a6decf",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/cf/trace_full_a6decf.json",
+      "byte_range": [
+        966708224,
+        966744887
+      ],
+      "sha256": "124d729a7ac8a6cf64d1f7fbb171bca6dcdf145b36979554d4a3fd994f284898",
+      "bytes": 36664,
+      "points": 1543,
+      "geometric_altitude_points": 1518,
+      "registration": "N5416B",
+      "aircraft_type": "C152",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a71654",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/54/trace_full_a71654.json",
+      "byte_range": [
+        602269696,
+        602368123
+      ],
+      "sha256": "6b59fe733d4e9b66bbb107ac1fdd432b97dcac754e3e4e462e5f8b0a5d9a6a7e",
+      "bytes": 98428,
+      "points": 3702,
+      "geometric_altitude_points": 3092,
+      "registration": "N556GJ",
+      "aircraft_type": "CRJ7",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a81f1a",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/1a/trace_full_a81f1a.json",
+      "byte_range": [
+        429898240,
+        429988960
+      ],
+      "sha256": "4b10518ce5da618cc33314254a44dee8fa483fa428cebd7a2efb1cb4383dc51f",
+      "bytes": 90721,
+      "points": 3560,
+      "geometric_altitude_points": 3274,
+      "registration": "N622QS",
+      "aircraft_type": "C68A",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "a8f00e",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/0e/trace_full_a8f00e.json",
+      "byte_range": [
+        638545920,
+        638565898
+      ],
+      "sha256": "3eaaf3c456e61cf5f409691be30b0251af2c7fae8358dd9ae7e0fc6f662a9c72",
+      "bytes": 19979,
+      "points": 758,
+      "geometric_altitude_points": 719,
+      "registration": "N675UA",
+      "aircraft_type": "B763",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "aa2e0b",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/0b/trace_full_aa2e0b.json",
+      "byte_range": [
+        543538688,
+        543543216
+      ],
+      "sha256": "33d6a38b7711155d7d72a86099f1c9d1ea0367f73f8e290dec37ed03d7bc6da9",
+      "bytes": 4529,
+      "points": 167,
+      "geometric_altitude_points": 167,
+      "registration": "N755QS",
+      "aircraft_type": "CL35",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "aa340e",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/0e/trace_full_aa340e.json",
+      "byte_range": [
+        649666048,
+        649751102
+      ],
+      "sha256": "24fc142d03e14e22d316d2bd44e87c6f262739709b59b76f6c1a4e4fb25d7004",
+      "bytes": 85055,
+      "points": 3571,
+      "geometric_altitude_points": 3516,
+      "registration": "N757AD",
+      "aircraft_type": "C152",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "ab0e30",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/30/trace_full_ab0e30.json",
+      "byte_range": [
+        363222016,
+        363241361
+      ],
+      "sha256": "1340496e87a7d9f7c8eb784207963e8142fd360c69351e9f7941cd5cce2085fc",
+      "bytes": 19346,
+      "points": 736,
+      "geometric_altitude_points": 626,
+      "registration": "N811MK",
+      "aircraft_type": "GLF6",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "ab11cf",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/cf/trace_full_ab11cf.json",
+      "byte_range": [
+        968073216,
+        968113235
+      ],
+      "sha256": "00b87079c2df3debf6323a3a205fbcf6852b28c183571e354aaaf75830f552f3",
+      "bytes": 40020,
+      "points": 1412,
+      "geometric_altitude_points": 1120,
+      "registration": "N812LL",
+      "aircraft_type": "H25B",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "ab53cf",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/cf/trace_full_ab53cf.json",
+      "byte_range": [
+        969408000,
+        969441553
+      ],
+      "sha256": "524ba05d7420419f7aec55595fc0ff4105566c52c259f5f2457c4ba5ab7c9259",
+      "bytes": 33554,
+      "points": 1364,
+      "geometric_altitude_points": 1311,
+      "registration": "N829RP",
+      "aircraft_type": "R44",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "ab6519",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/19/trace_full_ab6519.json",
+      "byte_range": [
+        368120832,
+        368226547
+      ],
+      "sha256": "5bcdedfe042c395290333c88e21c2f7f18759bd371988fa7ed310596127cfc86",
+      "bytes": 105716,
+      "points": 3992,
+      "geometric_altitude_points": 3495,
+      "registration": "N833SK",
+      "aircraft_type": "CRJ9",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "abd41a",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/1a/trace_full_abd41a.json",
+      "byte_range": [
+        433567232,
+        433691226
+      ],
+      "sha256": "ae1ae9c9acbf1feb1941790e43784bc2491e50670559d1524890622afd45f2fe",
+      "bytes": 123995,
+      "points": 4568,
+      "geometric_altitude_points": 3994,
+      "registration": "N861RW",
+      "aircraft_type": "E170",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "abfb21",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/21/trace_full_abfb21.json",
+      "byte_range": [
+        497265664,
+        497355509
+      ],
+      "sha256": "2924fae4f84a1d0853db157863699a4c261d3e375cccb0907dc646a1024cffa1",
+      "bytes": 89846,
+      "points": 3558,
+      "geometric_altitude_points": 3551,
+      "registration": "N871MA",
+      "aircraft_type": "P28A",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "acaf0b",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/0b/trace_full_acaf0b.json",
+      "byte_range": [
+        533175808,
+        533322431
+      ],
+      "sha256": "07e651b891638000b61678ae01183b806253f7d40f46c1feade67f771daa1579",
+      "bytes": 146624,
+      "points": 5581,
+      "geometric_altitude_points": 4435,
+      "registration": "N916XJ",
+      "aircraft_type": "CRJ9",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "acc040",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/40/trace_full_acc040.json",
+      "byte_range": [
+        769697280,
+        769834366
+      ],
+      "sha256": "c3d552182998692278e24c70e2074fafbdce74273e2d89b07294f7b7f63666ed",
+      "bytes": 137087,
+      "points": 5217,
+      "geometric_altitude_points": 4331,
+      "registration": "N920XJ",
+      "aircraft_type": "CRJ9",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "ace391",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/91/trace_full_ace391.json",
+      "byte_range": [
+        322265088,
+        322302768
+      ],
+      "sha256": "2d9f75557ce380b67641c4b8b20f2b7e73256465d12fce7e948ccb439c33b968",
+      "bytes": 37681,
+      "points": 1483,
+      "geometric_altitude_points": 1385,
+      "registration": "N93CQ",
+      "aircraft_type": "B350",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "ad48a9",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/a9/trace_full_ad48a9.json",
+      "byte_range": [
+        1436561920,
+        1436643150
+      ],
+      "sha256": "290b9aa15d31a4d5ae2f23e4e51256c4fe5c163cbe2353f6da4e6f18b8cbbc82",
+      "bytes": 81231,
+      "points": 3520,
+      "geometric_altitude_points": 2752,
+      "registration": "N955QS",
+      "aircraft_type": "C68A",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    },
+    {
+      "icao": "ae0630",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "archive_member": "./traces/30/trace_full_ae0630.json",
+      "byte_range": [
+        365689344,
+        365777417
+      ],
+      "sha256": "f8506b4cedf29117c5b6408f7abcde1a56521366a89f4656b3449f89b1be2618",
+      "bytes": 88074,
+      "points": 3472,
+      "geometric_altitude_points": 3256,
+      "registration": "84-00172",
+      "aircraft_type": "BE20",
+      "selection": "Replayposition within20kmofroundedtownprior40.88,-73.53 during20:30\u201321:30UTC; archivehashdirectorywindowselectedtoacquiremoregeographiccompetitors. No acoustic score or aircraft-type filter."
+    },
+    {
+      "icao": "c07e32",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "archive_member": "./traces/32/trace_full_c07e32.json",
+      "byte_range": [
+        646155776,
+        646253981
+      ],
+      "sha256": "43b51a20ac4a016129fde7a0c64508ec38cad5b08422931439ecf80a71be0199",
+      "bytes": 98206,
+      "points": 3184,
+      "geometric_altitude_points": 2797,
+      "registration": "C-GVUN",
+      "aircraft_type": "BCS3",
+      "selection": "Replay position within20km of roundedtownprior40.88,-73.53 during20:30\u201321:30UTC; discovered inuniformsparsearchivewindows. No acoustic score or aircraft-type filter used."
+    }
+  ],
+  "additional_hash_directory_windows": [
+    {
+      "group": "0b",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        530587136,
+        547364351
+      ],
+      "bytes": 16777216,
+      "sha256": "7a87366af0ad05c993bdc8a7afd0e6dc0dfaf57985286a86d49439111e271a21"
+    },
+    {
+      "group": "54",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        591427072,
+        608204287
+      ],
+      "bytes": 16777216,
+      "sha256": "ba0728b71de0b277d8d2fbee34813938bc41d24672f5833176b4ad2576dd4af8"
+    },
+    {
+      "group": "cf",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        960500736,
+        977277951
+      ],
+      "bytes": 16777216,
+      "sha256": "00419bad79ad6c83bc489653966db6fcb5be1c548312200deda4007bd8414d24"
+    },
+    {
+      "group": "0e",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        635443712,
+        652220927
+      ],
+      "bytes": 16777216,
+      "sha256": "22954af4b76f94ecb9d9ee71f9217053f5b7c96fcaf0ebfedc1e6eacd9906da1"
+    },
+    {
+      "group": "19",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "range": [
+        358617600,
+        375394815
+      ],
+      "bytes": 16777216,
+      "sha256": "42ca0e82fc8d277159e50ad3e5470ba0b11431a4a68680165474d94741c7d4da"
+    },
+    {
+      "group": "1a",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        421539328,
+        438316543
+      ],
+      "bytes": 16777216,
+      "sha256": "8fca47da4561b736d019345c56904610a25f48bf4c8b59dec2556d4a03b9e32b"
+    },
+    {
+      "group": "20",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "range": [
+        1753248768,
+        1770025983
+      ],
+      "bytes": 16777216,
+      "sha256": "f623ebee99bab2dab9ef8580cf3c4e7b0967ac135b2cc0aeefe0d2bdba403a01"
+    },
+    {
+      "group": "21",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+      "range": [
+        494939136,
+        511716351
+      ],
+      "bytes": 16777216,
+      "sha256": "88d9b09d50840fe909c874b068c6e0d4ae4c789e12c5b05774a671288e74ce6a"
+    },
+    {
+      "group": "30",
+      "source_url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+      "range": [
+        356545024,
+        373322239
+      ],
+      "bytes": 16777216,
+      "sha256": "1c210bbc6565726c2aaa7570b2245dcba40c45a1f8d9746b1db17e42c727448a"
+    }
+  ],
+  "selection_notes": "Initialuniformheadercoveragewasexpandedindependentofaudiofitsbyarchivedhashdirectoriescontainingmultiplegeographicallyeligibleaircraft. Regionalcoverageisstillnotexhaustive."
+}

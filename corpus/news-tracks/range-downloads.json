@@ -1,0 +1,432 @@
+[
+  {
+    "path": "2025-11-09/replay/43.bin.ttf",
+    "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.11.09-planes-readsb-prod-0/v2025.11.09-planes-readsb-prod-0.tar.ab",
+    "range": [
+      685710336,
+      705356042
+    ],
+    "sha256": "ad1cce1e492132175ad120de7f0263e8dec516b4b4c47bb4cca45ade0d737919",
+    "archive_member": "./heatmap/43.bin.ttf"
+  },
+  {
+    "path": "2025-11-09/traces/trace_full_a340b8.json",
+    "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.11.09-planes-readsb-prod-0/v2025.11.09-planes-readsb-prod-0.tar.ab",
+    "range": [
+      179186176,
+      179203850
+    ],
+    "sha256": "fc2ae61dd47e573e0b52ed7cb4563f12dfd3e4e2b905512991e7460527e1dd51",
+    "archive_member": "./traces/b8/trace_full_a340b8.json"
+  },
+  {
+    "path": "2025-11-09/traces/trace_full_ab586f.json",
+    "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.11.09-planes-readsb-prod-0/v2025.11.09-planes-readsb-prod-0.tar.ab",
+    "range": [
+      196825088,
+      196915474
+    ],
+    "sha256": "508ebbef8a6503a414e9af5c8e232ec91034e1645f78a739d9240ccd95ebbcfe",
+    "archive_member": "./traces/6f/trace_full_ab586f.json"
+  },
+  {
+    "path": "2025-11-09/traces/trace_full_adfdf9.json",
+    "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.11.09-planes-readsb-prod-0/v2025.11.09-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1157350912,
+      1157368939
+    ],
+    "sha256": "666a98a7009d495fc5ff63404c9f5fb10e315eeeacf75deb1af93024ae07a6c3",
+    "archive_member": "./traces/f9/trace_full_adfdf9.json"
+  },
+  {
+    "path": "2026-09-08/replay/41.bin.ttf",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      1081334784,
+      1103926596
+    ],
+    "sha256": "b1edb868279b944d3f2832040a38cc1139a9b356a4d9cf8ffe1882f1737fb0c7",
+    "archive_member": "./heatmap/41.bin.ttf"
+  },
+  {
+    "path": "2026-09-08/replay/42.bin.ttf",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      1640552448,
+      1662551860
+    ],
+    "sha256": "b51777ab4839c6dbbf97e3fd65a5aff9be52c4e42e9aa8410add21bed9cd64ac",
+    "archive_member": "./heatmap/42.bin.ttf"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_34810b.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      542328320,
+      542400087
+    ],
+    "sha256": "2dac72095721fc5063901416376c16377c361f369f3a440858702d0c8ad4846f",
+    "archive_member": "./traces/0b/trace_full_34810b.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_740821.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      495227904,
+      495397353
+    ],
+    "sha256": "d40586b93ef9430543e4d6b2c8117146a109bcad7475caa0a9832e00d98a36ec",
+    "archive_member": "./traces/21/trace_full_740821.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a023a5.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      96527360,
+      96577078
+    ],
+    "sha256": "a899441be36573d87e7be39014ff1478adac4b8dffc97eb2b3427f2f7d5fbd3d",
+    "archive_member": "./traces/a5/trace_full_a023a5.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a1c57e.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      547015168,
+      547133177
+    ],
+    "sha256": "dd5a882bed0d5100c36cb181934f6351f61dc6a1583c43b9d0730332369814fa",
+    "archive_member": "./traces/7e/trace_full_a1c57e.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a1dfeb.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      710110720,
+      710147984
+    ],
+    "sha256": "4905b7421312a36a4d09c13ee835af5a9e4f0aa646426414105a6fa97d896b40",
+    "archive_member": "./traces/eb/trace_full_a1dfeb.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a20120.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1758235648,
+      1758244042
+    ],
+    "sha256": "ad0dcf6126468c20d0ba2b57608a551000c5f7d6d2b362978f1f827a7d5ccc33",
+    "archive_member": "./traces/20/trace_full_a20120.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a24720.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1760208896,
+      1760345171
+    ],
+    "sha256": "d909e269f78d34525d0dd9fa2a888fe432304913879dfa412a825563b9d690d7",
+    "archive_member": "./traces/20/trace_full_a24720.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a26b80.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      374003200,
+      374049597
+    ],
+    "sha256": "17b91388747c6f32ec3c0f4f0ba017e45af3326811166a17db97873f86ecd770",
+    "archive_member": "./traces/80/trace_full_a26b80.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a2cbdb.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      176292864,
+      176327270
+    ],
+    "sha256": "b86aee83e75e0e7da07c953142e396f1ed8295084678ee51bf5221a833105f06",
+    "archive_member": "./traces/db/trace_full_a2cbdb.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a33843.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      151035392,
+      151099659
+    ],
+    "sha256": "a6696def80bd51bed39a4c64ac950dab5521f65b5838e74e72298f1a6c72ae2c",
+    "archive_member": "./traces/43/trace_full_a33843.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a35854.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      600501760,
+      600650274
+    ],
+    "sha256": "3e2fc98a2e0f1f85e833c67f64f6d461abe06db58326add99d3a688f197a9468",
+    "archive_member": "./traces/54/trace_full_a35854.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a3b04f.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1126287872,
+      1126403066
+    ],
+    "sha256": "18afd2c725f380782cce4b65bb0a32c5bacc87ea4f3733a35dbb13fc5e5191df",
+    "archive_member": "./traces/4f/trace_full_a3b04f.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a3f88e.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      790749184,
+      790877769
+    ],
+    "sha256": "d0edab5ce428b52b18ce6244c5df8d72156a9c77bd63862ee0cce9853a55d30b",
+    "archive_member": "./traces/8e/trace_full_a3f88e.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a45a19.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      360290816,
+      360326533
+    ],
+    "sha256": "9b1c2c69041444bfb5126a56de7fcf8b112d2c704b168b84aa8a2fc71bb79ba9",
+    "archive_member": "./traces/19/trace_full_a45a19.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a60b77.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      558104064,
+      558148904
+    ],
+    "sha256": "e5e890e734a81862054322eab3f5abadf23b71e7b34eb4e317a59559d3dcfa31",
+    "archive_member": "./traces/77/trace_full_a60b77.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a63e21.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      506098176,
+      506147208
+    ],
+    "sha256": "00ecaacd7e684f302086b95e3eedefc4f3c1ae2513e614234064a9563f419dbb",
+    "archive_member": "./traces/21/trace_full_a63e21.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a66ce0.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      39894528,
+      40000928
+    ],
+    "sha256": "eb3a78a3fbe31e96ed78524f5db207b01088557c9f7b56116096044d78b026ea",
+    "archive_member": "./traces/e0/trace_full_a66ce0.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a69061.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      759277568,
+      759402691
+    ],
+    "sha256": "2d4d6f30c1f71c4c79839029a105319649e9854c97b9dfc2a54808795959e569",
+    "archive_member": "./traces/61/trace_full_a69061.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a6decf.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      966708224,
+      966744887
+    ],
+    "sha256": "124d729a7ac8a6cf64d1f7fbb171bca6dcdf145b36979554d4a3fd994f284898",
+    "archive_member": "./traces/cf/trace_full_a6decf.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a71654.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      602269696,
+      602368123
+    ],
+    "sha256": "6b59fe733d4e9b66bbb107ac1fdd432b97dcac754e3e4e462e5f8b0a5d9a6a7e",
+    "archive_member": "./traces/54/trace_full_a71654.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a81f1a.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      429898240,
+      429988960
+    ],
+    "sha256": "4b10518ce5da618cc33314254a44dee8fa483fa428cebd7a2efb1cb4383dc51f",
+    "archive_member": "./traces/1a/trace_full_a81f1a.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_a8f00e.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      638545920,
+      638565898
+    ],
+    "sha256": "3eaaf3c456e61cf5f409691be30b0251af2c7fae8358dd9ae7e0fc6f662a9c72",
+    "archive_member": "./traces/0e/trace_full_a8f00e.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_aa2e0b.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      543538688,
+      543543216
+    ],
+    "sha256": "33d6a38b7711155d7d72a86099f1c9d1ea0367f73f8e290dec37ed03d7bc6da9",
+    "archive_member": "./traces/0b/trace_full_aa2e0b.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_aa340e.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      649666048,
+      649751102
+    ],
+    "sha256": "24fc142d03e14e22d316d2bd44e87c6f262739709b59b76f6c1a4e4fb25d7004",
+    "archive_member": "./traces/0e/trace_full_aa340e.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ab0e30.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      363222016,
+      363241361
+    ],
+    "sha256": "1340496e87a7d9f7c8eb784207963e8142fd360c69351e9f7941cd5cce2085fc",
+    "archive_member": "./traces/30/trace_full_ab0e30.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ab11cf.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      968073216,
+      968113235
+    ],
+    "sha256": "00b87079c2df3debf6323a3a205fbcf6852b28c183571e354aaaf75830f552f3",
+    "archive_member": "./traces/cf/trace_full_ab11cf.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ab53cf.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      969408000,
+      969441553
+    ],
+    "sha256": "524ba05d7420419f7aec55595fc0ff4105566c52c259f5f2457c4ba5ab7c9259",
+    "archive_member": "./traces/cf/trace_full_ab53cf.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ab6519.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      368120832,
+      368226547
+    ],
+    "sha256": "5bcdedfe042c395290333c88e21c2f7f18759bd371988fa7ed310596127cfc86",
+    "archive_member": "./traces/19/trace_full_ab6519.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_abd41a.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      433567232,
+      433691226
+    ],
+    "sha256": "ae1ae9c9acbf1feb1941790e43784bc2491e50670559d1524890622afd45f2fe",
+    "archive_member": "./traces/1a/trace_full_abd41a.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_abfb21.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      497265664,
+      497355509
+    ],
+    "sha256": "2924fae4f84a1d0853db157863699a4c261d3e375cccb0907dc646a1024cffa1",
+    "archive_member": "./traces/21/trace_full_abfb21.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_acaf0b.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      533175808,
+      533322431
+    ],
+    "sha256": "07e651b891638000b61678ae01183b806253f7d40f46c1feade67f771daa1579",
+    "archive_member": "./traces/0b/trace_full_acaf0b.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_acc040.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      769697280,
+      769834366
+    ],
+    "sha256": "c3d552182998692278e24c70e2074fafbdce74273e2d89b07294f7b7f63666ed",
+    "archive_member": "./traces/40/trace_full_acc040.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ace391.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      322265088,
+      322302768
+    ],
+    "sha256": "2d9f75557ce380b67641c4b8b20f2b7e73256465d12fce7e948ccb439c33b968",
+    "archive_member": "./traces/91/trace_full_ace391.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ad48a9.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1436561920,
+      1436643150
+    ],
+    "sha256": "290b9aa15d31a4d5ae2f23e4e51256c4fe5c163cbe2353f6da4e6f18b8cbbc82",
+    "archive_member": "./traces/a9/trace_full_ad48a9.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_ae0630.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.ab",
+    "range": [
+      365689344,
+      365777417
+    ],
+    "sha256": "f8506b4cedf29117c5b6408f7abcde1a56521366a89f4656b3449f89b1be2618",
+    "archive_member": "./traces/30/trace_full_ae0630.json"
+  },
+  {
+    "path": "2026-09-08/traces/trace_full_c07e32.json",
+    "url": "https://github.com/adsblol/globe_history_2026/releases/download/v2026.09.08-planes-readsb-prod-0/v2026.09.08-planes-readsb-prod-0.tar.aa",
+    "range": [
+      646155776,
+      646253981
+    ],
+    "sha256": "43b51a20ac4a016129fde7a0c64508ec38cad5b08422931439ecf80a71be0199",
+    "archive_member": "./traces/32/trace_full_c07e32.json"
+  },
+  {
+    "path": "LICENSE-ODbL.txt",
+    "url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.09.12-planes-readsb-prod-0/v2025.09.12-planes-readsb-prod-0.tar.aa",
+    "range": [
+      1024,
+      26264
+    ],
+    "sha256": "d93f996262c15e7cf9d6b54f9f48e3f9d8b9c3a47fa2308dc8ef1f0f5cb88611",
+    "archive_member": "./LICENSE-ODbL.txt"
+  }
+]

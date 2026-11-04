@@ -1,0 +1,768 @@
+{
+  "schema_version": 1,
+  "frozen_engine": {
+    "frozen_utc": "2026-11-04T02:10:35.338558+00:00",
+    "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+    "frozen_files": {
+      "Cargo.lock": "dc4039160154d11e6c268d7bda87db8fea0420c36b1ac22a3e6f374745950291",
+      "Cargo.toml": "62703e58499a91bc9adfa7544f31a18addf1c2ce56821374a18fa7888d2046f5",
+      "crates/echo-cli/src/ingest.rs": "762231c82ef052a366e81cd2c86bcd340836853cf9f4bc4396b0787e64bf2323",
+      "crates/echo-cli/src/main.rs": "78b5ed07f8c993a08a6af63903e20168deac73b269a4548798294e8f4adac327",
+      "crates/echo-cli/src/publish.rs": "973a5cbc6570c8db4905af62bc88d8704be195fb81e06c9073d4f3d87dfaec9a",
+      "crates/echo-core/examples/diagnose.rs": "9a6807484f88a9ea206404890716a9249d0403a592537d88e909353e7b173cbb",
+      "crates/echo-core/examples/export_spectrum.rs": "5b59704e878e66c8b955e70663fa6ac1ced51f5f9f4f50cb979d6a61ab4d1669",
+      "crates/echo-core/examples/match_diagnostic.rs": "685b1f65b8587f7415e8aeea2572feea3e531e1af9cd0a4a3d54941af7e7e489",
+      "crates/echo-core/examples/track_diagnostic.rs": "cb58bcdffeabf531600c7b0c7333ad24f1da05fc07f8c13d7e4aded712b1d275",
+      "crates/echo-core/src/audio.rs": "2ecc9386a83bf646e036089ae14fdd52c4e17b5bca45f5286813d8fd9aaa7307",
+      "crates/echo-core/src/demo.rs": "da61c2586dccfd927704f8029f5f5d5b0df838f831ae4c253f07c84eb6277da0",
+      "crates/echo-core/src/fusion.rs": "8ada56a802cfa8c70c6671833f51be3d1f847c2fe62e0e96d88332c98182b030",
+      "crates/echo-core/src/lib.rs": "e0ebaff22e397be7c7cb7ee39ccbc425ce70d885868903a5067b7bf324b6435e",
+      "crates/echo-core/src/model.rs": "4540b38991c0aea1ecd4e19c830421a71ff08770322d0f747657d09bd9141dfc",
+      "crates/echo-core/src/physics.rs": "311f2ee807ecfa45e1e709eac4ea8dbd938d42f00530a6329d1831052edde1d1",
+      "crates/echo-core/src/ridge.rs": "e9ab86ac341a1ecfb85af33d4d6aa681452bc874630f9f33b9966ca2de302926",
+      "crates/echo-core/src/search.rs": "923897a21b5979ed5c9db19f3c25f4c338afb302513fd52a6a16524d3a1b7720",
+      "crates/echo-core/src/spectral.rs": "a5269220a7e0efaed893467d4cb647849fe02e567c40ac4e68c7f7c05c42ba46",
+      "data/independent-validation/N394FX_R20.baseline.config.json": "8749f7c236674403d523aa6943f5af9ce70bcd35dcf421a9b4db646a2c5cb0c8",
+      "data/independent-validation/N394FX_R20.package.json": "a2f339328cca63401a84008b268cf33a20c57b636e375a656673be55a1c18bfd",
+      "data/independent-validation/N394FX_R20.revised.config.json": "65ec0f3157b9457a5a4b348ab5eef4d7f23b928c2be6fa338f6ab974fb666e49",
+      "data/independent-validation/N4040_R12.baseline.config.json": "4903be85381f6bef855559980b363b6ead3697195c3c7fb100c8012da7ab5a7c",
+      "data/independent-validation/N4040_R12.package.json": "28141d075ae33037aebd207774a2144fccb01988aed884c0e82e855f394d582c",
+      "data/independent-validation/N4040_R12.revised.config.json": "5f9280c73592106a1eb067ba38e0a2c81e4c9da78439ffae794d46d40475e035",
+      "data/independent-validation/N413AK_R49.baseline.config.json": "5c0049cc46b374cd6813ac1a63b41589bebcac5100844d17dd2c121eb63e4012",
+      "data/independent-validation/N413AK_R49.package.json": "a9009e595b4d5ff0a35915e25304ee001d3fe8f00dd93977244bc9ee11c0a957",
+      "data/independent-validation/N413AK_R49.revised.config.json": "08cc29e9610e1cd4db3dd90c610e3a54d69207718c8fe32e55dba6683304c4d7",
+      "data/independent-validation/N757AH_R41.baseline.config.json": "8414d0530bba813d8475f04dc271cfcfc2b2adfbf0add2a8ee7c6fc314fcaf22",
+      "data/independent-validation/N757AH_R41.package.json": "f1896fdda579364173cb5ea15223c6f6fcd762241f5e77321d2fe376b3587860",
+      "data/independent-validation/N757AH_R41.revised.config.json": "a11e243142711be11bd720718d667507ac3c270afbbf8767a63c02fe092131c0",
+      "data/independent-validation/N916KT_R22.baseline.config.json": "e0924ba647691d3f673c83b34b5c6d00107997607b8ff7e55d9775b8fce5a5e8",
+      "data/independent-validation/N916KT_R22.package.json": "abb888fa5fe9e3c9c52051ee97d75ec2e89d578e830958b1d1d977647cb003d4",
+      "data/independent-validation/N916KT_R22.revised.config.json": "089bf63cfeb673d18624edef33dde45da90366943ba32627a42d9daf1564f868",
+      "data/independent-validation/aerosonic.baseline.config.json": "580191cf4061de9509b0cc71d4529137238d2b26aeb45bf76ce47b54eb7863b0",
+      "data/independent-validation/aerosonic.revised.config.json": "79a9f2d4aa60047077d3317ec9f40a29074a865c91377678d5db28813612bd8e",
+      "data/independent-validation/pathak-protocol.json": "db47c71552e33f9180a01cc15d91ff2b720567cd09b87f3494493f93600fa2e5",
+      "data/independent-validation/reference.json": "d896347df274c2d460c126cf918713df47f366718dbd6d79afc973db9b890d02",
+      "scripts/prepare_independent_validation.py": "6cae4290bda6dc2b33f14ad5393f67a154b9c05c54164f9e35dd6097d60330f1",
+      "scripts/validate_independent.py": "dd0ed1ee0f6ab79b5a16ef2e11bf615189f5d88a1a2adf62fd49cc23c7759565"
+    },
+    "development_case": "Original creator recording only; earlier failed DLR/news/Pathak examples remain explicitly development-seen",
+    "new_validation_cases": [
+      "N4040_R12",
+      "N394FX_R20",
+      "N916KT_R22",
+      "N757AH_R41",
+      "N413AK_R49"
+    ],
+    "additional_new_aerosonic_recordings": 4,
+    "predeclared_primary_metric": "All-five shared-site fusion distance to metadata-reconstructed reference; require all five to contribute. Report all single-clip answers/abstentions and baseline results as well.",
+    "spectral_profile": {
+      "max_audio_s": 1080,
+      "min_hz": 35,
+      "max_hz": 1000,
+      "window_s": 2,
+      "hop_s": 0.5,
+      "min_event_s": 8,
+      "peak_threshold_db": 9,
+      "max_events": 16,
+      "multiresolution": false,
+      "frequency_sigma_hz": 2
+    },
+    "source_associations_assisted": true,
+    "true_surveyed_geographic_accuracy_measured": false
+  },
+  "validation_scope": "Separate real recordings, all selected before evaluation. Pathak site reference is reconstructed from metadata, not surveyed GPS. Source-track associations and a finite town prior are supplied. One-pass locations retain along-track/clock and mirror ambiguities. Fusion uses every one of the five cases, separate clocks, equal weights, and no truth-dependent basin choice.",
+  "origin_prior_baseline_distance_m": 2137.349995159729,
+  "records": [
+    {
+      "id": "N4040_R12",
+      "engine": "baseline",
+      "audio_sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+      "config_sha256": "4903be85381f6bef855559980b363b6ead3697195c3c7fb100c8012da7ab5a7c",
+      "package_sha256": "28141d075ae33037aebd207774a2144fccb01988aed884c0e82e855f394d582c",
+      "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+      "exit_code": 0,
+      "elapsed_s": 2.179,
+      "result": "validation-runs/independent/N4040_R12.baseline.json",
+      "result_sha256": "dfb180046ff24dcc1d8985ab5ade1a2747414567d389057254dda9933b03726a",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 27288,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1779060558.9360416,
+              "start_unix_s": 1779060375.0959585,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        2857.1428571428573,
+        -952.3809523809524
+      ],
+      "distance_to_metadata_reference_m": 4007.1849716356755,
+      "ground_track_offset_error_m": 677.5517841068694,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N394FX_R20",
+      "engine": "baseline",
+      "audio_sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "config_sha256": "8749f7c236674403d523aa6943f5af9ce70bcd35dcf421a9b4db646a2c5cb0c8",
+      "package_sha256": "a2f339328cca63401a84008b268cf33a20c57b636e375a656673be55a1c18bfd",
+      "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+      "exit_code": 0,
+      "elapsed_s": 0.649,
+      "result": "validation-runs/independent/N394FX_R20.baseline.json",
+      "result_sha256": "862d51a055de81649b4af12f596a9fd0024de77713e86e5de8306fda177b0fbc",
+      "stderr": "ambiguous: 5 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 5,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 14733,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778962409.9556665,
+              "start_unix_s": 1778962288.9023333,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        -4285.714285714286,
+        4285.714285714285
+      ],
+      "distance_to_metadata_reference_m": 6951.914666583661,
+      "ground_track_offset_error_m": 1642.420171442029,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N916KT_R22",
+      "engine": "baseline",
+      "audio_sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+      "config_sha256": "e0924ba647691d3f673c83b34b5c6d00107997607b8ff7e55d9775b8fce5a5e8",
+      "package_sha256": "abb888fa5fe9e3c9c52051ee97d75ec2e89d578e830958b1d1d977647cb003d4",
+      "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+      "exit_code": 0,
+      "elapsed_s": 1.629,
+      "result": "validation-runs/independent/N916KT_R22.baseline.json",
+      "result_sha256": "e9de286d7ef613cf1347ce6c2522710903d5da7aa5f9659907d9b0db8ee28005",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 20296,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778951665.3307917,
+              "start_unix_s": 1778951510.4692085,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        952.3809523809526,
+        476.190476190477
+      ],
+      "distance_to_metadata_reference_m": 3077.0101225802396,
+      "ground_track_offset_error_m": 103.49537569012489,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N757AH_R41",
+      "engine": "baseline",
+      "audio_sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+      "config_sha256": "8414d0530bba813d8475f04dc271cfcfc2b2adfbf0add2a8ee7c6fc314fcaf22",
+      "package_sha256": "f1896fdda579364173cb5ea15223c6f6fcd762241f5e77321d2fe376b3587860",
+      "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+      "exit_code": 0,
+      "elapsed_s": 1.264,
+      "result": "validation-runs/independent/N757AH_R41.baseline.json",
+      "result_sha256": "a4c75ce275344f331f431686983b24c9a5ad2eafffb358bb1658f80583009d8e",
+      "stderr": "ambiguous: 9 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 9,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 31538,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778616178.2259166,
+              "start_unix_s": 1778616065.3460834,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        476.1904761904759,
+        -3333.3333333333335
+      ],
+      "distance_to_metadata_reference_m": 2114.4344681230605,
+      "ground_track_offset_error_m": 1007.4771439051905,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N413AK_R49",
+      "engine": "baseline",
+      "audio_sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+      "config_sha256": "5c0049cc46b374cd6813ac1a63b41589bebcac5100844d17dd2c121eb63e4012",
+      "package_sha256": "a9009e595b4d5ff0a35915e25304ee001d3fe8f00dd93977244bc9ee11c0a957",
+      "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+      "exit_code": 0,
+      "elapsed_s": 2.752,
+      "result": "validation-runs/independent/N413AK_R49.baseline.json",
+      "result_sha256": "6c5f690496003b52cce4daa3024c75dd0b993dde209f00da3968a115bf65c0fb",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 37779,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778967570.782354,
+              "start_unix_s": 1778967384.341646,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        1904.7619047619046,
+        -3333.3333333333335
+      ],
+      "distance_to_metadata_reference_m": 3295.064311072863,
+      "ground_track_offset_error_m": 2977.7090951204227,
+      "expected_flight_matched": true
+    },
+    {
+      "exit_code": 0,
+      "elapsed_s": 0.02,
+      "result": "validation-runs/independent/site.baseline.json",
+      "result_sha256": "b794f9927b9d28547e9fb2aa4d0a87dab393d2f0ec27f821d123fc3f0fb378c1",
+      "stderr": "",
+      "engine": "baseline",
+      "kind": "shared_site_all_five",
+      "status": "candidates_uncalibrated",
+      "cells_with_all_recordings": 344,
+      "estimate_xy_m": [
+        1428.5714285714287,
+        -1904.7619047619053
+      ],
+      "distance_to_metadata_reference_m": 2473.7374584812974,
+      "recordings": 5,
+      "independent_clocks": [
+        {
+          "audio_sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+          "matched_events": 1,
+          "score": -25.231228866124177,
+          "start_unix_s": 1779060416.7144215
+        },
+        {
+          "audio_sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+          "matched_events": 1,
+          "score": -2.6567929444072247,
+          "start_unix_s": 1778962350.6776142
+        },
+        {
+          "audio_sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+          "matched_events": 1,
+          "score": -24.411384719270877,
+          "start_unix_s": 1778951598.0657983
+        },
+        {
+          "audio_sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+          "matched_events": 1,
+          "score": -8.813447571302056,
+          "start_unix_s": 1778616168.206595
+        },
+        {
+          "audio_sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+          "matched_events": 1,
+          "score": -25.631426471241593,
+          "start_unix_s": 1778967454.3459365
+        }
+      ]
+    },
+    {
+      "id": "N4040_R12",
+      "engine": "revised",
+      "audio_sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+      "config_sha256": "5f9280c73592106a1eb067ba38e0a2c81e4c9da78439ffae794d46d40475e035",
+      "package_sha256": "28141d075ae33037aebd207774a2144fccb01988aed884c0e82e855f394d582c",
+      "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+      "exit_code": 0,
+      "elapsed_s": 2.855,
+      "result": "validation-runs/independent/N4040_R12.revised.json",
+      "result_sha256": "3d14ccbab2edde9f158c229571214b36b41cd36059b0a021a9270fab84db7f8c",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "anchor_fits_evaluated": 93410,
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 670,
+        "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1779060558.9360416,
+              "start_unix_s": 1779060375.0959585,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        2857.1428571428573,
+        -952.3809523809524
+      ],
+      "distance_to_metadata_reference_m": 4007.1849716356755,
+      "ground_track_offset_error_m": 677.5517841068694,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N394FX_R20",
+      "engine": "revised",
+      "audio_sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+      "config_sha256": "65ec0f3157b9457a5a4b348ab5eef4d7f23b928c2be6fa338f6ab974fb666e49",
+      "package_sha256": "a2f339328cca63401a84008b268cf33a20c57b636e375a656673be55a1c18bfd",
+      "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+      "exit_code": 0,
+      "elapsed_s": 2.609,
+      "result": "validation-runs/independent/N394FX_R20.revised.json",
+      "result_sha256": "8471aae9f45a1a520dfe5dc504bbd9ba7e63c829816868b52d7194c1a5a7d7bd",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "anchor_fits_evaluated": 98306,
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 593,
+        "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778962409.9556665,
+              "start_unix_s": 1778962288.9023333,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        -2857.142857142857,
+        -1904.7619047619053
+      ],
+      "distance_to_metadata_reference_m": 1812.7494430783072,
+      "ground_track_offset_error_m": 1024.7523072323145,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N916KT_R22",
+      "engine": "revised",
+      "audio_sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+      "config_sha256": "089bf63cfeb673d18624edef33dde45da90366943ba32627a42d9daf1564f868",
+      "package_sha256": "abb888fa5fe9e3c9c52051ee97d75ec2e89d578e830958b1d1d977647cb003d4",
+      "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+      "exit_code": 0,
+      "elapsed_s": 2.992,
+      "result": "validation-runs/independent/N916KT_R22.revised.json",
+      "result_sha256": "b5d34aa2ff5bfe3a29b54055d82c1671ab33f7032cf399fdfefcff1a2b0ae97e",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "anchor_fits_evaluated": 100853,
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 1312,
+        "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778951665.3307917,
+              "start_unix_s": 1778951510.4692085,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        476.1904761904759,
+        476.190476190477
+      ],
+      "distance_to_metadata_reference_m": 2791.528996025393,
+      "ground_track_offset_error_m": 435.0974705404411,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N757AH_R41",
+      "engine": "revised",
+      "audio_sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+      "config_sha256": "a11e243142711be11bd720718d667507ac3c270afbbf8767a63c02fe092131c0",
+      "package_sha256": "f1896fdda579364173cb5ea15223c6f6fcd762241f5e77321d2fe376b3587860",
+      "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+      "exit_code": 0,
+      "elapsed_s": 8.398,
+      "result": "validation-runs/independent/N757AH_R41.revised.json",
+      "result_sha256": "518fb1689eb500bcc3220bb408566509264f46680efc9aad924b225fde152840",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "anchor_fits_evaluated": 83181,
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 25692,
+        "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778616178.2259166,
+              "start_unix_s": 1778616065.3460834,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        2380.952380952381,
+        -1904.7619047619053
+      ],
+      "distance_to_metadata_reference_m": 3426.027587054732,
+      "ground_track_offset_error_m": 317.51151461139614,
+      "expected_flight_matched": true
+    },
+    {
+      "id": "N413AK_R49",
+      "engine": "revised",
+      "audio_sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+      "config_sha256": "08cc29e9610e1cd4db3dd90c610e3a54d69207718c8fe32e55dba6683304c4d7",
+      "package_sha256": "a9009e595b4d5ff0a35915e25304ee001d3fe8f00dd93977244bc9ee11c0a957",
+      "binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+      "exit_code": 0,
+      "elapsed_s": 4.596,
+      "result": "validation-runs/independent/N413AK_R49.revised.json",
+      "result_sha256": "d3d8f6346683041f0a06f8866f92c8232d98f9ca3c432066b7dd8fc8f8b54f52",
+      "stderr": "ambiguous: 16 events, 10 candidate regions",
+      "status": "ambiguous",
+      "events": 16,
+      "candidate_count": 10,
+      "search": {
+        "anchor_fits_evaluated": 141341,
+        "bounds": {
+          "east": 0.044915764205976066,
+          "north": 0.04521847385251911,
+          "south": -0.04521847385251911,
+          "west": -0.044915764205976066
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 441,
+        "hypotheses_evaluated": 2026,
+        "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1778967570.782354,
+              "start_unix_s": 1778967384.341646,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "estimate_xy_m": [
+        -476.1904761904759,
+        -1428.5714285714287
+      ],
+      "distance_to_metadata_reference_m": 716.551194299564,
+      "ground_track_offset_error_m": 16.294718185712554,
+      "expected_flight_matched": true
+    },
+    {
+      "exit_code": 0,
+      "elapsed_s": 0.019,
+      "result": "validation-runs/independent/site.revised.json",
+      "result_sha256": "8c919f267bc2a5dc20e8ccbff8744c6fac38224d8ac5dff12a0f64880800f93c",
+      "stderr": "",
+      "engine": "revised",
+      "kind": "shared_site_all_five",
+      "status": "candidates_uncalibrated",
+      "cells_with_all_recordings": 46,
+      "estimate_xy_m": [
+        -2380.9523809523807,
+        -2380.952380952381
+      ],
+      "distance_to_metadata_reference_m": 1432.4320261268365,
+      "recordings": 5,
+      "independent_clocks": [
+        {
+          "audio_sha256": "f0a78abf7fb124e0688ce82d0eb6410475b840188209b5e07dc21519c8bfa3df",
+          "matched_events": 1,
+          "score": 3.8330490808633675,
+          "start_unix_s": 1779060500.3471532
+        },
+        {
+          "audio_sha256": "cfd03401b5f891020d76c12000a7552be0c549f65b8e67dc571f06258f0178ac",
+          "matched_events": 1,
+          "score": 2.9110353563870643,
+          "start_unix_s": 1778962323.9372451
+        },
+        {
+          "audio_sha256": "81da035ff6af575fcaded1a4dfc3162bb6377a033c0d840af490eba47a879998",
+          "matched_events": 1,
+          "score": 4.601145786370995,
+          "start_unix_s": 1778951555.0561254
+        },
+        {
+          "audio_sha256": "e47eb35b076a9fbeb4983498221f6853d1d0cc9d8af7259a430557a100bed293",
+          "matched_events": 1,
+          "score": 0.8165916122800261,
+          "start_unix_s": 1778616089.3460834
+        },
+        {
+          "audio_sha256": "c28412b7c3de34b006b40bf6fe005ba042145ee4d480547a0647091e531a5b3b",
+          "matched_events": 1,
+          "score": 3.099234130712639,
+          "start_unix_s": 1778967483.7911553
+        }
+      ]
+    },
+    {
+      "engine": "baseline",
+      "id": "7C1CA5_2023-05-09_12-52-42_2_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "fdc1dae6d8cb0f55d8422628de76e6c94037e9a0b717bd295e49d9d922d402c1",
+      "config_sha256": "580191cf4061de9509b0cc71d4529137238d2b26aeb45bf76ce47b54eb7863b0",
+      "exit_code": 0,
+      "elapsed_s": 0.186,
+      "result": "validation-runs/independent/7C1CA5_2023-05-09_12-52-42_2_1.baseline.json",
+      "result_sha256": "3a728f2b323c9c90a2b6776888434d31bf746a02f0e42c76eb035a1335d1cea3",
+      "stderr": "needs_flight_data: 6 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 6,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "baseline",
+      "id": "7C79B7_2023-05-09_12-39-52_2_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "0c52d92fb0d7d97cfa9326accbbbe7ca748b3e37759894db85e837ab3293b0ec",
+      "config_sha256": "580191cf4061de9509b0cc71d4529137238d2b26aeb45bf76ce47b54eb7863b0",
+      "exit_code": 0,
+      "elapsed_s": 0.191,
+      "result": "validation-runs/independent/7C79B7_2023-05-09_12-39-52_2_1.baseline.json",
+      "result_sha256": "442e380ee2016d4b4096bcf3abcdd93ce9e4a9a715c815fffd1822373de1b611",
+      "stderr": "needs_flight_data: 16 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 16,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "baseline",
+      "id": "7C6275_2023-05-09_14-22-08_0_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "3c7608fd2cfacc4d716c7034df3837620de52f24e580345f5e31e120f80bcbb1",
+      "config_sha256": "580191cf4061de9509b0cc71d4529137238d2b26aeb45bf76ce47b54eb7863b0",
+      "exit_code": 0,
+      "elapsed_s": 0.182,
+      "result": "validation-runs/independent/7C6275_2023-05-09_14-22-08_0_1.baseline.json",
+      "result_sha256": "83916e199a6e5d701378daaed90bd96796f492f03ae3e8b6161d5c71f7239649",
+      "stderr": "needs_flight_data: 11 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 11,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "baseline",
+      "id": "7C3FCB_2023-05-09_15-10-12_0_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "7aac827ce1b5499688597417705928c68ae28851e80a14317294749453c04ea1",
+      "config_sha256": "580191cf4061de9509b0cc71d4529137238d2b26aeb45bf76ce47b54eb7863b0",
+      "exit_code": 0,
+      "elapsed_s": 0.188,
+      "result": "validation-runs/independent/7C3FCB_2023-05-09_15-10-12_0_1.baseline.json",
+      "result_sha256": "056e783042b85a212847c18c49a7e9c218598e2c113bd2d185c68910e0fd6506",
+      "stderr": "needs_flight_data: 11 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 11,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "revised",
+      "id": "7C1CA5_2023-05-09_12-52-42_2_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "fdc1dae6d8cb0f55d8422628de76e6c94037e9a0b717bd295e49d9d922d402c1",
+      "config_sha256": "79a9f2d4aa60047077d3317ec9f40a29074a865c91377678d5db28813612bd8e",
+      "exit_code": 0,
+      "elapsed_s": 0.329,
+      "result": "validation-runs/independent/7C1CA5_2023-05-09_12-52-42_2_1.revised.json",
+      "result_sha256": "9972c570f21e2290b5f0f9770d6976befde417457a567cd54b877e0065a56f5a",
+      "stderr": "needs_flight_data: 16 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 16,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "revised",
+      "id": "7C79B7_2023-05-09_12-39-52_2_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "0c52d92fb0d7d97cfa9326accbbbe7ca748b3e37759894db85e837ab3293b0ec",
+      "config_sha256": "79a9f2d4aa60047077d3317ec9f40a29074a865c91377678d5db28813612bd8e",
+      "exit_code": 0,
+      "elapsed_s": 0.325,
+      "result": "validation-runs/independent/7C79B7_2023-05-09_12-39-52_2_1.revised.json",
+      "result_sha256": "abade3cdb41e57ef274f51649a89d4844fd3f206fe52763351b4d4aac6b74cb1",
+      "stderr": "needs_flight_data: 16 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 16,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "revised",
+      "id": "7C6275_2023-05-09_14-22-08_0_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "3c7608fd2cfacc4d716c7034df3837620de52f24e580345f5e31e120f80bcbb1",
+      "config_sha256": "79a9f2d4aa60047077d3317ec9f40a29074a865c91377678d5db28813612bd8e",
+      "exit_code": 0,
+      "elapsed_s": 0.33,
+      "result": "validation-runs/independent/7C6275_2023-05-09_14-22-08_0_1.revised.json",
+      "result_sha256": "7e819adb37652afbcdf88e9e7ef643ec0eaf08bdaeb8fff785d1449bc1c05905",
+      "stderr": "needs_flight_data: 16 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 16,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    },
+    {
+      "engine": "revised",
+      "id": "7C3FCB_2023-05-09_15-10-12_0_1",
+      "kind": "aerosonic_discovery_only",
+      "audio_sha256": "7aac827ce1b5499688597417705928c68ae28851e80a14317294749453c04ea1",
+      "config_sha256": "79a9f2d4aa60047077d3317ec9f40a29074a865c91377678d5db28813612bd8e",
+      "exit_code": 0,
+      "elapsed_s": 0.327,
+      "result": "validation-runs/independent/7C3FCB_2023-05-09_15-10-12_0_1.revised.json",
+      "result_sha256": "4d13d7f72f1bd7ae1ae684b372bbf77e2886520bfdcc27e502d2fe4a480b5bd5",
+      "stderr": "needs_flight_data: 16 events, 0 candidate regions",
+      "status": "needs_flight_data",
+      "events": 16,
+      "candidate_count": 0,
+      "location_error_eligible": false
+    }
+  ],
+  "algorithm_or_threshold_tuned_after_evaluation": false
+}

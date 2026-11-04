@@ -1,0 +1,351 @@
+{
+  "format": "echolocate-flight-catalog-v1",
+  "packages": [
+    {
+      "attribution": "Contains information from adsb.lol 2025-09-12 regional full traces; acquisition: corpus/news-tracks/2025-09-12/trace-receipt.json. Data licensed ODbL-1.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1757681999.9,
+      "coverage_start_unix_s": 1757678400.27,
+      "flight_count": 153,
+      "id": "dc-2025-09-12",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "metadata": {
+        "bytes": 1021,
+        "sha256": "3add126e9c69c1d4b8c2043f40b21a240b7d09e40505f712e71ede5d6f0ed9c4",
+        "url": "3add126e9c69c1d4b8c2043f.json"
+      },
+      "name": "Washington DC · 2025-09-12 12–13 UTC",
+      "search_bounds": {
+        "east": -76.9,
+        "north": 39.0,
+        "south": 38.8,
+        "west": -77.12
+      },
+      "shards": [
+        {
+          "bytes": 251309,
+          "flights": 18,
+          "sha256": "d38093ebe5b4a6100d4c616bdec9cde8a7b9c668d02dc3503fe0b5265306138b",
+          "url": "d38093ebe5b4a6100d4c616b.json"
+        },
+        {
+          "bytes": 258356,
+          "flights": 17,
+          "sha256": "cb461ffa322fa9ac205a7f5af7575d48505e19f43014c7595aa1cea39cc985af",
+          "url": "cb461ffa322fa9ac205a7f5a.json"
+        },
+        {
+          "bytes": 241382,
+          "flights": 24,
+          "sha256": "ebfe876c1ecb29bb6f568b5cda73739d67ecda782016d6019c13ca7264220038",
+          "url": "ebfe876c1ecb29bb6f568b5c.json"
+        },
+        {
+          "bytes": 231132,
+          "flights": 25,
+          "sha256": "9e1304bda0b6945aea3b15c56e6b742fd3b49cc26b01987e8c28cee89353cf42",
+          "url": "9e1304bda0b6945aea3b15c5.json"
+        },
+        {
+          "bytes": 259370,
+          "flights": 15,
+          "sha256": "a8dadedac0dc69b8a131e5bde6e8f57ce87dc5e95401e32a907ceee15106e6f7",
+          "url": "a8dadedac0dc69b8a131e5bd.json"
+        },
+        {
+          "bytes": 254152,
+          "flights": 17,
+          "sha256": "94c1c0f8e0043a1f897485ab436189635d5e6dbc7ec76155a22895314207d2e0",
+          "url": "94c1c0f8e0043a1f897485ab.json"
+        },
+        {
+          "bytes": 250616,
+          "flights": 14,
+          "sha256": "6ad45665d7b6ee141df3c5d28af434b6d8e95588fb8cd607edd15408722cfc94",
+          "url": "6ad45665d7b6ee141df3c5d2.json"
+        },
+        {
+          "bytes": 246947,
+          "flights": 17,
+          "sha256": "d803b3e8241f339aec7a5d64c92cb105fbc864273f435545605d80bb6ff66074",
+          "url": "d803b3e8241f339aec7a5d64.json"
+        },
+        {
+          "bytes": 93133,
+          "flights": 6,
+          "sha256": "50d4b7a9fecd4779dc1e925f3593c462f0d9f55b9de404997593f958ded278aa",
+          "url": "50d4b7a9fecd4779dc1e925f.json"
+        }
+      ],
+      "source": "adsb.lol 2025-09-12 regional full traces; acquisition: corpus/news-tracks/2025-09-12/trace-receipt.json",
+      "synthetic": false,
+      "transfer_bytes": 2087418
+    },
+    {
+      "attribution": "Contains information from https://globe.adsb.lol/globe_history/2024/08/21/ ; acquisition receipts: corpus/news-tracks/2024-08-21/. Data licensed ODbL-1.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1724275799.93,
+      "coverage_start_unix_s": 1724270400.11,
+      "flight_count": 248,
+      "id": "2024-08-21",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "metadata": {
+        "bytes": 1031,
+        "sha256": "41cfb8769844135eeeb9285b17d8234bb4067754337053fc16a12a45bb49318e",
+        "url": "41cfb8769844135eeeb9285b.json"
+      },
+      "name": "Washington DC · Frecce report window",
+      "search_bounds": {
+        "east": -76.9,
+        "north": 39.0,
+        "south": 38.8,
+        "west": -77.12
+      },
+      "shards": [
+        {
+          "bytes": 251001,
+          "flights": 29,
+          "sha256": "6f8801b4efc6071497f4ee7339bbaec4412735de9c28ac8c0896f2d9c94d6ad2",
+          "url": "6f8801b4efc6071497f4ee73.json"
+        },
+        {
+          "bytes": 250394,
+          "flights": 18,
+          "sha256": "60de0c71b21fdc0e521907456941afd3fc03ba2c68b4e6fff6ba5160d61cb6a5",
+          "url": "60de0c71b21fdc0e52190745.json"
+        },
+        {
+          "bytes": 254034,
+          "flights": 25,
+          "sha256": "512c543fa7516ccb73b0c7ed86a6453777eca38b3f977fb2190220e87ffbc389",
+          "url": "512c543fa7516ccb73b0c7ed.json"
+        },
+        {
+          "bytes": 247958,
+          "flights": 24,
+          "sha256": "378b5f0957f8fb3a05a94158c1bf04970a752203ecea56ef0e6cf1f758980deb",
+          "url": "378b5f0957f8fb3a05a94158.json"
+        },
+        {
+          "bytes": 252470,
+          "flights": 18,
+          "sha256": "9312023fff8128c41871e5874c7eef886f6ebbf40ee5420c2373a16851741da0",
+          "url": "9312023fff8128c41871e587.json"
+        },
+        {
+          "bytes": 249786,
+          "flights": 19,
+          "sha256": "c1db525811a05c731ba49fb5d28e15aa03c439fb2c292f0de74a2861f6aa722b",
+          "url": "c1db525811a05c731ba49fb5.json"
+        },
+        {
+          "bytes": 261884,
+          "flights": 30,
+          "sha256": "97dcf7a0c4505d1bbd788a18497d0d4b3dbc9361ffb623d0ed06fd01bde5d440",
+          "url": "97dcf7a0c4505d1bbd788a18.json"
+        },
+        {
+          "bytes": 260733,
+          "flights": 22,
+          "sha256": "12cf09b681b7cf58c9e7fbed6d67a8180c6001279a759d4bbf3915b0b26d211d",
+          "url": "12cf09b681b7cf58c9e7fbed.json"
+        },
+        {
+          "bytes": 255923,
+          "flights": 21,
+          "sha256": "81f6396bb450e3643390e895f57b85ff950c9b7033f8718c3dd4cd9928e599f2",
+          "url": "81f6396bb450e3643390e895.json"
+        },
+        {
+          "bytes": 254529,
+          "flights": 15,
+          "sha256": "60eaecda65b3361315fa47ebe3c9bbe3ef71956cd218ba73ad73e04680f7129d",
+          "url": "60eaecda65b3361315fa47eb.json"
+        },
+        {
+          "bytes": 209752,
+          "flights": 27,
+          "sha256": "0bad1fe693a28b4ae67285657f39cfa6d16a483fa4880655f15ed511f22cba58",
+          "url": "0bad1fe693a28b4ae6728565.json"
+        }
+      ],
+      "source": "https://globe.adsb.lol/globe_history/2024/08/21/ ; acquisition receipts: corpus/news-tracks/2024-08-21/",
+      "synthetic": false,
+      "transfer_bytes": 2749495
+    },
+    {
+      "attribution": "Contains information from adsb.lol 2025-02-26 replay-discovered regional full traces; see corpus/news-tracks/2025-02-26/ acquisition receipts. Data licensed ODbL-1.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1740605701.22,
+      "coverage_start_unix_s": 1740589120.58,
+      "flight_count": 20,
+      "id": "2025-02-26",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "metadata": {
+        "bytes": 1045,
+        "sha256": "da350aeb80ba47d011eebbac877419db622259986928e7d1fa1517099b52e505",
+        "url": "da350aeb80ba47d011eebbac.json"
+      },
+      "name": "Yuma · sampled flight windows",
+      "search_bounds": {
+        "east": -114.58,
+        "north": 32.68,
+        "south": 32.62,
+        "west": -114.65
+      },
+      "shards": [
+        {
+          "bytes": 55586,
+          "flights": 20,
+          "sha256": "378533e66d864b568e6878fc36a3b92e238971d0c9c9018c5f9196d207d2bd9f",
+          "url": "378533e66d864b568e6878fc.json"
+        }
+      ],
+      "source": "adsb.lol 2025-02-26 replay-discovered regional full traces; see corpus/news-tracks/2025-02-26/ acquisition receipts",
+      "synthetic": false,
+      "transfer_bytes": 56631
+    },
+    {
+      "attribution": "Contains information from adsb.lol 2025-11-09 replay-discovered regional full traces; see corpus/news-tracks/2025-11-09/ acquisition receipts. Data licensed ODbL-1.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1762724996.86,
+      "coverage_start_unix_s": 1762724582.5,
+      "flight_count": 1,
+      "id": "2025-11-09",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "metadata": {
+        "bytes": 1183,
+        "sha256": "74ebf28e150a5df82c38b09846e2ce28217ec3f78b63672f30cb9c6ec9985ca5",
+        "url": "74ebf28e150a5df82c38b098.json"
+      },
+      "name": "Landover · AF1 report window",
+      "search_bounds": {
+        "east": -76.83,
+        "north": 38.94,
+        "south": 38.86,
+        "west": -76.9
+      },
+      "shards": [
+        {
+          "bytes": 4223,
+          "flights": 1,
+          "sha256": "fc89d51fa2f835356f26db30a5a02a4087fa5b64798f59a9ee425761029d0ebb",
+          "url": "fc89d51fa2f835356f26db30.json"
+        }
+      ],
+      "source": "adsb.lol 2025-11-09 replay-discovered regional full traces; see corpus/news-tracks/2025-11-09/ acquisition receipts",
+      "synthetic": false,
+      "transfer_bytes": 5406
+    },
+    {
+      "attribution": "Contains information from https://github.com/adsblol/globe_history_2026/releases/tag/v2026.09.08-planes-readsb-prod-0 ; verified sparse member extraction: corpus/news-tracks/2026-09-08/competitive-receipt.json. Data licensed ODbL-1.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1788902998.13,
+      "coverage_start_unix_s": 1788899400.4,
+      "flight_count": 36,
+      "id": "oyster-bay-2026-09-08",
+      "license": "ODbL-1.0",
+      "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "metadata": {
+        "bytes": 1212,
+        "sha256": "d99e7644b1c09d6fd97c08a679e59dd57bd87cf88bf8dfb25d8891066f0f5e8c",
+        "url": "d99e7644b1c09d6fd97c08a6.json"
+      },
+      "name": "Oyster Bay · 2026-09-08 20:30–21:30 UTC",
+      "search_bounds": {
+        "east": -73.48,
+        "north": 40.91,
+        "south": 40.84,
+        "west": -73.57
+      },
+      "shards": [
+        {
+          "bytes": 253306,
+          "flights": 15,
+          "sha256": "21cb4537071ee92cd84132689d0006f51bd7d7d4cc3c357b48f1e5a13718d74b",
+          "url": "21cb4537071ee92cd8413268.json"
+        },
+        {
+          "bytes": 245070,
+          "flights": 13,
+          "sha256": "b4bc77224c61e5c13fd9a3e918e420e86a0b2f003c98b2e2e49745b218961b5a",
+          "url": "b4bc77224c61e5c13fd9a3e9.json"
+        },
+        {
+          "bytes": 200079,
+          "flights": 8,
+          "sha256": "93f60941442a96759f693e33c8a71e9067fadc27f83dbb481db53d3fe2d1dfcd",
+          "url": "93f60941442a96759f693e33.json"
+        }
+      ],
+      "source": "https://github.com/adsblol/globe_history_2026/releases/tag/v2026.09.08-planes-readsb-prod-0 ; verified sparse member extraction: corpus/news-tracks/2026-09-08/competitive-receipt.json",
+      "synthetic": false,
+      "transfer_bytes": 699667
+    },
+    {
+      "attribution": "Contains information from Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053. Data licensed CC-BY-4.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1004.3659943559097,
+      "coverage_start_unix_s": 1001.8659943559097,
+      "flight_count": 1,
+      "id": "measured-knots.package",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": {
+        "bytes": 1136,
+        "sha256": "360077d1fe604d73358bce72144bc425f3e67e8a08e34103f76ab883f7a4b7fa",
+        "url": "360077d1fe604d73358bce72.json"
+      },
+      "name": "DLR RECORD139 · local-frame measured-knots",
+      "search_bounds": {
+        "east": 0.001347472926179282,
+        "north": 0.001356554215575573,
+        "south": -0.001356554215575573,
+        "west": -0.001347472926179282
+      },
+      "shards": [
+        {
+          "bytes": 427,
+          "flights": 1,
+          "sha256": "e2a11f66fb43e3e8a1f88f76339bdd2d0a32d166f92721cb11c3e922acc49dc0",
+          "url": "e2a11f66fb43e3e8a1f88f76.json"
+        }
+      ],
+      "source": "Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053",
+      "synthetic": false,
+      "transfer_bytes": 1563
+    },
+    {
+      "attribution": "Contains information from Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053. Data licensed CC-BY-4.0. Trajectories are redistributed losslessly in a different JSON layout.",
+      "coverage_end_unix_s": 1012.0,
+      "coverage_start_unix_s": 995.0,
+      "flight_count": 1,
+      "id": "constant-velocity-extension.package",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "metadata": {
+        "bytes": 1167,
+        "sha256": "3cb7ba416313e96448109d588a37df46e333e2068e1fe0b2d61188a834baf3c9",
+        "url": "3cb7ba416313e96448109d58.json"
+      },
+      "name": "DLR RECORD139 · local-frame constant-velocity-extension",
+      "search_bounds": {
+        "east": 0.004491576420597607,
+        "north": 0.00452184738525191,
+        "south": -0.00452184738525191,
+        "west": -0.004491576420597607
+      },
+      "shards": [
+        {
+          "bytes": 2219,
+          "flights": 1,
+          "sha256": "550fb8c878dccf4a2aa17cc80e8139b09eccad222521b3f4822d102dd4cc71e8",
+          "url": "550fb8c878dccf4a2aa17cc8.json"
+        }
+      ],
+      "source": "Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053",
+      "synthetic": false,
+      "transfer_bytes": 3386
+    }
+  ],
+  "schema_version": 1,
+  "transformation": "Lossless flight-level JSON sharding; full source coordinate/timestamp precision retained; no geometric simplification or frequency-derived substitute."
+}

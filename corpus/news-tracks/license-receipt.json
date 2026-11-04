@@ -1,0 +1,12 @@
+{
+  "source_url": "https://github.com/adsblol/globe_history_2025/releases/download/v2025.09.12-planes-readsb-prod-0/v2025.09.12-planes-readsb-prod-0.tar.aa",
+  "archive_member": "./LICENSE-ODbL.txt",
+  "tar_member_data_range_bytes": [
+    1024,
+    26264
+  ],
+  "sha256": "d93f996262c15e7cf9d6b54f9f48e3f9d8b9c3a47fa2308dc8ef1f0f5cb88611",
+  "bytes": 25241,
+  "historical_docs_url": "https://www.adsb.lol/docs/open-data/historical",
+  "note": "Archive member independently retrieved from original release; use ODbL1.0 for data/derived database redistribution, regardless of feeder contribution CC0 grant."
+}

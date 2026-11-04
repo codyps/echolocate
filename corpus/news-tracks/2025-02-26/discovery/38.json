@@ -1,0 +1,391 @@
+{
+  "source_path": "2025-02-26/replay/38.bin.ttf",
+  "source_sha256": "ecf2273c3f0cd6096f517560a84ed61fae0e2db59ffaa84f4806afce69d10597",
+  "altitude_datum": "barometric feet; not geometric height",
+  "start_unix_s": 1740596400.0,
+  "end_unix_s": 1740598190.0,
+  "markers": 180,
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "id": "a330a0",
+      "non_icao": false,
+      "points": [
+        {
+          "time_unix_s": 1740596400.0,
+          "lat": 32.873703,
+          "lon": -114.704517,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596410.0,
+          "lat": 32.877146,
+          "lon": -114.729496,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596420.0,
+          "lat": 32.877983,
+          "lon": -114.741043,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596430.0,
+          "lat": 32.878402,
+          "lon": -114.764641,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596450.0,
+          "lat": 32.877611,
+          "lon": -114.805167,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596470.0,
+          "lat": 32.876816,
+          "lon": -114.845581,
+          "alt_baro_ft": 34000,
+          "source_code": 0
+        }
+      ],
+      "callsign": "UAL2491"
+    },
+    {
+      "id": "aaecd7",
+      "non_icao": false,
+      "points": [
+        {
+          "time_unix_s": 1740596470.0,
+          "lat": 32.750793,
+          "lon": -114.430518,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596480.0,
+          "lat": 32.750756,
+          "lon": -114.424233,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596490.0,
+          "lat": 32.750803,
+          "lon": -114.414312,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596510.0,
+          "lat": 32.750896,
+          "lon": -114.407025,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596530.0,
+          "lat": 32.751222,
+          "lon": -114.396375,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596540.0,
+          "lat": 32.751572,
+          "lon": -114.388989,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596560.0,
+          "lat": 32.752167,
+          "lon": -114.378827,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596570.0,
+          "lat": 32.752991,
+          "lon": -114.3679,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596590.0,
+          "lat": 32.753677,
+          "lon": -114.356305,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596600.0,
+          "lat": 32.753922,
+          "lon": -114.351701,
+          "alt_baro_ft": 9400,
+          "source_code": 0
+        }
+      ],
+      "callsign": "N80283"
+    },
+    {
+      "id": "aa568f",
+      "non_icao": false,
+      "points": [
+        {
+          "time_unix_s": 1740596680.0,
+          "lat": 32.75988,
+          "lon": -114.817611,
+          "alt_baro_ft": 35100,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596700.0,
+          "lat": 32.76265,
+          "lon": -114.765656,
+          "alt_baro_ft": 35400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596710.0,
+          "lat": 32.765121,
+          "lon": -114.718854,
+          "alt_baro_ft": 35675,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596730.0,
+          "lat": 32.767593,
+          "lon": -114.671942,
+          "alt_baro_ft": 36000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596740.0,
+          "lat": 32.76961,
+          "lon": -114.63331,
+          "alt_baro_ft": 36350,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596750.0,
+          "lat": 32.771798,
+          "lon": -114.591718,
+          "alt_baro_ft": 36675,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596770.0,
+          "lat": 32.773865,
+          "lon": -114.552191,
+          "alt_baro_ft": 36950,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596790.0,
+          "lat": 32.77739,
+          "lon": -114.479517,
+          "alt_baro_ft": 37000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596810.0,
+          "lat": 32.780224,
+          "lon": -114.421598,
+          "alt_baro_ft": 37000,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740596830.0,
+          "lat": 32.783157,
+          "lon": -114.363995,
+          "alt_baro_ft": 37000,
+          "source_code": 0
+        }
+      ],
+      "callsign": "UAL2140"
+    },
+    {
+      "id": "a774c2",
+      "non_icao": false,
+      "points": [
+        {
+          "time_unix_s": 1740597130.0,
+          "lat": 32.770248,
+          "lon": -114.454962,
+          "alt_baro_ft": 9025,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597140.0,
+          "lat": 32.770401,
+          "lon": -114.445477,
+          "alt_baro_ft": 9275,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597150.0,
+          "lat": 32.770494,
+          "lon": -114.438751,
+          "alt_baro_ft": 9475,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597160.0,
+          "lat": 32.770541,
+          "lon": -114.433426,
+          "alt_baro_ft": 9625,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597170.0,
+          "lat": 32.770634,
+          "lon": -114.426699,
+          "alt_baro_ft": 9825,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597180.0,
+          "lat": 32.770867,
+          "lon": -114.41207,
+          "alt_baro_ft": 10225,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597190.0,
+          "lat": 32.770935,
+          "lon": -114.405908,
+          "alt_baro_ft": 10400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597200.0,
+          "lat": 32.771027,
+          "lon": -114.399097,
+          "alt_baro_ft": 10575,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597210.0,
+          "lat": 32.771146,
+          "lon": -114.387855,
+          "alt_baro_ft": 10900,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597220.0,
+          "lat": 32.771239,
+          "lon": -114.381241,
+          "alt_baro_ft": 11100,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597230.0,
+          "lat": 32.771347,
+          "lon": -114.373828,
+          "alt_baro_ft": 11300,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597240.0,
+          "lat": 32.771472,
+          "lon": -114.361734,
+          "alt_baro_ft": 11675,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597250.0,
+          "lat": 32.77153,
+          "lon": -114.35636,
+          "alt_baro_ft": 11850,
+          "source_code": 0
+        }
+      ],
+      "callsign": "N58NG"
+    },
+    {
+      "id": "ada227",
+      "non_icao": false,
+      "points": [
+        {
+          "time_unix_s": 1740597150.0,
+          "lat": 32.75313,
+          "lon": -114.79149,
+          "alt_baro_ft": 28725,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597170.0,
+          "lat": 32.755051,
+          "lon": -114.732147,
+          "alt_baro_ft": 28925,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597190.0,
+          "lat": 32.756973,
+          "lon": -114.672876,
+          "alt_baro_ft": 29150,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597210.0,
+          "lat": 32.758804,
+          "lon": -114.61701,
+          "alt_baro_ft": 29400,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597230.0,
+          "lat": 32.760544,
+          "lon": -114.56087,
+          "alt_baro_ft": 29675,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597240.0,
+          "lat": 32.762146,
+          "lon": -114.510443,
+          "alt_baro_ft": 29950,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597260.0,
+          "lat": 32.763744,
+          "lon": -114.458425,
+          "alt_baro_ft": 30225,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597270.0,
+          "lat": 32.765167,
+          "lon": -114.41283,
+          "alt_baro_ft": 30500,
+          "source_code": 0
+        },
+        {
+          "time_unix_s": 1740597290.0,
+          "lat": 32.766537,
+          "lon": -114.369245,
+          "alt_baro_ft": 30800,
+          "source_code": 0
+        }
+      ],
+      "callsign": "JBU620"
+    }
+  ],
+  "acquisition": {
+    "url": "https://globe.adsb.lol/globe_history/2025/02/26/heatmap/38.bin.ttf",
+    "resolved_url": "https://adsb.lol/globe_history/2025/02/26/heatmap/38.bin.ttf",
+    "bytes": 20739988,
+    "sha256": "ecf2273c3f0cd6096f517560a84ed61fae0e2db59ffaa84f4806afce69d10597",
+    "retrieved_utc": "2026-11-04T01:03:32.629148+00:00",
+    "http_status": 200,
+    "cached": false
+  }
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "day": "2025-11-09",
+    "icao": "adfdf9",
+    "ok": true,
+    "path": "2025-11-09/traces/trace_full_adfdf9.json",
+    "points": 838,
+    "geometric_altitude_points": 0,
+    "registration": "92-9000",
+    "aircraft_type": "B742",
+    "source_sha256": "666a98a7009d495fc5ff63404c9f5fb10e315eeeacf75deb1af93024ae07a6c3",
+    "acquisition_method": "verified HTTP206 byte range from originalpublicGitHubdailyarchive",
+    "receipt_path": "2025-11-09/traces/trace_full_adfdf9.receipt.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a340b8",
+    "ok": true,
+    "path": "2025-11-09/traces/trace_full_a340b8.json",
+    "points": 762,
+    "geometric_altitude_points": 756,
+    "registration": "N30892",
+    "aircraft_type": "C177",
+    "source_sha256": "fc2ae61dd47e573e0b52ed7cb4563f12dfd3e4e2b905512991e7460527e1dd51",
+    "acquisition_method": "verified HTTP206 byte range from originalpublicGitHubdailyarchive",
+    "receipt_path": "2025-11-09/traces/trace_full_a340b8.json.receipt.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab586f",
+    "ok": true,
+    "path": "2025-11-09/traces/trace_full_ab586f.json",
+    "points": 3158,
+    "geometric_altitude_points": 2832,
+    "registration": "N830AW",
+    "aircraft_type": "A319",
+    "source_sha256": "508ebbef8a6503a414e9af5c8e232ec91034e1645f78a739d9240ccd95ebbcfe",
+    "acquisition_method": "verified HTTP206 byte range from originalpublicGitHubdailyarchive",
+    "receipt_path": "2025-11-09/traces/trace_full_ab586f.json.receipt.json"
+  }
+]

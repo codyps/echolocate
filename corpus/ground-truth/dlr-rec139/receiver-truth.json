@@ -1,0 +1,62 @@
+{
+  "coordinate_frame": "source local Cartesian meters; no geographic anchor",
+  "cases": [
+    {
+      "id": "dlr-rec139-mic-000",
+      "channel_zero_based": 0,
+      "xyz_m": [
+        -0.5320000052452087,
+        0.3490000069141388,
+        -0.0820000022649765
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-046",
+      "channel_zero_based": 46,
+      "xyz_m": [
+        2.3420000076293945,
+        0.9470000267028809,
+        -0.11400000005960464
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-092",
+      "channel_zero_based": 92,
+      "xyz_m": [
+        -0.9160000085830688,
+        -0.6480000019073486,
+        -0.06400000303983688
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-138",
+      "channel_zero_based": 138,
+      "xyz_m": [
+        3.744999885559082,
+        -1.1699999570846558,
+        -0.09099999815225601
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-184",
+      "channel_zero_based": 184,
+      "xyz_m": [
+        4.328999996185303,
+        5.388000011444092,
+        -0.22499999403953552
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-230",
+      "channel_zero_based": 230,
+      "xyz_m": [
+        -3.632999897003174,
+        -18.68000030517578,
+        -0.14399999380111694
+      ]
+    }
+  ],
+  "reported_precision_m": 0.001,
+  "metrological_error_bound_m": null,
+  "note": "Millimeter decimal precision is not a supplied accuracy bound. These coordinates are independent of the acoustic inference."
+}

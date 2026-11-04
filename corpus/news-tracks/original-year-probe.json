@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2023,
+    "icao": "a1dfeb",
+    "url": "https://globe.adsb.lol/globe_history/2023/09/08/traces/eb/trace_full_a1dfeb.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "year": 2023,
+    "icao": "ace391",
+    "url": "https://globe.adsb.lol/globe_history/2023/09/08/traces/91/trace_full_ace391.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "year": 2024,
+    "icao": "a1dfeb",
+    "url": "https://globe.adsb.lol/globe_history/2024/09/08/traces/eb/trace_full_a1dfeb.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "year": 2024,
+    "icao": "ace391",
+    "url": "https://globe.adsb.lol/globe_history/2024/09/08/traces/91/trace_full_ace391.json",
+    "ok": true,
+    "bytes": 22575,
+    "sha256": "32e0ef602c0eda68e04acacb706bd087e71c954fbc7f67b5601afc55941d933d",
+    "timestamp": 1725753600.0
+  },
+  {
+    "year": 2025,
+    "icao": "a1dfeb",
+    "url": "https://globe.adsb.lol/globe_history/2025/09/08/traces/eb/trace_full_a1dfeb.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "year": 2025,
+    "icao": "ace391",
+    "url": "https://globe.adsb.lol/globe_history/2025/09/08/traces/91/trace_full_ace391.json",
+    "ok": true,
+    "bytes": 45404,
+    "sha256": "ea8eaa5f969a50abfaa0ed1cf489b433ad8f24fe382398df17c0230db3fb256d",
+    "timestamp": 1757289600.0
+  },
+  {
+    "year": 2026,
+    "icao": "a1dfeb",
+    "url": "https://globe.adsb.lol/globe_history/2026/09/08/traces/eb/trace_full_a1dfeb.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "year": 2026,
+    "icao": "ace391",
+    "url": "https://globe.adsb.lol/globe_history/2026/09/08/traces/91/trace_full_ace391.json",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

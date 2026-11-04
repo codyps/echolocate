@@ -1,0 +1,52 @@
+Back to flight index
+R04: N784MB
+UTC audio ridge and N784MB-track-EGM96.kml
+V constant H constant; analyzed; audio data with Method I and Method II fitted curves
+−35 −30 −25 −20 −15 −10 −5 0 5 10 15 20 25 30 35
+200
+220
+240
+260
+280
+300
+320
+340
+fmax
+fmin
+Time relative to acoustic center,t − tc (s)
+Frequency, f (Hz)
+Audio data Method I Method II
+−20 0 20
+325
+330
+335
+340
+Time, t − tc (s)
+V (kmh −1)
+ADS-B speed and height
+2020
+2030
+2040
+2050
+H (m)
+−4000 −2000 0 2000
+0
+500
+1000
+∗
+L = 994 m
+Along flight direction,x (m)
+Across, y (m)
+Ground track
+Reference / method V (kmh −1) Rmin (m) L (m) H (m)
+ADS-B 329.51 2264.49 993.81 2034.76
+Method I 272.98 ± 2.707 1558.39 ± 34.858 993.81 1200.38 ± 45.254
+Method II 327.96 ± 3.094 2227.89 ± 64.150 993.81 1993.94 ± 71.677
+L is the ground-track offset from ADS-B; the same value is used in all three rows. Each height follows fromH =
+√
+R2min− L2, so a
+real height needsRmin > L. A dash meansRmin≤ L. For ADS-B,Rmin =
+√
+H 2 + L2.
+Method I guides: fmax = 320.312Hz (first 20 points) andfmin = 203.493Hz (last 20 points).
+3

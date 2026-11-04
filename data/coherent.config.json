@@ -1,0 +1,10 @@
+{
+  "coherent_ridges": true,
+  "robust_shape": true,
+  "multiresolution": false,
+  "max_events": 16,
+  "frequency_sigma_hz": 2,
+  "max_hz": 1000,
+  "hop_s": 0.5,
+  "max_audio_s": 1080
+}

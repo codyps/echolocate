@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "name": "DLR RECORD139 \u00b7 local-frame constant-velocity-extension",
+  "source": "Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053",
+  "license": "CC-BY-4.0",
+  "coordinate_frame": "local_cartesian_embedded",
+  "clock_domain": "source_internal_seconds_plus_1000",
+  "coverage_start_unix_s": 995.0,
+  "coverage_end_unix_s": 1012.0,
+  "search_bounds": {
+    "west": -0.004491576420597607,
+    "east": 0.004491576420597607,
+    "south": -0.00452184738525191,
+    "north": 0.00452184738525191
+  },
+  "synthetic": false,
+  "coverage_notes": [
+    "Real measured audio and receiver coordinates, but no absolute geography or UTC. Local x/y/z are embedded as east/north/up at arbitrary (0,0,0); output is not a geographic geolocation.",
+    "Zero-based reference samples interpreted as simultaneous source-state clock; source does not explicitly distinguish emission/reception convention. No alignment is fitted using receiver truth.",
+    "All channels are correlated observations of one flight. Uniform wind is supplied from the published 90-degree reference.",
+    "Source path is a modeled constant-velocity extension of published Trajectory090 state, not measured positions outside the reference."
+  ],
+  "flights": [
+    {
+      "id": "DLR-ATRA-REC139",
+      "aircraft_type": "A320",
+      "points": [
+        {
+          "time_unix_s": 995.0,
+          "lat": 3.6685741831439334e-05,
+          "lon": 0.006533147977885318,
+          "height_ellipsoid_m": 261.23388280212487
+        },
+        {
+          "time_unix_s": 996.0,
+          "lat": 3.216389444618743e-05,
+          "lon": 0.005742909005598217,
+          "height_ellipsoid_m": 252.04888280212484
+        },
+        {
+          "time_unix_s": 997.0,
+          "lat": 2.7642047060935516e-05,
+          "lon": 0.004952670033311115,
+          "height_ellipsoid_m": 242.86388280212483
+        },
+        {
+          "time_unix_s": 998.0,
+          "lat": 2.3120199675683606e-05,
+          "lon": 0.004162431061024014,
+          "height_ellipsoid_m": 233.67888280212483
+        },
+        {
+          "time_unix_s": 999.0,
+          "lat": 1.8598352290431694e-05,
+          "lon": 0.0033721920887369128,
+          "height_ellipsoid_m": 224.49388280212483
+        },
+        {
+          "time_unix_s": 1000.0,
+          "lat": 1.407650490517979e-05,
+          "lon": 0.0025819531164498117,
+          "height_ellipsoid_m": 215.30888280212483
+        },
+        {
+          "time_unix_s": 1001.0,
+          "lat": 9.554657519927879e-06,
+          "lon": 0.0017917141441627096,
+          "height_ellipsoid_m": 206.12388280212483
+        },
+        {
+          "time_unix_s": 1002.0,
+          "lat": 5.032810134675967e-06,
+          "lon": 0.0010014751718756079,
+          "height_ellipsoid_m": 196.93888280212482
+        },
+        {
+          "time_unix_s": 1003.0,
+          "lat": 5.109627494240569e-07,
+          "lon": 0.00021123619958850616,
+          "height_ellipsoid_m": 187.75388280212482
+        },
+        {
+          "time_unix_s": 1004.0,
+          "lat": -4.010884635827854e-06,
+          "lon": -0.0005790027726985955,
+          "height_ellipsoid_m": 178.56888280212485
+        },
+        {
+          "time_unix_s": 1005.0,
+          "lat": -8.532732021079765e-06,
+          "lon": -0.0013692417449856973,
+          "height_ellipsoid_m": 169.38388280212484
+        },
+        {
+          "time_unix_s": 1006.0,
+          "lat": -1.3054579406331674e-05,
+          "lon": -0.002159480717272799,
+          "height_ellipsoid_m": 160.19888280212484
+        },
+        {
+          "time_unix_s": 1007.0,
+          "lat": -1.7576426791583583e-05,
+          "lon": -0.0029497196895599005,
+          "height_ellipsoid_m": 151.01388280212484
+        },
+        {
+          "time_unix_s": 1008.0,
+          "lat": -2.20982741768355e-05,
+          "lon": -0.003739958661847003,
+          "height_ellipsoid_m": 141.82888280212484
+        },
+        {
+          "time_unix_s": 1009.0,
+          "lat": -2.6620121562087408e-05,
+          "lon": -0.004530197634134105,
+          "height_ellipsoid_m": 132.64388280212484
+        },
+        {
+          "time_unix_s": 1010.0,
+          "lat": -3.114196894733932e-05,
+          "lon": -0.005320436606421206,
+          "height_ellipsoid_m": 123.45888280212483
+        },
+        {
+          "time_unix_s": 1011.0,
+          "lat": -3.566381633259123e-05,
+          "lon": -0.006110675578708309,
+          "height_ellipsoid_m": 114.27388280212483
+        },
+        {
+          "time_unix_s": 1012.0,
+          "lat": -4.018566371784314e-05,
+          "lon": -0.00690091455099541,
+          "height_ellipsoid_m": 105.08888280212483
+        }
+      ]
+    }
+  ]
+}

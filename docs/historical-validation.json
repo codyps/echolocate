@@ -1,0 +1,2167 @@
+{
+  "schema_version": 1,
+  "conclusion": "The current locator fails the available real-data validation. Candidate generation and passing software tests must not be represented as validated location accuracy.",
+  "original_recording": {
+    "primary_reference_lat_lon": [
+      40.876728,
+      -73.526434
+    ],
+    "primary_reference_role": "Map search pin shown by creator at 25:30; not surveyed microphone location",
+    "secondary_reference_lat_lon": [
+      40.876466,
+      -73.524951
+    ],
+    "secondary_reference_role": "Previously used reconstruction coordinate; not substituted for creator evidence",
+    "date_primary_verified": "2026-09-08",
+    "exact_start_utc_primary_verified": false,
+    "methods": [
+      {
+        "method": "Ridge default / supplied two aircraft",
+        "result_path": "validation-runs/locations/colsto-assisted-diverse.json",
+        "result_sha256": "55e42bb536ef7ce3f8fe13340d0dea27093a3c26f6803c9d562126133884225e",
+        "status": "ambiguous",
+        "events": 6,
+        "geographic_microphone_error_eligible": false,
+        "search": {
+          "bounds": {
+            "east": -73.48,
+            "north": 40.91,
+            "south": 40.84,
+            "west": -73.57
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 1133,
+          "hypotheses_evaluated": 125697,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1788926400.0,
+                "start_unix_s": 1788840000.0,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "score_kind": "profiled_ridge_shape_contrast_not_probability",
+        "estimate_lat_lon": [
+          40.86403336103126,
+          -73.54390413857364
+        ],
+        "estimated_excerpt_start_unix_s": 1788901696.2759497,
+        "distance_to_creator_map_reference_m": 2037.2611920746656,
+        "distance_to_secondary_reconstruction_reference_m": 2109.7271270280494,
+        "score": 0.5136370732910667,
+        "matched_ridge_proposals": 1,
+        "spectral_profiles": []
+      },
+      {
+        "method": "High recall ridge / 36 aircraft",
+        "result_path": "validation-runs/locations/colsto-competitive.json",
+        "result_sha256": "32ebf4d0a50518cd61b40d39ddc06c4195f4c9c0ea73bbf3ec70e3595d4441f0",
+        "status": "candidates_uncalibrated",
+        "events": 16,
+        "geographic_microphone_error_eligible": false,
+        "search": {
+          "bounds": {
+            "east": -73.48,
+            "north": 40.91,
+            "south": 40.84,
+            "west": -73.57
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 392,
+          "hypotheses_evaluated": 1019965,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1788926400.0,
+                "start_unix_s": 1788840000.0,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "score_kind": "profiled_ridge_shape_contrast_not_probability",
+        "estimate_lat_lon": [
+          40.841064611031264,
+          -73.50234391152786
+        ],
+        "estimated_excerpt_start_unix_s": 1788900744.2566626,
+        "distance_to_creator_map_reference_m": 4453.13341499698,
+        "distance_to_secondary_reconstruction_reference_m": 4371.544758830673,
+        "score": -14.985694265550293,
+        "matched_ridge_proposals": 2,
+        "spectral_profiles": []
+      },
+      {
+        "method": "Experimental spectral / 36 aircraft",
+        "result_path": "validation-runs/locations/colsto-competitive-spectral-final.json",
+        "result_sha256": "796f848c468c7f5543234d0e05da5e818f7154cdfaaf8fa7efc632e7a05910ea",
+        "status": "candidates_uncalibrated",
+        "events": 16,
+        "geographic_microphone_error_eligible": false,
+        "search": {
+          "bounds": {
+            "east": -73.48,
+            "north": 40.91,
+            "south": 40.84,
+            "west": -73.57
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 392,
+          "hypotheses_evaluated": 1019965,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1788926400.0,
+                "start_unix_s": 1788840000.0,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "score_kind": "profiled_spectrogram_contrast_db_not_probability",
+        "estimate_lat_lon": [
+          40.8640625,
+          -73.5446875
+        ],
+        "estimated_excerpt_start_unix_s": 1788900733.9899871,
+        "distance_to_creator_map_reference_m": 2083.0632388985828,
+        "distance_to_secondary_reconstruction_reference_m": 2157.842590108694,
+        "score": 36.7905875725352,
+        "matched_ridge_proposals": 1,
+        "spectral_profiles": [
+          {
+            "contrast_db": 30.578553404921646,
+            "flight_id": "a1dfeb-1788825600-0",
+            "predicted": [
+              {
+                "frequency_hz": 164.93631777779575,
+                "strength_db": 0.0,
+                "time_s": 11.0
+              },
+              {
+                "frequency_hz": 164.13868737160803,
+                "strength_db": 0.0,
+                "time_s": 12.0
+              },
+              {
+                "frequency_hz": 163.7294526586626,
+                "strength_db": 0.0,
+                "time_s": 12.5
+              },
+              {
+                "frequency_hz": 162.88983763397698,
+                "strength_db": 0.0,
+                "time_s": 13.5
+              },
+              {
+                "frequency_hz": 161.49935454101427,
+                "strength_db": 0.0,
+                "time_s": 14.5
+              },
+              {
+                "frequency_hz": 160.62963879955254,
+                "strength_db": 0.0,
+                "time_s": 15.5
+              },
+              {
+                "frequency_hz": 159.731655654748,
+                "strength_db": 0.0,
+                "time_s": 16.5
+              },
+              {
+                "frequency_hz": 158.80519500431228,
+                "strength_db": 0.0,
+                "time_s": 17.5
+              },
+              {
+                "frequency_hz": 157.85014414457626,
+                "strength_db": 0.0,
+                "time_s": 18.5
+              },
+              {
+                "frequency_hz": 156.866489068064,
+                "strength_db": 0.0,
+                "time_s": 19.5
+              },
+              {
+                "frequency_hz": 155.8543636185639,
+                "strength_db": 0.0,
+                "time_s": 20.5
+              },
+              {
+                "frequency_hz": 154.8140001609518,
+                "strength_db": 0.0,
+                "time_s": 21.5
+              },
+              {
+                "frequency_hz": 154.28334220475347,
+                "strength_db": 0.0,
+                "time_s": 22.0
+              },
+              {
+                "frequency_hz": 153.20137889954802,
+                "strength_db": 0.0,
+                "time_s": 23.0
+              },
+              {
+                "frequency_hz": 152.09240300408788,
+                "strength_db": 0.0,
+                "time_s": 24.0
+              },
+              {
+                "frequency_hz": 150.95717152223378,
+                "strength_db": 0.0,
+                "time_s": 25.0
+              },
+              {
+                "frequency_hz": 149.7966060361702,
+                "strength_db": 0.0,
+                "time_s": 26.0
+              },
+              {
+                "frequency_hz": 148.61179053344367,
+                "strength_db": 0.0,
+                "time_s": 27.0
+              },
+              {
+                "frequency_hz": 147.29057569399566,
+                "strength_db": 0.0,
+                "time_s": 28.0
+              },
+              {
+                "frequency_hz": 146.06820744105406,
+                "strength_db": 0.0,
+                "time_s": 29.0
+              },
+              {
+                "frequency_hz": 144.82596134402277,
+                "strength_db": 0.0,
+                "time_s": 30.0
+              },
+              {
+                "frequency_hz": 144.19791417177456,
+                "strength_db": 0.0,
+                "time_s": 30.5
+              },
+              {
+                "frequency_hz": 142.92911249336873,
+                "strength_db": 0.0,
+                "time_s": 31.5
+              },
+              {
+                "frequency_hz": 141.64499123243186,
+                "strength_db": 0.0,
+                "time_s": 32.5
+              },
+              {
+                "frequency_hz": 140.34761034310486,
+                "strength_db": 0.0,
+                "time_s": 33.5
+              },
+              {
+                "frequency_hz": 139.03914456392124,
+                "strength_db": 0.0,
+                "time_s": 34.5
+              },
+              {
+                "frequency_hz": 137.72186687124642,
+                "strength_db": 0.0,
+                "time_s": 35.5
+              },
+              {
+                "frequency_hz": 136.39812953876535,
+                "strength_db": 0.0,
+                "time_s": 36.5
+              },
+              {
+                "frequency_hz": 135.07034387510026,
+                "strength_db": 0.0,
+                "time_s": 37.5
+              },
+              {
+                "frequency_hz": 133.7409579848522,
+                "strength_db": 0.0,
+                "time_s": 38.5
+              },
+              {
+                "frequency_hz": 132.41243509880871,
+                "strength_db": 0.0,
+                "time_s": 39.5
+              },
+              {
+                "frequency_hz": 131.74926565476247,
+                "strength_db": 0.0,
+                "time_s": 40.0
+              },
+              {
+                "frequency_hz": 130.4266320738409,
+                "strength_db": 0.0,
+                "time_s": 41.0
+              },
+              {
+                "frequency_hz": 129.11093546270166,
+                "strength_db": 0.0,
+                "time_s": 42.0
+              },
+              {
+                "frequency_hz": 127.80451329724004,
+                "strength_db": 0.0,
+                "time_s": 43.0
+              },
+              {
+                "frequency_hz": 126.50962076284168,
+                "strength_db": 0.0,
+                "time_s": 44.0
+              },
+              {
+                "frequency_hz": 125.2510407430667,
+                "strength_db": 0.0,
+                "time_s": 45.0
+              },
+              {
+                "frequency_hz": 123.98097488591354,
+                "strength_db": 0.0,
+                "time_s": 46.0
+              },
+              {
+                "frequency_hz": 122.72869009419989,
+                "strength_db": 0.0,
+                "time_s": 47.0
+              },
+              {
+                "frequency_hz": 121.49595552181273,
+                "strength_db": 0.0,
+                "time_s": 48.0
+              },
+              {
+                "frequency_hz": 120.88742970851864,
+                "strength_db": 0.0,
+                "time_s": 48.5
+              },
+              {
+                "frequency_hz": 119.686995426105,
+                "strength_db": 0.0,
+                "time_s": 49.5
+              },
+              {
+                "frequency_hz": 118.50984304708298,
+                "strength_db": 0.0,
+                "time_s": 50.5
+              },
+              {
+                "frequency_hz": 117.35717818014652,
+                "strength_db": 0.0,
+                "time_s": 51.5
+              },
+              {
+                "frequency_hz": 116.23004079495192,
+                "strength_db": 0.0,
+                "time_s": 52.5
+              },
+              {
+                "frequency_hz": 115.12930662553296,
+                "strength_db": 0.0,
+                "time_s": 53.5
+              },
+              {
+                "frequency_hz": 114.05569184871425,
+                "strength_db": 0.0,
+                "time_s": 54.5
+              },
+              {
+                "frequency_hz": 113.00975795129646,
+                "strength_db": 0.0,
+                "time_s": 55.5
+              },
+              {
+                "frequency_hz": 111.99191935439558,
+                "strength_db": 0.0,
+                "time_s": 56.5
+              },
+              {
+                "frequency_hz": 111.00245124427782,
+                "strength_db": 0.0,
+                "time_s": 57.5
+              },
+              {
+                "frequency_hz": 110.51840631955044,
+                "strength_db": 0.0,
+                "time_s": 58.0
+              },
+              {
+                "frequency_hz": 109.5717276879635,
+                "strength_db": 0.0,
+                "time_s": 59.0
+              },
+              {
+                "frequency_hz": 108.65355937417522,
+                "strength_db": 0.0,
+                "time_s": 60.0
+              },
+              {
+                "frequency_hz": 107.76376420946156,
+                "strength_db": 0.0,
+                "time_s": 61.0
+              },
+              {
+                "frequency_hz": 106.90210986765568,
+                "strength_db": 0.0,
+                "time_s": 62.0
+              },
+              {
+                "frequency_hz": 106.06827984211914,
+                "strength_db": 0.0,
+                "time_s": 63.0
+              },
+              {
+                "frequency_hz": 105.30483757370511,
+                "strength_db": 0.0,
+                "time_s": 64.0
+              },
+              {
+                "frequency_hz": 104.5250272486685,
+                "strength_db": 0.0,
+                "time_s": 65.0
+              },
+              {
+                "frequency_hz": 103.77164705495024,
+                "strength_db": 0.0,
+                "time_s": 66.0
+              },
+              {
+                "frequency_hz": 103.40469611388781,
+                "strength_db": 0.0,
+                "time_s": 66.5
+              },
+              {
+                "frequency_hz": 102.68990618796099,
+                "strength_db": 0.0,
+                "time_s": 67.5
+              },
+              {
+                "frequency_hz": 102.00008501713421,
+                "strength_db": 0.0,
+                "time_s": 68.5
+              },
+              {
+                "frequency_hz": 101.33459139316092,
+                "strength_db": 0.0,
+                "time_s": 69.5
+              },
+              {
+                "frequency_hz": 100.69276209749547,
+                "strength_db": 0.0,
+                "time_s": 70.5
+              },
+              {
+                "frequency_hz": 100.07391738149502,
+                "strength_db": 0.0,
+                "time_s": 71.5
+              },
+              {
+                "frequency_hz": 99.47736723157844,
+                "strength_db": 0.0,
+                "time_s": 72.5
+              },
+              {
+                "frequency_hz": 98.90241492653901,
+                "strength_db": 0.0,
+                "time_s": 73.5
+              },
+              {
+                "frequency_hz": 98.34836236836742,
+                "strength_db": 0.0,
+                "time_s": 74.5
+              },
+              {
+                "frequency_hz": 97.81451832417984,
+                "strength_db": 0.0,
+                "time_s": 75.5
+              },
+              {
+                "frequency_hz": 97.55495348511046,
+                "strength_db": 0.0,
+                "time_s": 76.0
+              },
+              {
+                "frequency_hz": 97.05011483897607,
+                "strength_db": 0.0,
+                "time_s": 77.0
+              },
+              {
+                "frequency_hz": 96.56376610759524,
+                "strength_db": 0.0,
+                "time_s": 78.0
+              },
+              {
+                "frequency_hz": 96.09523977445741,
+                "strength_db": 0.0,
+                "time_s": 79.0
+              },
+              {
+                "frequency_hz": 95.643881390953,
+                "strength_db": 0.0,
+                "time_s": 80.0
+              },
+              {
+                "frequency_hz": 95.2090507542101,
+                "strength_db": 0.0,
+                "time_s": 81.0
+              },
+              {
+                "frequency_hz": 94.79012356111848,
+                "strength_db": 0.0,
+                "time_s": 82.0
+              },
+              {
+                "frequency_hz": 94.38649204692895,
+                "strength_db": 0.0,
+                "time_s": 83.0
+              },
+              {
+                "frequency_hz": 93.99756600103737,
+                "strength_db": 0.0,
+                "time_s": 84.0
+              },
+              {
+                "frequency_hz": 93.80843788554053,
+                "strength_db": 0.0,
+                "time_s": 84.5
+              },
+              {
+                "frequency_hz": 93.44050227265359,
+                "strength_db": 0.0,
+                "time_s": 85.5
+              },
+              {
+                "frequency_hz": 93.08587489383781,
+                "strength_db": 0.0,
+                "time_s": 86.5
+              },
+              {
+                "frequency_hz": 92.82681475233431,
+                "strength_db": 0.0,
+                "time_s": 87.5
+              },
+              {
+                "frequency_hz": 92.50007675351101,
+                "strength_db": 0.0,
+                "time_s": 88.5
+              },
+              {
+                "frequency_hz": 92.1849560654457,
+                "strength_db": 0.0,
+                "time_s": 89.5
+              },
+              {
+                "frequency_hz": 91.8809906359525,
+                "strength_db": 0.0,
+                "time_s": 90.5
+              },
+              {
+                "frequency_hz": 91.58773555032577,
+                "strength_db": 0.0,
+                "time_s": 91.5
+              },
+              {
+                "frequency_hz": 91.30476312588091,
+                "strength_db": 0.0,
+                "time_s": 92.5
+              },
+              {
+                "frequency_hz": 91.0316619294439,
+                "strength_db": 0.0,
+                "time_s": 93.5
+              },
+              {
+                "frequency_hz": 90.8986890405044,
+                "strength_db": 0.0,
+                "time_s": 94.0
+              },
+              {
+                "frequency_hz": 90.63965932727038,
+                "strength_db": 0.0,
+                "time_s": 95.0
+              },
+              {
+                "frequency_hz": 90.38954294798461,
+                "strength_db": 0.0,
+                "time_s": 96.0
+              },
+              {
+                "frequency_hz": 90.14798369400128,
+                "strength_db": 0.0,
+                "time_s": 97.0
+              },
+              {
+                "frequency_hz": 89.9146398504408,
+                "strength_db": 0.0,
+                "time_s": 98.0
+              },
+              {
+                "frequency_hz": 89.68918390189972,
+                "strength_db": 0.0,
+                "time_s": 99.0
+              },
+              {
+                "frequency_hz": 89.47130194081183,
+                "strength_db": 0.0,
+                "time_s": 100.0
+              },
+              {
+                "frequency_hz": 89.26069340449216,
+                "strength_db": 0.0,
+                "time_s": 101.0
+              }
+            ],
+            "tone_hz": 112.90625,
+            "window_end_s": 100.60044169425964,
+            "window_start_s": 10.600441694259644
+          },
+          {
+            "contrast_db": 6.212034167613552,
+            "flight_id": "ace391-1788825600-0",
+            "predicted": [
+              {
+                "frequency_hz": 129.47782838665285,
+                "strength_db": 0.0,
+                "time_s": 970.0
+              },
+              {
+                "frequency_hz": 129.1390185433823,
+                "strength_db": 0.0,
+                "time_s": 971.0
+              },
+              {
+                "frequency_hz": 128.77895407154762,
+                "strength_db": 0.0,
+                "time_s": 972.0
+              },
+              {
+                "frequency_hz": 128.3961383662381,
+                "strength_db": 0.0,
+                "time_s": 973.0
+              },
+              {
+                "frequency_hz": 127.9889816733434,
+                "strength_db": 0.0,
+                "time_s": 974.0
+              },
+              {
+                "frequency_hz": 127.77575321116302,
+                "strength_db": 0.0,
+                "time_s": 974.5
+              },
+              {
+                "frequency_hz": 127.32890131239445,
+                "strength_db": 0.0,
+                "time_s": 975.5
+              },
+              {
+                "frequency_hz": 126.85333151826991,
+                "strength_db": 0.0,
+                "time_s": 976.5
+              },
+              {
+                "frequency_hz": 126.34714039440402,
+                "strength_db": 0.0,
+                "time_s": 977.5
+              },
+              {
+                "frequency_hz": 125.80835030263641,
+                "strength_db": 0.0,
+                "time_s": 978.5
+              },
+              {
+                "frequency_hz": 125.23491877456252,
+                "strength_db": 0.0,
+                "time_s": 979.5
+              },
+              {
+                "frequency_hz": 124.19521609608219,
+                "strength_db": 0.0,
+                "time_s": 980.5
+              },
+              {
+                "frequency_hz": 123.88047072851599,
+                "strength_db": 0.0,
+                "time_s": 981.0
+              },
+              {
+                "frequency_hz": 123.22164481293227,
+                "strength_db": 0.0,
+                "time_s": 982.0
+              },
+              {
+                "frequency_hz": 122.52204144162157,
+                "strength_db": 0.0,
+                "time_s": 983.0
+              },
+              {
+                "frequency_hz": 121.77974366404491,
+                "strength_db": 0.0,
+                "time_s": 984.0
+              },
+              {
+                "frequency_hz": 118.17923425423625,
+                "strength_db": 0.0,
+                "time_s": 985.0
+              },
+              {
+                "frequency_hz": 117.45714091660025,
+                "strength_db": 0.0,
+                "time_s": 986.0
+              },
+              {
+                "frequency_hz": 117.08202421227891,
+                "strength_db": 0.0,
+                "time_s": 986.5
+              },
+              {
+                "frequency_hz": 117.01675163102014,
+                "strength_db": 0.0,
+                "time_s": 987.5
+              },
+              {
+                "frequency_hz": 116.19756950165545,
+                "strength_db": 0.0,
+                "time_s": 988.5
+              },
+              {
+                "frequency_hz": 115.33733364243577,
+                "strength_db": 0.0,
+                "time_s": 989.5
+              },
+              {
+                "frequency_hz": 112.86111368465882,
+                "strength_db": 0.0,
+                "time_s": 990.5
+              },
+              {
+                "frequency_hz": 112.02540821315735,
+                "strength_db": 0.0,
+                "time_s": 991.5
+              },
+              {
+                "frequency_hz": 110.94004913325763,
+                "strength_db": 0.0,
+                "time_s": 992.5
+              },
+              {
+                "frequency_hz": 110.51665258065117,
+                "strength_db": 0.0,
+                "time_s": 993.0
+              },
+              {
+                "frequency_hz": 109.6458371786553,
+                "strength_db": 0.0,
+                "time_s": 994.0
+              },
+              {
+                "frequency_hz": 108.74386757323938,
+                "strength_db": 0.0,
+                "time_s": 995.0
+              },
+              {
+                "frequency_hz": 107.81212813800936,
+                "strength_db": 0.0,
+                "time_s": 996.0
+              },
+              {
+                "frequency_hz": 106.85239837056709,
+                "strength_db": 0.0,
+                "time_s": 997.0
+              },
+              {
+                "frequency_hz": 105.2864484378579,
+                "strength_db": 0.0,
+                "time_s": 998.0
+              },
+              {
+                "frequency_hz": 104.35757595039195,
+                "strength_db": 0.0,
+                "time_s": 999.0
+              },
+              {
+                "frequency_hz": 103.88580623190694,
+                "strength_db": 0.0,
+                "time_s": 999.5
+              },
+              {
+                "frequency_hz": 102.92926873303026,
+                "strength_db": 0.0,
+                "time_s": 1000.5
+              },
+              {
+                "frequency_hz": 101.95782800848728,
+                "strength_db": 0.0,
+                "time_s": 1001.5
+              },
+              {
+                "frequency_hz": 100.97461032091147,
+                "strength_db": 0.0,
+                "time_s": 1002.5
+              },
+              {
+                "frequency_hz": 99.98294408047813,
+                "strength_db": 0.0,
+                "time_s": 1003.5
+              },
+              {
+                "frequency_hz": 98.9863047708758,
+                "strength_db": 0.0,
+                "time_s": 1004.5
+              },
+              {
+                "frequency_hz": 98.48723252118859,
+                "strength_db": 0.0,
+                "time_s": 1005.0
+              },
+              {
+                "frequency_hz": 97.48982802798346,
+                "strength_db": 0.0,
+                "time_s": 1006.0
+              },
+              {
+                "frequency_hz": 96.49638903655509,
+                "strength_db": 0.0,
+                "time_s": 1007.0
+              },
+              {
+                "frequency_hz": 95.8073509794385,
+                "strength_db": 0.0,
+                "time_s": 1008.0
+              },
+              {
+                "frequency_hz": 94.75439531379028,
+                "strength_db": 0.0,
+                "time_s": 1009.0
+              },
+              {
+                "frequency_hz": 93.71819055579705,
+                "strength_db": 0.0,
+                "time_s": 1010.0
+              },
+              {
+                "frequency_hz": 92.85814253700347,
+                "strength_db": 0.0,
+                "time_s": 1011.0
+              },
+              {
+                "frequency_hz": 92.3585474255611,
+                "strength_db": 0.0,
+                "time_s": 1011.5
+              },
+              {
+                "frequency_hz": 91.3776042507426,
+                "strength_db": 0.0,
+                "time_s": 1012.5
+              },
+              {
+                "frequency_hz": 90.44823467795166,
+                "strength_db": 0.0,
+                "time_s": 1013.5
+              },
+              {
+                "frequency_hz": 89.53033169545185,
+                "strength_db": 0.0,
+                "time_s": 1014.5
+              },
+              {
+                "frequency_hz": 88.64197361633947,
+                "strength_db": 0.0,
+                "time_s": 1015.5
+              },
+              {
+                "frequency_hz": 87.78446779853113,
+                "strength_db": 0.0,
+                "time_s": 1016.5
+              },
+              {
+                "frequency_hz": 86.86855939717618,
+                "strength_db": 0.0,
+                "time_s": 1017.5
+              },
+              {
+                "frequency_hz": 86.47468634017297,
+                "strength_db": 0.0,
+                "time_s": 1018.0
+              },
+              {
+                "frequency_hz": 85.71090123168575,
+                "strength_db": 0.0,
+                "time_s": 1019.0
+              },
+              {
+                "frequency_hz": 84.97912721554216,
+                "strength_db": 0.0,
+                "time_s": 1020.0
+              },
+              {
+                "frequency_hz": 84.27921892391375,
+                "strength_db": 0.0,
+                "time_s": 1021.0
+              },
+              {
+                "frequency_hz": 83.6108090853157,
+                "strength_db": 0.0,
+                "time_s": 1022.0
+              },
+              {
+                "frequency_hz": 82.85710795976885,
+                "strength_db": 0.0,
+                "time_s": 1023.0
+              },
+              {
+                "frequency_hz": 82.52868224934784,
+                "strength_db": 0.0,
+                "time_s": 1023.5
+              },
+              {
+                "frequency_hz": 81.89658159506607,
+                "strength_db": 0.0,
+                "time_s": 1024.5
+              },
+              {
+                "frequency_hz": 81.29658217461613,
+                "strength_db": 0.0,
+                "time_s": 1025.5
+              },
+              {
+                "frequency_hz": 80.7275235788965,
+                "strength_db": 0.0,
+                "time_s": 1026.5
+              },
+              {
+                "frequency_hz": 80.05319942603457,
+                "strength_db": 0.0,
+                "time_s": 1027.5
+              },
+              {
+                "frequency_hz": 79.57394146765365,
+                "strength_db": 0.0,
+                "time_s": 1028.5
+              },
+              {
+                "frequency_hz": 79.1197907142224,
+                "strength_db": 0.0,
+                "time_s": 1029.5
+              },
+              {
+                "frequency_hz": 78.90175455044532,
+                "strength_db": 0.0,
+                "time_s": 1030.0
+              },
+              {
+                "frequency_hz": 78.48301458622689,
+                "strength_db": 0.0,
+                "time_s": 1031.0
+              },
+              {
+                "frequency_hz": 78.08640425345419,
+                "strength_db": 0.0,
+                "time_s": 1032.0
+              },
+              {
+                "frequency_hz": 77.44495643045398,
+                "strength_db": 0.0,
+                "time_s": 1033.0
+              },
+              {
+                "frequency_hz": 77.080403770005,
+                "strength_db": 0.0,
+                "time_s": 1034.0
+              },
+              {
+                "frequency_hz": 76.73551519989275,
+                "strength_db": 0.0,
+                "time_s": 1035.0
+              },
+              {
+                "frequency_hz": 76.40917089757417,
+                "strength_db": 0.0,
+                "time_s": 1036.0
+              },
+              {
+                "frequency_hz": 76.25261675674811,
+                "strength_db": 0.0,
+                "time_s": 1036.5
+              },
+              {
+                "frequency_hz": 75.9521008225595,
+                "strength_db": 0.0,
+                "time_s": 1037.5
+              },
+              {
+                "frequency_hz": 76.36302181307303,
+                "strength_db": 0.0,
+                "time_s": 1038.5
+              },
+              {
+                "frequency_hz": 76.10892720483112,
+                "strength_db": 0.0,
+                "time_s": 1039.5
+              },
+              {
+                "frequency_hz": 75.86750981238973,
+                "strength_db": 0.0,
+                "time_s": 1040.5
+              },
+              {
+                "frequency_hz": 75.63806293263664,
+                "strength_db": 0.0,
+                "time_s": 1041.5
+              },
+              {
+                "frequency_hz": 75.41991710159975,
+                "strength_db": 0.0,
+                "time_s": 1042.5
+              },
+              {
+                "frequency_hz": 75.31488285455414,
+                "strength_db": 0.0,
+                "time_s": 1043.0
+              },
+              {
+                "frequency_hz": 74.87070512598419,
+                "strength_db": 0.0,
+                "time_s": 1044.0
+              },
+              {
+                "frequency_hz": 74.66525073449341,
+                "strength_db": 0.0,
+                "time_s": 1045.0
+              },
+              {
+                "frequency_hz": 74.46988397397608,
+                "strength_db": 0.0,
+                "time_s": 1046.0
+              },
+              {
+                "frequency_hz": 74.28402795502433,
+                "strength_db": 0.0,
+                "time_s": 1047.0
+              },
+              {
+                "frequency_hz": 74.10713980738183,
+                "strength_db": 0.0,
+                "time_s": 1048.0
+              },
+              {
+                "frequency_hz": 74.02189813593887,
+                "strength_db": 0.0,
+                "time_s": 1048.5
+              },
+              {
+                "frequency_hz": 74.05321882264636,
+                "strength_db": 0.0,
+                "time_s": 1049.5
+              },
+              {
+                "frequency_hz": 73.90168412944159,
+                "strength_db": 0.0,
+                "time_s": 1050.5
+              },
+              {
+                "frequency_hz": 73.75712253369073,
+                "strength_db": 0.0,
+                "time_s": 1051.5
+              },
+              {
+                "frequency_hz": 73.61914951671766,
+                "strength_db": 0.0,
+                "time_s": 1052.5
+              },
+              {
+                "frequency_hz": 73.92973527037789,
+                "strength_db": 0.0,
+                "time_s": 1053.5
+              },
+              {
+                "frequency_hz": 73.81209656918915,
+                "strength_db": 0.0,
+                "time_s": 1054.5
+              },
+              {
+                "frequency_hz": 73.75518623376453,
+                "strength_db": 0.0,
+                "time_s": 1055.0
+              },
+              {
+                "frequency_hz": 73.64501653413446,
+                "strength_db": 0.0,
+                "time_s": 1056.0
+              },
+              {
+                "frequency_hz": 73.53950372050711,
+                "strength_db": 0.0,
+                "time_s": 1057.0
+              },
+              {
+                "frequency_hz": 73.37178765449713,
+                "strength_db": 0.0,
+                "time_s": 1058.0
+              }
+            ],
+            "tone_hz": 90.18359375,
+            "window_end_s": 1057.730879488108,
+            "window_start_s": 969.8393791292931
+          }
+        ]
+      }
+    ]
+  },
+  "news": [
+    {
+      "id": "fox-thunderbirds",
+      "status": "ambiguous",
+      "events": 5,
+      "flight_segments": 153,
+      "estimate_lat_lon": [
+        38.891666666666666,
+        -77.087
+      ],
+      "accuracy_eligible": false,
+      "reason": "Publisher event-region metadata is not microphone truth; waveform continuity and UTC are unverified."
+    },
+    {
+      "id": "fox-frecce",
+      "status": "no_usable_events",
+      "events": 0,
+      "flight_segments": 248,
+      "estimate_lat_lon": null,
+      "accuracy_eligible": false,
+      "reason": "Publisher event-region metadata is not microphone truth; waveform continuity and UTC are unverified."
+    },
+    {
+      "id": "fox-af1",
+      "status": "no_usable_events",
+      "events": 0,
+      "flight_segments": 1,
+      "estimate_lat_lon": null,
+      "accuracy_eligible": false,
+      "reason": "Publisher event-region metadata is not microphone truth; waveform continuity and UTC are unverified."
+    },
+    {
+      "id": "dvids-yuma",
+      "status": "no_usable_events",
+      "events": 0,
+      "flight_segments": 20,
+      "estimate_lat_lon": null,
+      "accuracy_eligible": false,
+      "reason": "Publisher event-region metadata is not microphone truth; waveform continuity and UTC are unverified."
+    }
+  ],
+  "dlr_local_frame": {
+    "schema_version": 1,
+    "engine_binary_sha256": "47ce666420d46168c2baf8ceeabf29d45bb0e2ff3faf11eab3d1fc35a5a6d248",
+    "kind": "real measured receiver positions in source local Cartesian frame",
+    "absolute_geographic_accuracy_measured": false,
+    "independent_sessions": 1,
+    "interpretation": "All six channels share one jet flyover. Source clock convention is explicitly assumed, not independently established. One protocol uses only supplied knots and a fixed common arrival slice; the other extrapolates a constant-velocity source model. Receiver coordinates were excluded from inference.",
+    "groups": {
+      "constant-velocity-extension": {
+        "cases": 6,
+        "answers": 6,
+        "median_error_m_on_answered": 131.99626593184263,
+        "median_origin_baseline_m_on_answered": 3.22486314924668,
+        "beats_origin_baseline": 0
+      },
+      "measured-knots": {
+        "cases": 6,
+        "answers": 0,
+        "median_error_m_on_answered": null,
+        "median_origin_baseline_m_on_answered": null,
+        "beats_origin_baseline": 0
+      }
+    },
+    "cases": [
+      {
+        "id": "dlr-rec139-mic-000-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 0,
+        "elapsed_s": 0.016,
+        "exit_code": 0,
+        "audio_sha256": "a91fc39c77c892fd770b6acba857e75bae3f897b9cf0ef471d7f77fa82172ad7",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-046-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 46,
+        "elapsed_s": 0.018,
+        "exit_code": 0,
+        "audio_sha256": "e79aa478d25691f5d11b3791757fc3c7341edbcfc14ddd37f639e3b615c3139c",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-092-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 92,
+        "elapsed_s": 0.017,
+        "exit_code": 0,
+        "audio_sha256": "b4d21f787fe43cc7d44f0e5c3a7c0743ab09470d79e9667b8713f0dd2bb86e54",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-138-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 138,
+        "elapsed_s": 0.018,
+        "exit_code": 0,
+        "audio_sha256": "518e2b7a9dea0a61b6468fb925786c93eede18274bcde0e49ef6f94263954cfd",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-184-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 184,
+        "elapsed_s": 0.016,
+        "exit_code": 0,
+        "audio_sha256": "e35800ad0b99a59ee6585cad9804e83f001e98fed925b96328c31f1ccc4ab9fe",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-230-measured-knots",
+        "protocol": "measured-knots",
+        "source_channel": 230,
+        "elapsed_s": 0.016,
+        "exit_code": 0,
+        "audio_sha256": "469ee4a98a517c79e767a74fa908b39ee5c5b5d2b3d282148a30661a62ef43ac",
+        "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+        "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+        "status": "no_usable_events",
+        "events": 0,
+        "candidate_count": 0,
+        "search": null
+      },
+      {
+        "id": "dlr-rec139-mic-000-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 0,
+        "elapsed_s": 0.077,
+        "exit_code": 0,
+        "audio_sha256": "3acaac9b5b048b658f0f052786732669a6623ff4cea88b2c64704204b05ac24a",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 6,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 579,
+          "hypotheses_evaluated": 1579,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          -0.5320000052452087,
+          0.3490000069141388
+        ],
+        "origin_baseline_error_m": 0.6362586034050707,
+        "top1_error_m": 336.8975259878196,
+        "best_of_reported_candidates_error_m": 258.39428931822107,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              -322.96307607818966
+            ],
+            "horizontal_error_m": 336.8975259878196,
+            "score": -3.366657081303531,
+            "start_internal_s": 1000.025,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              308.500806424064
+            ],
+            "horizontal_error_m": 322.3767675754664,
+            "score": -3.368043523865567,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              -356.1198540431116
+            ],
+            "horizontal_error_m": 368.8350422370307,
+            "score": -3.370052327916266,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -107.73803808098238,
+              368.53611749774626
+            ],
+            "horizontal_error_m": 383.47736319906056,
+            "score": -3.372262985455536,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -82.73815240679188,
+              -273.298022259651
+            ],
+            "horizontal_error_m": 285.72809502746543,
+            "score": -3.3801901827446983,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -107.73803808392849,
+              -393.3686444070156
+            ],
+            "horizontal_error_m": 408.0523472832643,
+            "score": -3.390742620270596,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -70.23820957342299,
+              -248.46549535038173
+            ],
+            "horizontal_error_m": 258.39428931822107,
+            "score": -3.3934718088330458,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -107.73803808983482,
+              -438.94168582657227
+            ],
+            "horizontal_error_m": 452.18297321089983,
+            "score": -3.3988919956758465,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -117.85725715022117,
+              438.94168582657227
+            ],
+            "horizontal_error_m": 454.0140526664743,
+            "score": -3.39979352766791,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -117.85725714304799,
+              476.1904761904762
+            ],
+            "horizontal_error_m": 490.0921611482916,
+            "score": -3.419135016729256,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          }
+        ]
+      },
+      {
+        "id": "dlr-rec139-mic-046-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 46,
+        "elapsed_s": 0.074,
+        "exit_code": 0,
+        "audio_sha256": "920d3a8480aedf1dcab1a5286909f8e0b284fe5847a581c95c13a7081d868ed8",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 5,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 582,
+          "hypotheses_evaluated": 1594,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          2.3420000076293945,
+          0.9470000267028809
+        ],
+        "origin_baseline_error_m": 2.526217149476929,
+        "top1_error_m": 334.5186401222744,
+        "best_of_reported_candidates_error_m": 224.3788047675515,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              320.91706987869867
+            ],
+            "horizontal_error_m": 334.5186401222744,
+            "score": -1.8027687246302362,
+            "start_internal_s": 1000.025,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              -345.74959678796796
+            ],
+            "horizontal_error_m": 360.16719066433456,
+            "score": -1.8059664713000965,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              358.16586024260266
+            ],
+            "horizontal_error_m": 370.3068850050067,
+            "score": -1.8085596497821754,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -70.2382095769639,
+              250.5115015498727
+            ],
+            "horizontal_error_m": 259.9044579145416,
+            "score": -1.8098938406109673,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              -391.32263820752456
+            ],
+            "horizontal_error_m": 404.22437342220763,
+            "score": -1.8160204827588888,
+            "start_internal_s": 999.975,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -107.73803808521563,
+              403.73890166215915
+            ],
+            "horizontal_error_m": 417.5630860236921,
+            "score": -1.8197204856855658,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -82.7381524003203,
+              -320.9170698786986
+            ],
+            "horizontal_error_m": 332.9190769989445,
+            "score": -1.8226467668413138,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              -428.57142857142856
+            ],
+            "horizontal_error_m": 440.46334182718635,
+            "score": -1.8297480068995764,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -70.23820958045447,
+              213.26271118596873
+            ],
+            "horizontal_error_m": 224.3788047675515,
+            "score": -1.8300983035532958,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -117.85725715022117,
+              438.94168582657227
+            ],
+            "horizontal_error_m": 454.18851395673295,
+            "score": -1.835776129906316,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          }
+        ]
+      },
+      {
+        "id": "dlr-rec139-mic-092-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 92,
+        "elapsed_s": 0.067,
+        "exit_code": 0,
+        "audio_sha256": "dc429d847e2d2d0f9888fe99dc620f6cdac86ddf38b0b3bac584234b280da920",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 3,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 585,
+          "hypotheses_evaluated": 1605,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          -0.9160000085830688,
+          -0.6480000019073486
+        ],
+        "origin_baseline_error_m": 1.1220338756900818,
+        "top1_error_m": 59.77057180789833,
+        "best_of_reported_candidates_error_m": 1.1220338756900818,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              -12.499942822262035,
+              57.98930487419133
+            ],
+            "horizontal_error_m": 59.77057180789833,
+            "score": 4.29829847633194,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -12.499942822510269,
+              -70.40556832882594
+            ],
+            "horizontal_error_m": 70.71284232726791,
+            "score": 4.2682744313677485,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              0.0
+            ],
+            "horizontal_error_m": 1.1220338756900818,
+            "score": 4.245201461325761,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -12.499942824423593,
+              -107.6543586927299
+            ],
+            "horizontal_error_m": 107.63154059767814,
+            "score": 4.091520989221754,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -24.999885647966632,
+              107.65435869272996
+            ],
+            "horizontal_error_m": 110.94789067987182,
+            "score": 4.073386041204138,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              -47.61904761904765
+            ],
+            "horizontal_error_m": 46.9799783979025,
+            "score": 4.000409291502523,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -24.999885647966632,
+              -132.4868856019992
+            ],
+            "horizontal_error_m": 134.02061521931995,
+            "score": 3.929550781025994,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -12.499942823495028,
+              132.48688560199926
+            ],
+            "horizontal_error_m": 133.63788944720898,
+            "score": 3.5217785598712528,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.11910479102786,
+              -200.84644773133414
+            ],
+            "horizontal_error_m": 203.09916506482966,
+            "score": 3.3299877398673354,
+            "start_internal_s": 1000.025,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.11910479089923,
+              202.89245393082516
+            ],
+            "horizontal_error_m": 206.39420719558217,
+            "score": 3.28949810789746,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          }
+        ]
+      },
+      {
+        "id": "dlr-rec139-mic-138-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 138,
+        "elapsed_s": 0.087,
+        "exit_code": 0,
+        "audio_sha256": "1460a7b9065db763f2480a7c27c2d6756fa1f3725aac6d7d526aa812ff624020",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 7,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 585,
+          "hypotheses_evaluated": 1610,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          3.744999885559082,
+          -1.1699999570846558
+        ],
+        "origin_baseline_error_m": 3.9235091490164304,
+        "top1_error_m": 14.092961989427925,
+        "best_of_reported_candidates_error_m": 14.092961989427925,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              0.0,
+              12.416263454634652
+            ],
+            "horizontal_error_m": 14.092961989427925,
+            "score": -3.834134936158941,
+            "start_internal_s": 999.975,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              -24.832526909269305
+            ],
+            "horizontal_error_m": 23.957049190284316,
+            "score": -3.84623455782668,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              47.61904761904755
+            ],
+            "horizontal_error_m": 48.932567759406716,
+            "score": -3.898741181485857,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              -60.0353110736823
+            ],
+            "horizontal_error_m": 58.984318907627234,
+            "score": -3.94468280363259,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -12.499942824423593,
+              -107.6543586927299
+            ],
+            "horizontal_error_m": 107.71637210281548,
+            "score": -4.1150936283578226,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -12.499942824423593,
+              107.65435869272996
+            ],
+            "horizontal_error_m": 110.03017403964287,
+            "score": -4.117710361351826,
+            "start_internal_s": 999.975,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -24.999885647966632,
+              132.48688560199926
+            ],
+            "horizontal_error_m": 136.71295294042022,
+            "score": -4.279217034962353,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -24.999885647966632,
+              -132.4868856019992
+            ],
+            "horizontal_error_m": 134.4261615155884,
+            "score": -4.36466403825274,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.11910479102786,
+              200.84644773133408
+            ],
+            "horizontal_error_m": 205.7208394134156,
+            "score": -4.811189923600232,
+            "start_internal_s": 1000.025,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.1191047894266,
+              -200.84644773133414
+            ],
+            "horizontal_error_m": 203.42345594333713,
+            "score": -4.818866864823689,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          }
+        ]
+      },
+      {
+        "id": "dlr-rec139-mic-184-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 184,
+        "elapsed_s": 0.078,
+        "exit_code": 0,
+        "audio_sha256": "8c18b97baf9c2c438e50971cbbf1b61fe2ad726672734af20f9fb5a906c728e9",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 6,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 579,
+          "hypotheses_evaluated": 1583,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          4.328999996185303,
+          5.388000011444092
+        ],
+        "origin_baseline_error_m": 6.911641273264541,
+        "top1_error_m": 204.22196005578692,
+        "best_of_reported_candidates_error_m": 177.1207140590687,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              202.89245393082516
+            ],
+            "horizontal_error_m": 204.22196005578692,
+            "score": -3.503309328345411,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              -202.8924539308251
+            ],
+            "horizontal_error_m": 214.66100518126765,
+            "score": -3.503646194481907,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -70.23820957342299,
+              248.46549535038173
+            ],
+            "horizontal_error_m": 254.25762030517222,
+            "score": -3.517423520291632,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -70.23820956919589,
+              285.71428571428567
+            ],
+            "horizontal_error_m": 290.0742925498891,
+            "score": -3.5536592632932837,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              -238.0952380952381
+            ],
+            "horizontal_error_m": 248.96322397083028,
+            "score": -3.5679993067907443,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.119104792372276,
+              178.05992702155584
+            ],
+            "horizontal_error_m": 177.1207140590687,
+            "score": -3.580278478760955,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -82.73815239796211,
+              343.7035905884769
+            ],
+            "horizontal_error_m": 349.339559531285,
+            "score": -3.5822460815181065,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -95.23809523809523,
+              368.53611749774626
+            ],
+            "horizontal_error_m": 376.55034416029605,
+            "score": -3.596579221867196,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              -165.64366356692113
+            ],
+            "horizontal_error_m": 178.74683101363675,
+            "score": -3.5966124983116305,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -82.73815239226198,
+              -393.3686444070156
+            ],
+            "horizontal_error_m": 408.1513818338767,
+            "score": -3.617577848110167,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          }
+        ]
+      },
+      {
+        "id": "dlr-rec139-mic-230-constant-velocity-extension",
+        "protocol": "constant-velocity-extension",
+        "source_channel": 230,
+        "elapsed_s": 0.072,
+        "exit_code": 0,
+        "audio_sha256": "075aa9d84008d310ffaa5362dc27be01ca0e9312fa9c5561d94ead396c0b3963",
+        "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+        "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+        "status": "ambiguous",
+        "events": 4,
+        "candidate_count": 10,
+        "search": {
+          "bounds": {
+            "east": 0.004491576420597607,
+            "north": 0.00452184738525191,
+            "south": -0.00452184738525191,
+            "west": -0.004491576420597607
+          },
+          "budget_exhausted": false,
+          "cells_evaluated": 585,
+          "hypotheses_evaluated": 1609,
+          "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+          "time_prior": {
+            "estimate_unix_s": null,
+            "sigma_s": null,
+            "windows": [
+              {
+                "end_unix_s": 1000.05,
+                "start_unix_s": 999.95,
+                "weight": 1.0
+              }
+            ]
+          }
+        },
+        "truth_xy_m": [
+          -3.632999897003174,
+          -18.68000030517578
+        ],
+        "origin_baseline_error_m": 19.03000524574264,
+        "top1_error_m": 20.677647067107987,
+        "best_of_reported_candidates_error_m": 7.145087253890162,
+        "candidates": [
+          {
+            "estimated_xy_m": [
+              -12.49994282173841,
+              0.0
+            ],
+            "horizontal_error_m": 20.677647067107987,
+            "score": 1.4662070777682175,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -35.11910479365328,
+              -153.2274001122865
+            ],
+            "horizontal_error_m": 138.18240697142798,
+            "score": 1.2107641620150602,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              178.05992702155584
+            ],
+            "horizontal_error_m": 201.597052058639,
+            "score": 1.118641525180844,
+            "start_internal_s": 1000.025,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              -178.05992702155578
+            ],
+            "horizontal_error_m": 165.33823947993588,
+            "score": 1.1119827496052501,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              142.85714285714283
+            ],
+            "horizontal_error_m": 167.41869971795083,
+            "score": 1.0014214786931284,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -60.118990447196,
+              202.89245393082516
+            ],
+            "horizontal_error_m": 228.6591778271784,
+            "score": 0.9520825653037406,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -47.61904761904761,
+              -215.30871738545974
+            ],
+            "horizontal_error_m": 201.48852268763181,
+            "score": 0.9428354472998555,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -60.118990449613285,
+              -238.0952380952381
+            ],
+            "horizontal_error_m": 226.5694456522749,
+            "score": 0.8009565603455817,
+            "start_internal_s": 1000.0,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              0.0,
+              -24.832526909269305
+            ],
+            "horizontal_error_m": 7.145087253890162,
+            "score": 0.7141477113445793,
+            "start_internal_s": 999.95,
+            "matched_events": 1
+          },
+          {
+            "estimated_xy_m": [
+              -72.61893328794694,
+              273.298022259651
+            ],
+            "horizontal_error_m": 300.0170406271721,
+            "score": 0.7127220157884526,
+            "start_internal_s": 1000.05,
+            "matched_events": 1
+          }
+        ]
+      }
+    ]
+  },
+  "static_data": {
+    "packages": 7,
+    "bytes": 5603566,
+    "largest_shard_bytes": 261884,
+    "licenses": [
+      "CC-BY-4.0",
+      "ODbL-1.0"
+    ]
+  },
+  "ground_truth_limitations": [
+    "DLR has measured source-local receiver coordinates but no geographic origin or UTC; six channels are one correlated jet flyover.",
+    "Original creator recording identifies a public site and map reference, not a surveyed microphone coordinate or capture-start UTC.",
+    "AeroSonicDB public locations are intentionally shifted, and filename timezone is unstated; not used for coordinate-error claims.",
+    "Pathak has original audio/ridges/KML, but no independently verified microphone coordinate or first-sample waveform UTC."
+  ],
+  "reproduce": [
+    "python scripts/prepare_dlr_validation.py",
+    "python scripts/validate_dlr_locations.py",
+    "Original raw inputs and exact configs/results remain under data/location-validation and validation-runs/locations.",
+    "python scripts/check_static_data.py dist"
+  ]
+}

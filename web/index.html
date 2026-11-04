@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#10282d"><title>Echolocate — Acoustic field lab</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="brand-icon">◉</span> ECHOLOCATE <span class="brand-tag">ACOUSTIC FIELD LAB</span></a><div class="top-meta"><span class="dot"></span> LOCAL PROCESSING <span class="version">RESEARCH / 0.1</span></div></header>
+<main>
+<section class="intro"><div><p class="eyebrow">AIRCRAFT DOPPLER GEOLOCATION</p><h1>Find the place<br>behind the sound.</h1><p>Trace a passing aircraft’s changing pitch against its flight path.<br class="desktop"> Explore the locations and times that explain your recording.</p><p class="help">Research prototype: separate-recording tests improved, but locations remain ambiguous.</p></div><div class="intro-side"><div class="wave" aria-hidden="true">▂ ▃ ▆ ▄ █ ▅ ▂ ▄ ▇ ▃ ▂</div><p>One Rust engine.<br>Native speed. Browser privacy.</p></div></section>
+<div class="workspace">
+<aside class="controls">
+<div class="panel-title"><span>01 / SOURCE</span><span id="source-state">WAITING</span></div>
+<label class="drop" id="drop"><input id="audio-file" type="file" accept="audio/*,.wav,.flac,.mp3,.m4a,.ogg"><span class="upload-icon">↥</span><strong id="audio-name">Drop a recording</strong><span>or choose an audio file · up to 64 MiB</span></label>
+<audio id="player" controls hidden></audio>
+<button class="text-button" id="demo">↗ Load the synthetic field example</button>
+<div class="rule"></div>
+<div class="panel-title"><span>02 / CONTEXT</span><span>OPTIONAL</span></div>
+<label class="field">Flight-data package<input id="package-file" type="file" accept=".json,application/json"><span class="help" id="package-name">Without a package, run acoustic discovery only.</span></label>
+<label class="field">Hosted flight data<select id="catalog-package" disabled><option>No catalog loaded</option></select></label>
+<button class="text-button" id="load-data" disabled>Download verified flight window ↗</button>
+<p class="help" id="data-attribution"></p>
+<label class="field">Tracking mode<select id="tracking"><option value="coherent">Coherent paths · research</option><option value="legacy">Peak following · legacy</option></select></label>
+<label class="field">Recording time<select id="time-mode"><option value="none">Unknown · search package dates</option><option value="estimate">Estimate with uncertainty</option><option value="range">Between two times</option></select></label>
+<div id="time-fields" hidden><label class="field"><span id="start-label">Estimated start · UTC</span><input id="time-start" type="datetime-local" step="1"></label><label class="field" id="sigma-field">Uncertainty · ±1σ seconds<input id="time-sigma" type="number" value="30" min="0.1" step="1"></label><label class="field" id="end-field" hidden>Latest start · UTC<input id="time-end" type="datetime-local" step="1"></label></div>
+<div class="two-fields"><label class="field">Grid · meters<input id="grid" type="number" value="400" min="25" max="20000"></label><label class="field">Observer height · m<input id="height" type="number" value="0" min="-500" max="9000"></label></div>
+<p class="help">Height is above the WGS84 ellipsoid. Geographic coverage comes from the package.</p>
+<details><summary>Analysis settings</summary><label class="field">Rust config overrides · JSON<textarea id="overrides" rows="5" spellcheck="false">{}</textarea></label><p class="help">Band, event thresholds, bounds, time priors and resource budgets. See the included schema guide.</p></details>
+<label class="field">Execution<select id="execution"><option value="wasm">In this browser · Rust / WebAssembly</option><option value="native">Local service · native Rust</option></select></label>
+<button id="analyze" class="primary" disabled><span>Analyze recording</span><span>→</span></button>
+<button id="cancel" class="secondary" hidden>Cancel analysis</button>
+<div id="activity" role="status" aria-live="polite">Audio stays on this device.</div>
+</aside>
+<div class="results">
+<section class="map-panel panel"><div class="panel-head"><div><p class="eyebrow">03 / GEOGRAPHIC MATCH</p><h2>Likely regions</h2></div><span class="badge" id="status-badge">READY TO LISTEN</span></div><div class="map-wrap"><canvas id="map" aria-label="Offline geographic coordinate map with flight paths and relative match strength"></canvas><div class="map-label">N ↑ <span>WGS84 / OFFLINE COORDINATE MAP</span></div><div class="map-empty" id="map-empty"><span>◎</span><strong>A place to start looking.</strong><p>Load audio and a flight package to map the evidence.</p></div><div class="legend"><span class="gradient"></span> LOWER <span>RELATIVE MATCH STRENGTH</span> HIGHER</div></div><div class="map-footer"><span id="map-footnote">Alternative locations remain visible. Scores are not probabilities.</span><button id="export-geo" disabled class="text-button">GeoJSON ↗</button></div></section>
+<section class="signal-panel panel"><div class="panel-head"><div><p class="eyebrow">04 / ACOUSTIC EVIDENCE</p><h2>Frequency in motion</h2></div><span class="small" id="signal-meta">TIME × FREQUENCY</span></div><div class="spectrum-wrap"><canvas id="spectrum" aria-label="Whitened spectrogram with detected tonal ridges and predicted Doppler curves"></canvas><div class="spectrum-empty" id="spectrum-empty">The spectrogram will appear after analysis.</div></div><div class="signal-key"><span><i class="key observed"></i> Detected ridge</span><span><i class="key predicted"></i> Predicted curve</span><span id="event-count">0 events</span></div><div id="event-chips" class="event-chips"></div></section>
+<section class="panel candidates-panel"><div class="panel-head"><div><p class="eyebrow">05 / COMPETING EXPLANATIONS</p><h2>Candidate locations</h2></div><button id="export-json" class="text-button" disabled>Export result ↗</button></div><div id="candidate-empty" class="empty-line">Results will include alternate locations, shared start times and matched flights.</div><div class="table-wrap"><table id="candidates" hidden><thead><tr><th>REGION</th><th>COORDINATES</th><th>START · UTC</th><th>EVENTS</th><th>SCORE</th></tr></thead><tbody></tbody></table></div></section>
+<details class="evidence panel" id="evidence"><summary>Model assumptions & search coverage <span id="warning-count"></span></summary><ul id="warnings"><li>Research software. Independent real-world location accuracy has not been established.</li><li>A passing aircraft may produce multiple plausible locations; the strongest score alone cannot resolve them.</li></ul><div id="coverage"></div></details>
+</div></div>
+<footer><span>FOLLOW THE FREQUENCY.</span><span>Independent implementation · MIT · no accounts or uploads to a remote service</span></footer>
+</main><script type="module" src="app.js"></script>
+</body></html>

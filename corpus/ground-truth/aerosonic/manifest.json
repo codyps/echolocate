@@ -1,0 +1,396 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "AeroSonicDB (YPAD-0523)",
+    "version": "1.1.2",
+    "creator": "Blake Downward",
+    "url": "https://zenodo.org/records/10215080",
+    "doi": "10.5281/zenodo.10215080",
+    "license": "CC-BY-NC-4.0",
+    "paper": "https://arxiv.org/abs/2311.06368"
+  },
+  "selection": "Four original full-length60-second propeller-aircraft files on one date at two recording sites, selected before engine runs.",
+  "archive_integrity": {
+    "full_archive_md5_verified": false,
+    "reason": "Only selected ZIP ranges downloaded; member CRC32 and uncompressed length verified, local SHA256 retained."
+  },
+  "locations_normalization": "Source locations.json contains literal escaped whitespace and lacks the final closing brace. Original retained unchanged; locations.normalized.json replaces escaped whitespace and appends missing closing brace; lat/lon numbers unchanged.",
+  "cases": [
+    {
+      "id": "7C1CA5_2023-05-09_12-52-42_2_1",
+      "audio_path": "audio/7C1CA5_2023-05-09_12-52-42_2_1.wav",
+      "audio_sha256": "fdc1dae6d8cb0f55d8422628de76e6c94037e9a0b717bd295e49d9d922d402c1",
+      "audio": {
+        "channels": 1,
+        "sample_rate": 22050,
+        "duration_s": 60.0,
+        "sample_width": 2
+      },
+      "source_metadata": {
+        "train-test": "test",
+        "fold": "test",
+        "filename": "7C1CA5_2023-05-09_12-52-42_2_1.wav",
+        "date": "2023-05-09",
+        "time": "12-52-42",
+        "location": "2",
+        "mic": "1",
+        "class": "1",
+        "subclass": "2",
+        "altitude": "125",
+        "hex_id": "7C1CA5",
+        "session": "24",
+        "offset": "0",
+        "duration": "33",
+        "file_length": "60",
+        "reg": "VH-FXZ",
+        "airframe": "Power Driven Aeroplane",
+        "engtype": "Turboprop",
+        "engnum": "1",
+        "shortdesc": "L1T",
+        "typedesig": "PC12",
+        "manu": "PILATUS AIRCRAFT LTD",
+        "model": "PC-12/47E",
+        "engmanu": "PRATT & WHITNEY CANADA",
+        "engmodel": "PT6A-67P",
+        "engfamily": "PT6",
+        "fueltype": "Kerosene",
+        "propmanu": "HARTZELL PROPELLERS",
+        "propmodel": "HC-E5A-3A/NC10245B",
+        "mtow": "4740"
+      },
+      "zip_entry": {
+        "filename": "audio/1/7C1CA5_2023-05-09_12-52-42_2_1.wav",
+        "method": 8,
+        "crc32": 3697008418,
+        "compressed_size": 1626413,
+        "size": 2646044,
+        "offset": 340344963
+      },
+      "range_receipt": {
+        "local_header_offset": 340344963,
+        "compressed_offset": 340345035,
+        "compressed_bytes": 1626413,
+        "crc32_verified": true
+      },
+      "recording_time": {
+        "source_filename_clock": "2023-05-09T12:52:42",
+        "timezone_verified": false,
+        "hypotheses": [
+          {
+            "timezone": "Australia/Adelaide",
+            "start_utc": "2023-05-09T03:22:42+00:00",
+            "start_unix_s": 1683602562.0
+          },
+          {
+            "timezone": "UTC",
+            "start_utc": "2023-05-09T12:52:42+00:00",
+            "start_unix_s": 1683636762.0
+          }
+        ],
+        "timing_accuracy_s": null,
+        "note": "Source gives ADS-B trigger and filename recording time, but not timezone or calibrated first-sample accuracy. Full60-second files selected to avoid trimming ambiguity."
+      },
+      "public_location_reference": {
+        "lat": -34.96428,
+        "lon": 138.51011,
+        "location_id": "2",
+        "is_exact_microphone_coordinate": false,
+        "displacement_bound_m": null,
+        "source_description": "Source deliberately provides a nearby road/public-space coordinate instead of actual recorder location."
+      },
+      "validation_eligibility": {
+        "public_reference_distance": true,
+        "true_microphone_error_m": false,
+        "reason": "Unknown privacy displacement. Report public-reference distance separately from true microphone error."
+      },
+      "rights": {
+        "license": "CC-BY-NC-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "creator": "Blake Downward",
+        "public_static_default": false
+      }
+    },
+    {
+      "id": "7C79B7_2023-05-09_12-39-52_2_1",
+      "audio_path": "audio/7C79B7_2023-05-09_12-39-52_2_1.wav",
+      "audio_sha256": "0c52d92fb0d7d97cfa9326accbbbe7ca748b3e37759894db85e837ab3293b0ec",
+      "audio": {
+        "channels": 1,
+        "sample_rate": 22050,
+        "duration_s": 60.0,
+        "sample_width": 2
+      },
+      "source_metadata": {
+        "train-test": "test",
+        "fold": "test",
+        "filename": "7C79B7_2023-05-09_12-39-52_2_1.wav",
+        "date": "2023-05-09",
+        "time": "12-39-52",
+        "location": "2",
+        "mic": "1",
+        "class": "1",
+        "subclass": "1",
+        "altitude": "800",
+        "hex_id": "7C79B7",
+        "session": "24",
+        "offset": "0",
+        "duration": "60",
+        "file_length": "60",
+        "reg": "VH-YBT",
+        "airframe": "Power Driven Aeroplane",
+        "engtype": "Piston",
+        "engnum": "2",
+        "shortdesc": "L2P",
+        "typedesig": "DA42",
+        "manu": "DIAMOND AIRCRAFT INDUSTRIES",
+        "model": "DA 42",
+        "engmanu": "TEXTRON LYCOMING",
+        "engmodel": "IO-360-M1A",
+        "engfamily": "IO-360",
+        "fueltype": "Gasoline",
+        "propmanu": "MT PROPELLERS",
+        "propmodel": "MTV-12-B-C-F",
+        "mtow": "1700"
+      },
+      "zip_entry": {
+        "filename": "audio/1/7C79B7_2023-05-09_12-39-52_2_1.wav",
+        "method": 8,
+        "crc32": 615055157,
+        "compressed_size": 1658987,
+        "size": 2646044,
+        "offset": 989550291
+      },
+      "range_receipt": {
+        "local_header_offset": 989550291,
+        "compressed_offset": 989550363,
+        "compressed_bytes": 1658987,
+        "crc32_verified": true
+      },
+      "recording_time": {
+        "source_filename_clock": "2023-05-09T12:39:52",
+        "timezone_verified": false,
+        "hypotheses": [
+          {
+            "timezone": "Australia/Adelaide",
+            "start_utc": "2023-05-09T03:09:52+00:00",
+            "start_unix_s": 1683601792.0
+          },
+          {
+            "timezone": "UTC",
+            "start_utc": "2023-05-09T12:39:52+00:00",
+            "start_unix_s": 1683635992.0
+          }
+        ],
+        "timing_accuracy_s": null,
+        "note": "Source gives ADS-B trigger and filename recording time, but not timezone or calibrated first-sample accuracy. Full60-second files selected to avoid trimming ambiguity."
+      },
+      "public_location_reference": {
+        "lat": -34.96428,
+        "lon": 138.51011,
+        "location_id": "2",
+        "is_exact_microphone_coordinate": false,
+        "displacement_bound_m": null,
+        "source_description": "Source deliberately provides a nearby road/public-space coordinate instead of actual recorder location."
+      },
+      "validation_eligibility": {
+        "public_reference_distance": true,
+        "true_microphone_error_m": false,
+        "reason": "Unknown privacy displacement. Report public-reference distance separately from true microphone error."
+      },
+      "rights": {
+        "license": "CC-BY-NC-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "creator": "Blake Downward",
+        "public_static_default": false
+      }
+    },
+    {
+      "id": "7C6275_2023-05-09_14-22-08_0_1",
+      "audio_path": "audio/7C6275_2023-05-09_14-22-08_0_1.wav",
+      "audio_sha256": "3c7608fd2cfacc4d716c7034df3837620de52f24e580345f5e31e120f80bcbb1",
+      "audio": {
+        "channels": 1,
+        "sample_rate": 22050,
+        "duration_s": 60.0,
+        "sample_width": 2
+      },
+      "source_metadata": {
+        "train-test": "test",
+        "fold": "test",
+        "filename": "7C6275_2023-05-09_14-22-08_0_1.wav",
+        "date": "2023-05-09",
+        "time": "14-22-08",
+        "location": "0",
+        "mic": "1",
+        "class": "1",
+        "subclass": "2",
+        "altitude": "2675",
+        "hex_id": "7C6275",
+        "session": "23",
+        "offset": "0",
+        "duration": "46",
+        "file_length": "60",
+        "reg": "VH-TQF",
+        "airframe": "Power Driven Aeroplane",
+        "engtype": "Turboprop",
+        "engnum": "1",
+        "shortdesc": "L1T",
+        "typedesig": "C208",
+        "manu": "CESSNA AIRCRAFT COMPANY",
+        "model": "208B",
+        "engmanu": "PRATT & WHITNEY CANADA",
+        "engmodel": "PT6A-140",
+        "engfamily": "PT6",
+        "fueltype": "Kerosene",
+        "propmanu": "HARTZELL PROPELLERS",
+        "propmodel": "HC-B3TN-3AF/T10890CN",
+        "mtow": "3995"
+      },
+      "zip_entry": {
+        "filename": "audio/1/7C6275_2023-05-09_14-22-08_0_1.wav",
+        "method": 8,
+        "crc32": 245000745,
+        "compressed_size": 1490834,
+        "size": 2646044,
+        "offset": 487745282
+      },
+      "range_receipt": {
+        "local_header_offset": 487745282,
+        "compressed_offset": 487745354,
+        "compressed_bytes": 1490834,
+        "crc32_verified": true
+      },
+      "recording_time": {
+        "source_filename_clock": "2023-05-09T14:22:08",
+        "timezone_verified": false,
+        "hypotheses": [
+          {
+            "timezone": "Australia/Adelaide",
+            "start_utc": "2023-05-09T04:52:08+00:00",
+            "start_unix_s": 1683607928.0
+          },
+          {
+            "timezone": "UTC",
+            "start_utc": "2023-05-09T14:22:08+00:00",
+            "start_unix_s": 1683642128.0
+          }
+        ],
+        "timing_accuracy_s": null,
+        "note": "Source gives ADS-B trigger and filename recording time, but not timezone or calibrated first-sample accuracy. Full60-second files selected to avoid trimming ambiguity."
+      },
+      "public_location_reference": {
+        "lat": -34.85364,
+        "lon": 138.67517,
+        "location_id": "0",
+        "is_exact_microphone_coordinate": false,
+        "displacement_bound_m": null,
+        "source_description": "Source deliberately provides a nearby road/public-space coordinate instead of actual recorder location."
+      },
+      "validation_eligibility": {
+        "public_reference_distance": true,
+        "true_microphone_error_m": false,
+        "reason": "Unknown privacy displacement. Report public-reference distance separately from true microphone error."
+      },
+      "rights": {
+        "license": "CC-BY-NC-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "creator": "Blake Downward",
+        "public_static_default": false
+      }
+    },
+    {
+      "id": "7C3FCB_2023-05-09_15-10-12_0_1",
+      "audio_path": "audio/7C3FCB_2023-05-09_15-10-12_0_1.wav",
+      "audio_sha256": "7aac827ce1b5499688597417705928c68ae28851e80a14317294749453c04ea1",
+      "audio": {
+        "channels": 1,
+        "sample_rate": 22050,
+        "duration_s": 60.0,
+        "sample_width": 2
+      },
+      "source_metadata": {
+        "train-test": "test",
+        "fold": "test",
+        "filename": "7C3FCB_2023-05-09_15-10-12_0_1.wav",
+        "date": "2023-05-09",
+        "time": "15-10-12",
+        "location": "0",
+        "mic": "1",
+        "class": "1",
+        "subclass": "2",
+        "altitude": "3000",
+        "hex_id": "7C3FCB",
+        "session": "23",
+        "offset": "0",
+        "duration": "60",
+        "file_length": "60",
+        "reg": "VH-MVX",
+        "airframe": "Power Driven Aeroplane",
+        "engtype": "Turboprop",
+        "engnum": "2",
+        "shortdesc": "L2T",
+        "typedesig": "BE20",
+        "manu": "HAWKER BEECHCRAFT CORPORATION",
+        "model": "B200C",
+        "engmanu": "PRATT & WHITNEY CANADA",
+        "engmodel": "PT6A-42",
+        "engfamily": "PT6",
+        "fueltype": "Kerosene",
+        "propmanu": "HARTZELL PROPELLERS",
+        "propmodel": "HC-D4N-3A",
+        "mtow": "6100"
+      },
+      "zip_entry": {
+        "filename": "audio/1/7C3FCB_2023-05-09_15-10-12_0_1.wav",
+        "method": 8,
+        "crc32": 2440161449,
+        "compressed_size": 1539846,
+        "size": 2646044,
+        "offset": 404233596
+      },
+      "range_receipt": {
+        "local_header_offset": 404233596,
+        "compressed_offset": 404233668,
+        "compressed_bytes": 1539846,
+        "crc32_verified": true
+      },
+      "recording_time": {
+        "source_filename_clock": "2023-05-09T15:10:12",
+        "timezone_verified": false,
+        "hypotheses": [
+          {
+            "timezone": "Australia/Adelaide",
+            "start_utc": "2023-05-09T05:40:12+00:00",
+            "start_unix_s": 1683610812.0
+          },
+          {
+            "timezone": "UTC",
+            "start_utc": "2023-05-09T15:10:12+00:00",
+            "start_unix_s": 1683645012.0
+          }
+        ],
+        "timing_accuracy_s": null,
+        "note": "Source gives ADS-B trigger and filename recording time, but not timezone or calibrated first-sample accuracy. Full60-second files selected to avoid trimming ambiguity."
+      },
+      "public_location_reference": {
+        "lat": -34.85364,
+        "lon": 138.67517,
+        "location_id": "0",
+        "is_exact_microphone_coordinate": false,
+        "displacement_bound_m": null,
+        "source_description": "Source deliberately provides a nearby road/public-space coordinate instead of actual recorder location."
+      },
+      "validation_eligibility": {
+        "public_reference_distance": true,
+        "true_microphone_error_m": false,
+        "reason": "Unknown privacy displacement. Report public-reference distance separately from true microphone error."
+      },
+      "rights": {
+        "license": "CC-BY-NC-4.0",
+        "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+        "creator": "Blake Downward",
+        "public_static_default": false
+      }
+    }
+  ]
+}

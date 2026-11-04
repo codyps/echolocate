@@ -1,0 +1,38 @@
+{
+  "min_hz": 35.0,
+  "max_hz": 6000.0,
+  "window_s": 0.25,
+  "hop_s": 0.05,
+  "multiresolution": false,
+  "min_event_s": 0.5,
+  "min_drop_hz": 2.0,
+  "max_events": 8,
+  "frequency_sigma_hz": 4.0,
+  "bounds": {
+    "west": -0.001347472926179282,
+    "east": 0.001347472926179282,
+    "south": -0.001356554215575573,
+    "north": 0.001356554215575573
+  },
+  "grid_spacing_m": 25.0,
+  "mode_separation_m": 25.0,
+  "refinement_levels": 2,
+  "max_cells": 5000,
+  "max_hypotheses": 100000,
+  "clock_step_s": 0.1,
+  "clock_radius_s": 0.0,
+  "observer_height_ellipsoid_m": 0.0,
+  "sound_speed_m_s": 339.8900146484375,
+  "wind_east_m_s": 1.72846,
+  "wind_north_m_s": 4.52837,
+  "wind_up_m_s": 0.0,
+  "time_prior": {
+    "windows": [
+      {
+        "start_unix_s": 1002.95,
+        "end_unix_s": 1003.05,
+        "weight": 1.0
+      }
+    ]
+  }
+}

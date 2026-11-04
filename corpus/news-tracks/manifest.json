@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "source": "adsb.lol historical readsb traces and original GitHub daily releases",
+  "license": "ODbL-1.0",
+  "license_evidence": "license-receipt.json",
+  "acquired_utc": "2026-11-04T01:10:30.852196+00:00",
+  "days": [
+    {
+      "date": "2025-09-12",
+      "attempted_ids": 189,
+      "acquired_traces": 188,
+      "geometric_height_traces": 187,
+      "trace_receipt": "2025-09-12/trace-receipt.json",
+      "discovery_windows": [
+        {
+          "start_unix_s": 1757678400.0,
+          "end_unix_s": 1757680190.0,
+          "markers": 180,
+          "candidate_ids": 107
+        },
+        {
+          "start_unix_s": 1757680200.0,
+          "end_unix_s": 1757681990.0,
+          "markers": 180,
+          "candidate_ids": 130
+        }
+      ]
+    },
+    {
+      "date": "2024-08-21",
+      "attempted_ids": 245,
+      "acquired_traces": 245,
+      "geometric_height_traces": 234,
+      "trace_receipt": "2024-08-21/trace-receipt.json",
+      "discovery_windows": [
+        {
+          "start_unix_s": 1724270400.0,
+          "end_unix_s": 1724272190.0,
+          "markers": 180,
+          "candidate_ids": 121
+        },
+        {
+          "start_unix_s": 1724272200.0,
+          "end_unix_s": 1724273990.0,
+          "markers": 180,
+          "candidate_ids": 104
+        },
+        {
+          "start_unix_s": 1724274000.0,
+          "end_unix_s": 1724275790.0,
+          "markers": 180,
+          "candidate_ids": 92
+        }
+      ]
+    },
+    {
+      "date": "2025-02-26",
+      "attempted_ids": 19,
+      "acquired_traces": 19,
+      "geometric_height_traces": 19,
+      "trace_receipt": "2025-02-26/trace-receipt.json",
+      "discovery_windows": [
+        {
+          "start_unix_s": 1740589200.0,
+          "end_unix_s": 1740590990.0,
+          "markers": 180,
+          "candidate_ids": 7
+        },
+        {
+          "start_unix_s": 1740596400.0,
+          "end_unix_s": 1740598190.0,
+          "markers": 180,
+          "candidate_ids": 5
+        },
+        {
+          "start_unix_s": 1740603600.0,
+          "end_unix_s": 1740605390.0,
+          "markers": 180,
+          "candidate_ids": 8
+        }
+      ]
+    }
+  ],
+  "af1": {
+    "trace_path": "2025-11-09/traces/trace_full_adfdf9.json",
+    "icao": "adfdf9",
+    "registration": "92-9000",
+    "callsign": "AF1",
+    "geometric_height_available": false,
+    "points": 838,
+    "archive_range_receipt": "2025-11-09/traces/trace_full_adfdf9.receipt.json",
+    "pool_report_url": "https://www.presidency.ucsb.edu/documents/pool-reports-november-9-2025",
+    "regional_candidate_ids": 76,
+    "acquired_traces": 3,
+    "geometric_height_competitors": 2,
+    "archive_trace_receipt": "2025-11-09/archive-trace-receipt.json",
+    "discovery_window": {
+      "start_unix_s": 1762723800.0,
+      "end_unix_s": 1762725590.0
+    }
+  },
+  "limitations": [
+    "Discovery windows are limited samples, not complete daily regional coverage.",
+    "Source traces have gaps and variable sensor provenance.",
+    "No microphone coordinates or waveform-start clocks are established by these aircraft observations.",
+    "No acoustic source association or location-error validation is implied by a historical track."
+  ],
+  "original_creator_reference": {
+    "date": "2026-09-08",
+    "source_audio_url": "https://www.youtube.com/watch?v=4CxVxuMVkMc",
+    "creator_methodology_url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+    "source_date_evidence": "Parent investigation independently confirmed creator date9/8/26; do not replace with archived2024/2025year probes.",
+    "discovery": {
+      "center_lat": 40.88,
+      "center_lon": -73.53,
+      "radius_m": 20000,
+      "start_utc": "2026-09-08T20:30:00Z",
+      "end_utc": "2026-09-08T21:30:00Z"
+    },
+    "replay_ids_within_20km": 133,
+    "acquired_competitive_traces": 36,
+    "geometric_height_traces": 36,
+    "assisted_pair": [
+      "a1dfeb",
+      "ace391"
+    ],
+    "competitive_receipt": "2026-09-08/competitive-receipt.json",
+    "trace_directory": "2026-09-08/traces",
+    "coverage_complete": false,
+    "selection": "Source replay geographic/time query, uniformly sampled tar headers plus selected archive hash-directory windows. No aircraft-type or acoustic-score filter. Two creator-identifiedflights are separately labeled supplied-associationbaselines.",
+    "missing": [
+      "Independent microphone survey and independently verified waveform-startUTC are not supplied by the flight data.",
+      "Only36of133replay-discovered20kmIDs are acquired; unacquired candidates could change ranking."
+    ]
+  },
+  "range_restore": {
+    "script": "restore_ranges.py",
+    "manifest": "range-downloads.json",
+    "verification": "43originalmembersSHAverifiedoffline",
+    "license_restorable": true
+  },
+  "excluded_year_probes": {
+    "manifest": "original-year-probe.json",
+    "dates": [
+      "2024-09-08",
+      "2025-09-08"
+    ],
+    "used_for_original_validation": false
+  }
+}

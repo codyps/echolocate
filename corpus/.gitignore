@@ -1,0 +1,3 @@
+# Publisher-owned audio stays local. Do not deploy these with the static app.
+audio/fox-*.wav
+*.partial.wav

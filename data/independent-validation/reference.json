@@ -1,0 +1,28 @@
+{
+  "kind": "metadata-reconstructed reference; not independently surveyed GPS",
+  "audio_used": false,
+  "reference_lat": 37.66320218187498,
+  "reference_lon": -121.7818593252929,
+  "reference_xy_m": [
+    -1044.8393024655402,
+    -1864.5578118772876
+  ],
+  "recorder_msl_m": 153.24426300000005,
+  "source_cases": [
+    "N373DF_R06",
+    "N784MB_R04",
+    "N788BM_R03"
+  ],
+  "offset_residuals_m": [
+    0.3170473263403437,
+    0.181403507669188,
+    -0.22523623920176306
+  ],
+  "height_estimates_msl_m": [
+    153.24208149228934,
+    153.24426300000005,
+    153.264198872517
+  ],
+  "uncertainty_bound_known": false,
+  "conditional_on": "The source used one recorder site for these passages; nearby-point geometric consistency is checked separately for every new case."
+}

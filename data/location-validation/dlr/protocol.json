@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "kind": "real_audio_local_frame_validation",
+  "arbitrary_embedding": {
+    "origin_lat_lon_h": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "east_m_per_degree": 111319.49079327358,
+    "north_m_per_degree": 110574.27582159436
+  },
+  "cases": [
+    {
+      "id": "dlr-rec139-mic-000-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-000-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-000-measured-knots.config.json",
+      "source_channel": 0,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-046-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-046-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-046-measured-knots.config.json",
+      "source_channel": 46,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-092-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-092-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-092-measured-knots.config.json",
+      "source_channel": 92,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-138-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-138-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-138-measured-knots.config.json",
+      "source_channel": 138,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-184-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-184-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-184-measured-knots.config.json",
+      "source_channel": 184,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-230-measured-knots",
+      "protocol": "measured-knots",
+      "audio": "data/location-validation/dlr/dlr-rec139-mic-230-measured-knots.wav",
+      "package": "data/location-validation/dlr/measured-knots.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-230-measured-knots.config.json",
+      "source_channel": 230,
+      "waveform_start_source_s": 3.0,
+      "duration_s": 1.8000083001328022,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-000-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-000.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-000-constant-velocity-extension.config.json",
+      "source_channel": 0,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-046-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-046.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-046-constant-velocity-extension.config.json",
+      "source_channel": 46,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-092-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-092.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-092-constant-velocity-extension.config.json",
+      "source_channel": 92,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-138-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-138.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-138-constant-velocity-extension.config.json",
+      "source_channel": 138,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-184-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-184.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-184-constant-velocity-extension.config.json",
+      "source_channel": 184,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    },
+    {
+      "id": "dlr-rec139-mic-230-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "audio": "corpus/ground-truth/dlr-rec139/mic-230.wav",
+      "package": "data/location-validation/dlr/constant-velocity-extension.package.json",
+      "config": "data/location-validation/dlr/dlr-rec139-mic-230-constant-velocity-extension.config.json",
+      "source_channel": 230,
+      "waveform_start_source_s": 0.0,
+      "duration_s": 7.0,
+      "truth_file": "corpus/ground-truth/dlr-rec139/receiver-truth.json",
+      "truth_role": "evaluation only, never inference input",
+      "absolute_geographic_accuracy_eligible": false
+    }
+  ],
+  "notes": [
+    "No receiver coordinates read during preparation. Known geometry bounds enclose the array but are not individualized to any microphone.",
+    "Compare errors with the array-origin baseline; six correlated channels do not establish generalization.",
+    "No frequency band, event window, or clock is selected using location error. Primary crop is determined by shared source support and declared search extent."
+  ]
+}

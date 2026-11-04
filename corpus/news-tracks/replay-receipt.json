@@ -1,0 +1,12 @@
+[
+  {
+    "day": "2025-11-09",
+    "chunk": 43,
+    "ok": true,
+    "receipt": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/11/09/heatmap/43.bin.ttf",
+      "bytes": 19645707
+    }
+  }
+]

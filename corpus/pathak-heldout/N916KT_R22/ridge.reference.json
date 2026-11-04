@@ -1,0 +1,1560 @@
+{
+  "source": "author supplied ridge; not automatic detector output",
+  "time_origin_unix_s": 1778951587.9,
+  "time_origin_is_wav_start": false,
+  "event": {
+    "id": 0,
+    "start_s": 0.0,
+    "end_s": 67.43099999427795,
+    "center_s": 33.71549999713898,
+    "drop_hz": 178.19600000000003,
+    "harmonics": 1,
+    "points": [
+      {
+        "time_s": 0.0,
+        "frequency_hz": 896.788,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 0.742999792098999,
+        "frequency_hz": 893.313,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 0.9289999008178711,
+        "frequency_hz": 902.829,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 1.113999843597412,
+        "frequency_hz": 903.246,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 1.2999999523162842,
+        "frequency_hz": 888.857,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 1.4859998226165771,
+        "frequency_hz": 893.183,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 1.6719999313354492,
+        "frequency_hz": 903.947,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 1.8569998741149902,
+        "frequency_hz": 901.095,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.0429999828338623,
+        "frequency_hz": 899.337,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.2289998531341553,
+        "frequency_hz": 903.699,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.4149999618530273,
+        "frequency_hz": 899.689,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.5999999046325684,
+        "frequency_hz": 900.426,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.7860000133514404,
+        "frequency_hz": 903.532,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 2.9719998836517334,
+        "frequency_hz": 900.0,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 3.1579999923706055,
+        "frequency_hz": 901.668,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 3.3439998626708984,
+        "frequency_hz": 902.711,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 3.5289998054504395,
+        "frequency_hz": 902.711,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 3.7149999141693115,
+        "frequency_hz": 904.26,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 3.9010000228881836,
+        "frequency_hz": 903.411,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 4.086999893188477,
+        "frequency_hz": 902.262,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 4.271999835968018,
+        "frequency_hz": 902.485,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 4.45799994468689,
+        "frequency_hz": 901.275,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 4.643999814987183,
+        "frequency_hz": 898.29,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 4.829999923706055,
+        "frequency_hz": 909.951,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 5.014999866485596,
+        "frequency_hz": 906.271,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 5.386999845504761,
+        "frequency_hz": 901.205,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 5.572999954223633,
+        "frequency_hz": 901.058,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 5.757999897003174,
+        "frequency_hz": 897.508,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 5.944000005722046,
+        "frequency_hz": 899.61,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 6.129999876022339,
+        "frequency_hz": 898.69,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 6.315999984741211,
+        "frequency_hz": 895.768,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 6.500999927520752,
+        "frequency_hz": 896.622,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 6.686999797821045,
+        "frequency_hz": 896.046,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 6.872999906539917,
+        "frequency_hz": 894.174,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.059000015258789,
+        "frequency_hz": 892.785,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.24399995803833,
+        "frequency_hz": 906.746,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.429999828338623,
+        "frequency_hz": 896.274,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.615999937057495,
+        "frequency_hz": 900.066,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.801999807357788,
+        "frequency_hz": 893.926,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 7.98799991607666,
+        "frequency_hz": 893.991,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 8.172999858856201,
+        "frequency_hz": 900.38,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 8.358999967575073,
+        "frequency_hz": 900.635,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 10.587999820709229,
+        "frequency_hz": 894.648,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 10.7739999294281,
+        "frequency_hz": 893.237,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 11.330999851226807,
+        "frequency_hz": 892.034,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 11.516999959945679,
+        "frequency_hz": 904.593,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 12.073999881744385,
+        "frequency_hz": 889.202,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 12.259999990463257,
+        "frequency_hz": 890.349,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 12.44599986076355,
+        "frequency_hz": 888.803,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 12.631999969482422,
+        "frequency_hz": 887.116,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 12.816999912261963,
+        "frequency_hz": 901.167,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.003000020980835,
+        "frequency_hz": 894.002,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.188999891281128,
+        "frequency_hz": 892.174,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.375,
+        "frequency_hz": 897.136,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.559999942779541,
+        "frequency_hz": 901.426,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.745999813079834,
+        "frequency_hz": 897.141,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 13.931999921798706,
+        "frequency_hz": 886.935,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 14.117999792098999,
+        "frequency_hz": 880.048,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 14.30299997329712,
+        "frequency_hz": 881.385,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 14.488999843597412,
+        "frequency_hz": 881.728,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 14.674999952316284,
+        "frequency_hz": 885.657,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 14.860999822616577,
+        "frequency_hz": 877.713,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 15.046000003814697,
+        "frequency_hz": 873.897,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 15.23199987411499,
+        "frequency_hz": 874.538,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 15.417999982833862,
+        "frequency_hz": 875.984,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 15.603999853134155,
+        "frequency_hz": 881.442,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 15.974999904632568,
+        "frequency_hz": 882.378,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 16.16100001335144,
+        "frequency_hz": 883.102,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 16.346999883651733,
+        "frequency_hz": 883.78,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 16.531999826431274,
+        "frequency_hz": 881.5,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 16.717999935150146,
+        "frequency_hz": 880.19,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 17.08999991416931,
+        "frequency_hz": 889.438,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 17.276000022888184,
+        "frequency_hz": 877.413,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 17.460999965667725,
+        "frequency_hz": 877.773,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 17.646999835968018,
+        "frequency_hz": 878.28,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 17.83299994468689,
+        "frequency_hz": 877.859,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.018999814987183,
+        "frequency_hz": 876.233,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.203999996185303,
+        "frequency_hz": 874.645,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.389999866485596,
+        "frequency_hz": 872.917,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.575999975204468,
+        "frequency_hz": 874.379,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.76199984550476,
+        "frequency_hz": 874.547,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 18.9469997882843,
+        "frequency_hz": 875.53,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 19.132999897003174,
+        "frequency_hz": 869.564,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 19.319000005722046,
+        "frequency_hz": 861.117,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 19.50499987602234,
+        "frequency_hz": 870.474,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 19.68999981880188,
+        "frequency_hz": 870.805,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 19.875999927520752,
+        "frequency_hz": 871.429,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.061999797821045,
+        "frequency_hz": 872.263,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.247999906539917,
+        "frequency_hz": 871.339,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.432999849319458,
+        "frequency_hz": 873.506,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.61899995803833,
+        "frequency_hz": 870.132,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.804999828338623,
+        "frequency_hz": 873.298,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 20.990999937057495,
+        "frequency_hz": 876.655,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 21.175999879837036,
+        "frequency_hz": 869.154,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 21.361999988555908,
+        "frequency_hz": 869.66,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 21.5479998588562,
+        "frequency_hz": 869.368,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 21.733999967575073,
+        "frequency_hz": 867.127,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 21.919999837875366,
+        "frequency_hz": 877.784,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 22.105000019073486,
+        "frequency_hz": 872.273,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 22.29099988937378,
+        "frequency_hz": 875.882,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 22.47699999809265,
+        "frequency_hz": 874.717,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 22.662999868392944,
+        "frequency_hz": 867.967,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 22.847999811172485,
+        "frequency_hz": 867.77,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 23.21999979019165,
+        "frequency_hz": 864.592,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 23.405999898910522,
+        "frequency_hz": 864.929,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 23.590999841690063,
+        "frequency_hz": 858.833,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 23.776999950408936,
+        "frequency_hz": 869.806,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 24.33399987220764,
+        "frequency_hz": 851.674,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 24.89199995994568,
+        "frequency_hz": 851.62,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 25.07699990272522,
+        "frequency_hz": 855.336,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 25.263000011444092,
+        "frequency_hz": 853.288,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 25.448999881744385,
+        "frequency_hz": 852.193,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 25.634999990463257,
+        "frequency_hz": 848.178,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 25.819999933242798,
+        "frequency_hz": 855.848,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.00599980354309,
+        "frequency_hz": 853.097,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.191999912261963,
+        "frequency_hz": 854.762,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.378000020980835,
+        "frequency_hz": 855.707,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.562999963760376,
+        "frequency_hz": 856.665,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.74899983406067,
+        "frequency_hz": 846.74,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 26.93499994277954,
+        "frequency_hz": 837.616,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 27.120999813079834,
+        "frequency_hz": 847.149,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 27.306999921798706,
+        "frequency_hz": 854.208,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 27.491999864578247,
+        "frequency_hz": 841.36,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.049999952316284,
+        "frequency_hz": 842.371,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.234999895095825,
+        "frequency_hz": 844.438,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.421000003814697,
+        "frequency_hz": 849.626,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.60699987411499,
+        "frequency_hz": 841.923,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.792999982833862,
+        "frequency_hz": 839.029,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 28.977999925613403,
+        "frequency_hz": 838.479,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 29.163999795913696,
+        "frequency_hz": 840.702,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 29.34999990463257,
+        "frequency_hz": 837.261,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 29.53600001335144,
+        "frequency_hz": 834.947,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 29.72099995613098,
+        "frequency_hz": 836.13,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 29.906999826431274,
+        "frequency_hz": 834.874,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 30.092999935150146,
+        "frequency_hz": 839.824,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 30.27899980545044,
+        "frequency_hz": 830.473,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 30.46399998664856,
+        "frequency_hz": 829.27,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 30.649999856948853,
+        "frequency_hz": 829.292,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 30.835999965667725,
+        "frequency_hz": 829.302,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.021999835968018,
+        "frequency_hz": 827.6,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.207000017166138,
+        "frequency_hz": 826.41,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.39299988746643,
+        "frequency_hz": 827.233,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.578999996185303,
+        "frequency_hz": 823.642,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.764999866485596,
+        "frequency_hz": 825.601,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 31.950999975204468,
+        "frequency_hz": 826.504,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 32.13599991798401,
+        "frequency_hz": 825.859,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 32.3219997882843,
+        "frequency_hz": 823.106,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 32.507999897003174,
+        "frequency_hz": 824.264,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 32.694000005722046,
+        "frequency_hz": 823.076,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 32.87899994850159,
+        "frequency_hz": 822.248,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 33.06499981880188,
+        "frequency_hz": 820.382,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 33.25099992752075,
+        "frequency_hz": 819.925,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 33.436999797821045,
+        "frequency_hz": 818.538,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 33.80799984931946,
+        "frequency_hz": 817.447,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 33.99399995803833,
+        "frequency_hz": 815.67,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 34.17999982833862,
+        "frequency_hz": 816.538,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 34.36500000953674,
+        "frequency_hz": 815.794,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 34.550999879837036,
+        "frequency_hz": 814.133,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 34.73699998855591,
+        "frequency_hz": 812.927,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 34.9229998588562,
+        "frequency_hz": 812.383,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 35.10799980163574,
+        "frequency_hz": 816.333,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 35.293999910354614,
+        "frequency_hz": 813.386,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 35.480000019073486,
+        "frequency_hz": 809.007,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 35.66599988937378,
+        "frequency_hz": 804.877,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 35.85099983215332,
+        "frequency_hz": 807.527,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.03699994087219,
+        "frequency_hz": 806.186,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.222999811172485,
+        "frequency_hz": 802.812,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.40899991989136,
+        "frequency_hz": 805.995,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.59499979019165,
+        "frequency_hz": 806.319,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.77999997138977,
+        "frequency_hz": 805.906,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 36.96599984169006,
+        "frequency_hz": 800.97,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 37.151999950408936,
+        "frequency_hz": 803.105,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 37.33799982070923,
+        "frequency_hz": 804.477,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 37.52300000190735,
+        "frequency_hz": 807.657,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 37.70899987220764,
+        "frequency_hz": 799.892,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 37.894999980926514,
+        "frequency_hz": 798.42,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 38.08099985122681,
+        "frequency_hz": 799.819,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 38.26599979400635,
+        "frequency_hz": 797.261,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 38.45199990272522,
+        "frequency_hz": 796.895,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 38.63800001144409,
+        "frequency_hz": 797.075,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 38.823999881744385,
+        "frequency_hz": 793.879,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.008999824523926,
+        "frequency_hz": 794.665,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.1949999332428,
+        "frequency_hz": 792.177,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.38099980354309,
+        "frequency_hz": 790.423,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.56699991226196,
+        "frequency_hz": 788.913,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.751999855041504,
+        "frequency_hz": 788.731,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 39.937999963760376,
+        "frequency_hz": 789.459,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 40.12399983406067,
+        "frequency_hz": 786.803,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 40.30999994277954,
+        "frequency_hz": 786.228,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 40.49499988555908,
+        "frequency_hz": 785.5,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 40.680999994277954,
+        "frequency_hz": 784.801,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 40.86699986457825,
+        "frequency_hz": 784.714,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.05299997329712,
+        "frequency_hz": 784.044,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.23899984359741,
+        "frequency_hz": 782.345,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.42399978637695,
+        "frequency_hz": 782.998,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.609999895095825,
+        "frequency_hz": 781.163,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.7960000038147,
+        "frequency_hz": 780.972,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 41.98199987411499,
+        "frequency_hz": 779.263,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 42.16699981689453,
+        "frequency_hz": 776.762,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 42.3529999256134,
+        "frequency_hz": 776.637,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 42.538999795913696,
+        "frequency_hz": 776.522,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 42.90999984741211,
+        "frequency_hz": 772.286,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 43.46799993515015,
+        "frequency_hz": 771.286,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 43.65299987792969,
+        "frequency_hz": 771.514,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 43.83899998664856,
+        "frequency_hz": 768.955,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 44.02499985694885,
+        "frequency_hz": 769.748,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 44.210999965667725,
+        "frequency_hz": 768.834,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 44.58200001716614,
+        "frequency_hz": 767.761,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 44.76799988746643,
+        "frequency_hz": 767.876,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 44.9539999961853,
+        "frequency_hz": 768.258,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 45.138999938964844,
+        "frequency_hz": 768.434,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 45.32499980926514,
+        "frequency_hz": 761.553,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 45.51099991798401,
+        "frequency_hz": 763.839,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 45.6969997882843,
+        "frequency_hz": 764.014,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 45.88199996948242,
+        "frequency_hz": 762.869,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.067999839782715,
+        "frequency_hz": 761.155,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.25399994850159,
+        "frequency_hz": 763.995,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.43999981880188,
+        "frequency_hz": 757.529,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.62599992752075,
+        "frequency_hz": 759.265,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.81099987030029,
+        "frequency_hz": 759.189,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 46.996999979019165,
+        "frequency_hz": 758.475,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 47.18299984931946,
+        "frequency_hz": 758.934,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 47.36899995803833,
+        "frequency_hz": 756.968,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 47.55399990081787,
+        "frequency_hz": 759.038,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 47.925999879837036,
+        "frequency_hz": 753.588,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 48.11199998855591,
+        "frequency_hz": 753.877,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 48.29699993133545,
+        "frequency_hz": 752.848,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 48.48299980163574,
+        "frequency_hz": 754.852,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 48.668999910354614,
+        "frequency_hz": 755.092,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 48.855000019073486,
+        "frequency_hz": 754.556,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.03999996185303,
+        "frequency_hz": 755.61,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.22599983215332,
+        "frequency_hz": 751.737,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.41199994087219,
+        "frequency_hz": 751.616,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.597999811172485,
+        "frequency_hz": 749.714,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.782999992370605,
+        "frequency_hz": 749.4,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 49.9689998626709,
+        "frequency_hz": 749.071,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 50.15499997138977,
+        "frequency_hz": 748.656,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 50.34099984169006,
+        "frequency_hz": 748.036,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 50.526000022888184,
+        "frequency_hz": 747.893,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 50.71199989318848,
+        "frequency_hz": 749.466,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 50.89800000190735,
+        "frequency_hz": 744.473,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 51.08399987220764,
+        "frequency_hz": 747.958,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 51.269999980926514,
+        "frequency_hz": 745.39,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 51.454999923706055,
+        "frequency_hz": 747.951,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 51.64099979400635,
+        "frequency_hz": 742.612,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 51.82699990272522,
+        "frequency_hz": 744.722,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.01300001144409,
+        "frequency_hz": 745.169,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.19799995422363,
+        "frequency_hz": 747.052,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.383999824523926,
+        "frequency_hz": 748.605,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.5699999332428,
+        "frequency_hz": 735.136,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.75599980354309,
+        "frequency_hz": 745.687,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 52.94099998474121,
+        "frequency_hz": 744.511,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 53.126999855041504,
+        "frequency_hz": 751.547,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 53.312999963760376,
+        "frequency_hz": 746.27,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 53.49899983406067,
+        "frequency_hz": 743.453,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 53.68400001525879,
+        "frequency_hz": 739.764,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 53.86999988555908,
+        "frequency_hz": 744.379,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.055999994277954,
+        "frequency_hz": 743.388,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.24199986457825,
+        "frequency_hz": 741.38,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.42699980735779,
+        "frequency_hz": 739.452,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.61299991607666,
+        "frequency_hz": 739.047,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.79899978637695,
+        "frequency_hz": 739.692,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 54.984999895095825,
+        "frequency_hz": 738.37,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 55.169999837875366,
+        "frequency_hz": 738.943,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 55.35599994659424,
+        "frequency_hz": 739.17,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 55.54199981689453,
+        "frequency_hz": 738.478,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 55.7279999256134,
+        "frequency_hz": 738.24,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 55.913999795913696,
+        "frequency_hz": 737.027,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 56.098999977111816,
+        "frequency_hz": 736.744,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 56.28499984741211,
+        "frequency_hz": 735.752,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 56.47099995613098,
+        "frequency_hz": 735.443,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 56.656999826431274,
+        "frequency_hz": 735.511,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 56.842000007629395,
+        "frequency_hz": 734.371,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.02799987792969,
+        "frequency_hz": 732.225,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.21399998664856,
+        "frequency_hz": 734.253,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.39999985694885,
+        "frequency_hz": 732.931,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.584999799728394,
+        "frequency_hz": 731.555,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.770999908447266,
+        "frequency_hz": 730.726,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 57.95700001716614,
+        "frequency_hz": 730.655,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 58.14299988746643,
+        "frequency_hz": 731.4,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 58.32799983024597,
+        "frequency_hz": 730.545,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 58.513999938964844,
+        "frequency_hz": 725.865,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 58.69999980926514,
+        "frequency_hz": 728.876,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 58.88599991798401,
+        "frequency_hz": 730.021,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 59.62899994850159,
+        "frequency_hz": 728.167,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 59.81399989128113,
+        "frequency_hz": 725.912,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 60.0,
+        "frequency_hz": 708.894,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 60.371999979019165,
+        "frequency_hz": 714.308,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 60.55799984931946,
+        "frequency_hz": 719.117,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 60.742999792099,
+        "frequency_hz": 719.025,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 60.92899990081787,
+        "frequency_hz": 724.98,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 61.11500000953674,
+        "frequency_hz": 724.512,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 61.300999879837036,
+        "frequency_hz": 723.616,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 61.48599982261658,
+        "frequency_hz": 725.081,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 62.228999853134155,
+        "frequency_hz": 724.523,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 62.41499996185303,
+        "frequency_hz": 722.978,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 62.60099983215332,
+        "frequency_hz": 730.314,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 62.78699994087219,
+        "frequency_hz": 721.881,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 62.97199988365173,
+        "frequency_hz": 718.209,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 63.157999992370605,
+        "frequency_hz": 725.936,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 63.3439998626709,
+        "frequency_hz": 730.604,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 63.52999997138977,
+        "frequency_hz": 719.519,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 63.71499991416931,
+        "frequency_hz": 719.501,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 63.901000022888184,
+        "frequency_hz": 719.428,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 64.08699989318848,
+        "frequency_hz": 718.076,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 65.20099997520447,
+        "frequency_hz": 709.584,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 65.38699984550476,
+        "frequency_hz": 718.698,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 67.24499988555908,
+        "frequency_hz": 719.305,
+        "strength_db": 0.0
+      },
+      {
+        "time_s": 67.43099999427795,
+        "frequency_hz": 718.592,
+        "strength_db": 0.0
+      }
+    ]
+  }
+}

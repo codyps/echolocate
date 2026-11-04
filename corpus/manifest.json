@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "collected_at_utc": "2026-11-04T00:32:12.600785+00:00",
+  "purpose": "Local research corpus from news reports and one public-affairs turboprop clip. These are not validated geolocation ground truth.",
+  "audio_format": "mono 16 kHz PCM16 WAV excerpts",
+  "total_audio_bytes": 6368144,
+  "recordings": [
+    {
+      "id": "fox-thunderbirds",
+      "title": "USAF Thunderbirds flyover National Mall",
+      "publisher": "FOX 5 DC",
+      "source_kind": "broadcast_news_clip",
+      "source_url": "https://www.fox5dc.com/video/1706587",
+      "publication_time": "2025-09-12T08:40:00-04:00",
+      "event_date": "2025-09-12",
+      "event_timezone": "America/New_York",
+      "event_region": {
+        "label": "National Mall and central Washington, DC",
+        "bbox_west_south_east_north": [
+          -77.12,
+          38.8,
+          -76.9,
+          39.0
+        ]
+      },
+      "event_utc_range": [
+        "2025-09-12T04:00:00Z",
+        "2025-09-13T04:00:00Z"
+      ],
+      "event_evidence": "The publisher identifies the National Mall and says the flyover occurred Friday morning. Date is supported by the same-day publication; exact capture time is absent.",
+      "event_kind": "formation_jet_flyover",
+      "publication_is_capture_time": false,
+      "microphone_location_known": false,
+      "continuity": "Unverified. The excerpt may contain studio narration, edits, or more than one camera/audio source.",
+      "suitability": "Real broadcast stress test; jets may have weak or absent stable propeller-like harmonics. Not an accuracy benchmark.",
+      "audio": {
+        "path": "audio/fox-thunderbirds.wav",
+        "sha256": "3d7c341bd404c2ef33b27b43650ab93d7f64b74739d4dbc18b314691cc3b5e2e",
+        "bytes": 1920044,
+        "codec": "PCM signed 16-bit little endian",
+        "sample_rate_hz": 16000,
+        "channels": 1,
+        "frames": 960000,
+        "duration_seconds": 60.0,
+        "rms_dbfs": -49.238893032192834,
+        "peak_fraction_full_scale": 0.1094970703125,
+        "clipped_sample_fraction": 0.0
+      },
+      "acquisition": {
+        "media_url": "https://static-clips.fox.com/proxy/fts_clip/digital/fts/wttg/1706587/1706587__s2i9P90BbQq6eGBWZVaiE7ktTZM_lowres.mp4",
+        "start_seconds": 0,
+        "duration_seconds": 60,
+        "transform": "ffmpeg decode, first declared seconds, downmix to mono, resample to 16 kHz PCM16, remove metadata, bitexact WAV header",
+        "source_media_modified": false
+      },
+      "rights": {
+        "status": "publisher_copyright",
+        "holder": "FOX 5 DC",
+        "redistribute_with_public_app": false,
+        "note": "Collected locally at user request for research. Public availability does not establish an open redistribution license."
+      },
+      "recording_start_utc_range": null,
+      "microphone_coordinate": null,
+      "validation": {
+        "accuracy_eligible": false,
+        "role": "real_world_smoke_and_abstention",
+        "trajectory_available": false,
+        "doppler_presence_verified": false,
+        "label_grade": "event_date_and_region_only",
+        "missing": [
+          "verified ambient-audio segment boundaries",
+          "microphone coordinate with uncertainty",
+          "first-sample UTC range",
+          "matched historical trajectory"
+        ],
+        "notes": "Event-region boxes are conservative research search areas chosen from the publisher location, not verified microphone bounds and not truth coordinates."
+      }
+    },
+    {
+      "id": "fox-frecce",
+      "title": "Italian Air Force's Frecce Tricolori fly over DC",
+      "publisher": "FOX 5 DC",
+      "source_kind": "broadcast_news_clip",
+      "source_url": "https://www.fox5dc.com/video/1504530",
+      "evidence_urls": [
+        "https://www.fox5dc.com/news/italian-air-forces-frecce-tricolori-fly-over-dc-wednesday-afternoon"
+      ],
+      "publication_time": "2024-08-21T17:24:00-04:00",
+      "event_date": "2024-08-21",
+      "event_timezone": "America/New_York",
+      "event_region": {
+        "label": "Central Washington, DC, route south of National Mall",
+        "bbox_west_south_east_north": [
+          -77.12,
+          38.8,
+          -76.9,
+          39.0
+        ]
+      },
+      "event_utc_range": [
+        "2024-08-21T04:00:00Z",
+        "2024-08-22T04:00:00Z"
+      ],
+      "event_evidence": "The associated report identifies August 21 and Washington, DC, and places the flyover just before 5 p.m. This describes the aircraft event, not the start of this edited news clip.",
+      "event_kind": "formation_jet_flyover",
+      "publication_is_capture_time": false,
+      "microphone_location_known": false,
+      "continuity": "Unverified edited broadcast. Do not assign the event time to the first audio sample.",
+      "suitability": "Real broadcast stress test; source dates and city are evidence only, with no microphone coordinate or exact recording start. Not an accuracy benchmark.",
+      "audio": {
+        "path": "audio/fox-frecce.wav",
+        "sha256": "fc3ac6c5a21eecccf5b376e038d5067be9ed219f55a57ed768da2754d8f2a4ba",
+        "bytes": 1440044,
+        "codec": "PCM signed 16-bit little endian",
+        "sample_rate_hz": 16000,
+        "channels": 1,
+        "frames": 720000,
+        "duration_seconds": 45.0,
+        "rms_dbfs": -24.549195784122155,
+        "peak_fraction_full_scale": 0.58160400390625,
+        "clipped_sample_fraction": 0.0
+      },
+      "acquisition": {
+        "media_url": "https://static-clips.fox.com/proxy/fts_clip/svc_hf_fts_clip_prod/WM_WTTG_49419271512_49419271613/49419271613/hf-uuid-f2cbacc2-08e1-49a0-8542-75c8109bda30/49419271613_lowres.mp4",
+        "start_seconds": 0,
+        "duration_seconds": 45,
+        "transform": "ffmpeg decode, first declared seconds, downmix to mono, resample to 16 kHz PCM16, remove metadata, bitexact WAV header",
+        "source_media_modified": false
+      },
+      "rights": {
+        "status": "publisher_copyright",
+        "holder": "FOX 5 DC",
+        "redistribute_with_public_app": false,
+        "note": "Collected locally at user request for research. Public availability does not establish an open redistribution license."
+      },
+      "recording_start_utc_range": null,
+      "microphone_coordinate": null,
+      "validation": {
+        "accuracy_eligible": false,
+        "role": "real_world_smoke_and_abstention",
+        "trajectory_available": false,
+        "doppler_presence_verified": false,
+        "label_grade": "event_date_and_region_only",
+        "missing": [
+          "verified ambient-audio segment boundaries",
+          "microphone coordinate with uncertainty",
+          "first-sample UTC range",
+          "matched historical trajectory"
+        ],
+        "notes": "Event-region boxes are conservative research search areas chosen from the publisher location, not verified microphone bounds and not truth coordinates."
+      }
+    },
+    {
+      "id": "fox-af1",
+      "title": "Air Force One flies over the Washington Commanders stadium",
+      "publisher": "LiveNOW from FOX",
+      "source_kind": "broadcast_news_clip",
+      "source_url": "https://www.livenowfox.com/video/1737993",
+      "publication_time": "2025-11-09T17:42:00-05:00",
+      "event_date": "2025-11-09",
+      "event_timezone": "America/New_York",
+      "event_region": {
+        "label": "Washington Commanders stadium and surroundings, Landover, Maryland",
+        "bbox_west_south_east_north": [
+          -76.9,
+          38.86,
+          -76.83,
+          38.94
+        ]
+      },
+      "event_utc_range": [
+        "2025-11-09T05:00:00Z",
+        "2025-11-10T05:00:00Z"
+      ],
+      "event_evidence": "The publisher identifies a flyover above the stadium in Landover before the Detroit Lions game. Same-day event association is plausible; publication time is not a capture-time label.",
+      "event_kind": "large_jet_flyover",
+      "publication_is_capture_time": false,
+      "microphone_location_known": false,
+      "continuity": "Unverified edited broadcast; studio voiceover and multiple views are possible.",
+      "suitability": "Real broadcast stress test and large-jet case; exact date/start and microphone location require segment verification before scoring location error.",
+      "audio": {
+        "path": "audio/fox-af1.wav",
+        "sha256": "e90225a3534f0ae1d66e0278c075d1232c658da8078f2c1179cf3222feab6793",
+        "bytes": 1440044,
+        "codec": "PCM signed 16-bit little endian",
+        "sample_rate_hz": 16000,
+        "channels": 1,
+        "frames": 720000,
+        "duration_seconds": 45.0,
+        "rms_dbfs": -27.076615016967224,
+        "peak_fraction_full_scale": 0.29736328125,
+        "clipped_sample_fraction": 0.0
+      },
+      "acquisition": {
+        "media_url": "https://static-clips.fox.com/proxy/fts_clip/digital/fts/lnfx/1737993/1737993__s2i9P90GZQq6eGBeYV7sE_IuTw_lowres.mp4",
+        "start_seconds": 0,
+        "duration_seconds": 45,
+        "transform": "ffmpeg decode, first declared seconds, downmix to mono, resample to 16 kHz PCM16, remove metadata, bitexact WAV header",
+        "source_media_modified": false
+      },
+      "rights": {
+        "status": "publisher_copyright",
+        "holder": "LiveNOW from FOX",
+        "redistribute_with_public_app": false,
+        "note": "Collected locally at user request for research. Public availability does not establish an open redistribution license."
+      },
+      "recording_start_utc_range": null,
+      "microphone_coordinate": null,
+      "validation": {
+        "accuracy_eligible": false,
+        "role": "real_world_smoke_and_abstention",
+        "trajectory_available": false,
+        "doppler_presence_verified": false,
+        "label_grade": "event_date_and_region_only",
+        "missing": [
+          "verified ambient-audio segment boundaries",
+          "microphone coordinate with uncertainty",
+          "first-sample UTC range",
+          "matched historical trajectory"
+        ],
+        "notes": "Event-region boxes are conservative research search areas chosen from the publisher location, not verified microphone bounds and not truth coordinates."
+      }
+    },
+    {
+      "id": "dvids-yuma",
+      "title": "Fat Albert Flyover With Silent Drill Platoon At MCAS Yuma (Landscape)",
+      "publisher": "U.S. Marine Corps / DVIDS",
+      "creator": "Cpl. Gideon M. Schippers",
+      "source_kind": "government_public_affairs_video",
+      "source_url": "https://www.dvidshub.net/video/955827/fat-albert-flyover-with-silent-drill-platoon-mcas-yuma-landscape",
+      "publication_time": "2025-03-19T14:04:00",
+      "publication_timezone": "not stated on source page",
+      "event_date": "2025-02-26",
+      "event_timezone": "America/Phoenix",
+      "event_region": {
+        "label": "MCAS Yuma runway, Arizona",
+        "bbox_west_south_east_north": [
+          -114.65,
+          32.62,
+          -114.58,
+          32.68
+        ]
+      },
+      "event_utc_range": [
+        "2025-02-26T07:00:00Z",
+        "2025-02-27T07:00:00Z"
+      ],
+      "event_evidence": "The page separately declares Date Taken 02.26.2025 and Date Posted 03.19.2025 and places the photo shoot on the MCAS Yuma runway. Video ID 955827; VIRIN 250226-M-PP322-3753.",
+      "event_kind": "c130j_turboprop_flyover",
+      "publication_is_capture_time": false,
+      "microphone_location_known": false,
+      "continuity": "Produced public-affairs video; natural aircraft sound and absence of music/replaced audio still require review.",
+      "suitability": "Prop-aircraft event candidate for acoustic detection; public date and runway region are useful, but no surveyed microphone location, UTC start, or flight trajectory has been established.",
+      "audio": {
+        "path": "audio/dvids-yuma.wav",
+        "sha256": "afa468426109fb0e0f1abd1fc4d648e6baa7733b7ad4650a037a844f82a8feb1",
+        "bytes": 1568012,
+        "codec": "PCM signed 16-bit little endian",
+        "sample_rate_hz": 16000,
+        "channels": 1,
+        "frames": 783984,
+        "duration_seconds": 48.999,
+        "rms_dbfs": -12.762925012301995,
+        "peak_fraction_full_scale": 1.0,
+        "clipped_sample_fraction": 0.0009643053939876324
+      },
+      "acquisition": {
+        "media_url": "https://d34w7g4gy10iej.cloudfront.net/video/2503/DOD_110872613/DOD_110872613-768x432-1200k-hls_5.m3u8",
+        "start_seconds": 0,
+        "duration_seconds": 49,
+        "transform": "ffmpeg decode, first declared seconds, downmix to mono, resample to 16 kHz PCM16, remove metadata, bitexact WAV header",
+        "source_media_modified": false,
+        "notes": "Canonical extraction is directly from the public HLS playlist. Remuxing HLS to MP4 before decoding changes sample alignment; use fetch_audio.py for the hashed canonical WAV."
+      },
+      "rights": {
+        "status": "source_marked_public_domain",
+        "redistribute_with_public_app": false,
+        "license_url": "https://www.dvidshub.net/about/copyright",
+        "note": "DVIDS marks this work Public Domain, subject to its stated restrictions. The build keeps all real corpus media out of static assets."
+      },
+      "recording_start_utc_range": null,
+      "microphone_coordinate": null,
+      "validation": {
+        "accuracy_eligible": false,
+        "role": "real_world_smoke_and_abstention",
+        "trajectory_available": false,
+        "doppler_presence_verified": false,
+        "label_grade": "event_date_and_region_only",
+        "missing": [
+          "verified ambient-audio segment boundaries",
+          "microphone coordinate with uncertainty",
+          "first-sample UTC range",
+          "matched historical trajectory"
+        ],
+        "notes": "Event-region boxes are conservative research search areas chosen from the publisher location, not verified microphone bounds and not truth coordinates."
+      }
+    }
+  ]
+}

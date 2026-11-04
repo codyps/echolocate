@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "source": "https://zenodo.org/records/20494053",
+  "doi": "10.5281/zenodo.20494053",
+  "license": "CC-BY-4.0",
+  "creator": "Timo Schumacher; Henri Siller; DLR",
+  "selection": "Six evenly spaced channel indices selected before any localization; one common flyover shared by all six channels.",
+  "cases": [
+    {
+      "id": "dlr-rec139-mic-000",
+      "channel_zero_based": 0,
+      "audio_path": "mic-000.wav",
+      "audio_sha256": "3acaac9b5b048b658f0f052786732669a6623ff4cea88b2c64704204b05ac24a",
+      "original_pressure_path": "mic-000.pressure-pa.npy",
+      "original_data_range": {
+        "start": 25992,
+        "end": 1375367,
+        "bytes": 1349376,
+        "sha256": "a6c32b55eaeba513676ba10f5a176f4eecd10de05264527cf68324009b34e193"
+      },
+      "normalization_gain": 0.255643972391355,
+      "microphone_local_xyz_m": [
+        -0.5320000052452087,
+        0.3490000069141388,
+        -0.0820000022649765
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "85b0478d5631c17ff712399d1c446c8c6c4a5a9680508ab00eea9a9ce32483e7"
+    },
+    {
+      "id": "dlr-rec139-mic-046",
+      "channel_zero_based": 46,
+      "audio_path": "mic-046.wav",
+      "audio_sha256": "920d3a8480aedf1dcab1a5286909f8e0b284fe5847a581c95c13a7081d868ed8",
+      "original_pressure_path": "mic-046.pressure-pa.npy",
+      "original_data_range": {
+        "start": 62097288,
+        "end": 63446663,
+        "bytes": 1349376,
+        "sha256": "e765b2de33bdf4727c9fff68406e414014802c35ad873b7df93d682a58842b89"
+      },
+      "normalization_gain": 0.2594432565067777,
+      "microphone_local_xyz_m": [
+        2.3420000076293945,
+        0.9470000267028809,
+        -0.11400000005960464
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "1639dd2d0a00b532c91a3016a8fcc7e46d7411fc964bc1717c5442fdd4322a82"
+    },
+    {
+      "id": "dlr-rec139-mic-092",
+      "channel_zero_based": 92,
+      "audio_path": "mic-092.wav",
+      "audio_sha256": "dc429d847e2d2d0f9888fe99dc620f6cdac86ddf38b0b3bac584234b280da920",
+      "original_pressure_path": "mic-092.pressure-pa.npy",
+      "original_data_range": {
+        "start": 124168584,
+        "end": 125517959,
+        "bytes": 1349376,
+        "sha256": "a37b24cbc8f455ca2879f812a1c635a95dc46528d1783e6c6903a7b0ad0475af"
+      },
+      "normalization_gain": 0.24182616256715556,
+      "microphone_local_xyz_m": [
+        -0.9160000085830688,
+        -0.6480000019073486,
+        -0.06400000303983688
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "0159d6a9236af289812fd3829c98aa0a25e132218f850c9ce9b41dbc3ae15158"
+    },
+    {
+      "id": "dlr-rec139-mic-138",
+      "channel_zero_based": 138,
+      "audio_path": "mic-138.wav",
+      "audio_sha256": "1460a7b9065db763f2480a7c27c2d6756fa1f3725aac6d7d526aa812ff624020",
+      "original_pressure_path": "mic-138.pressure-pa.npy",
+      "original_data_range": {
+        "start": 186239880,
+        "end": 187589255,
+        "bytes": 1349376,
+        "sha256": "d2e89a244cb05c4b83fe499ce8c81ba92960f10ad2bb8e8f1ca2dc6d24d69835"
+      },
+      "normalization_gain": 0.2439645968695806,
+      "microphone_local_xyz_m": [
+        3.744999885559082,
+        -1.1699999570846558,
+        -0.09099999815225601
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "fe552358d853f812585905e71511ddff3c3a830269883336a24110add71ddfe8"
+    },
+    {
+      "id": "dlr-rec139-mic-184",
+      "channel_zero_based": 184,
+      "audio_path": "mic-184.wav",
+      "audio_sha256": "8c18b97baf9c2c438e50971cbbf1b61fe2ad726672734af20f9fb5a906c728e9",
+      "original_pressure_path": "mic-184.pressure-pa.npy",
+      "original_data_range": {
+        "start": 248311176,
+        "end": 249660551,
+        "bytes": 1349376,
+        "sha256": "de1a0c6498e3f25376a7c47027c94094fff064b73044cb0c0af455efee591500"
+      },
+      "normalization_gain": 0.3068221465788866,
+      "microphone_local_xyz_m": [
+        4.328999996185303,
+        5.388000011444092,
+        -0.22499999403953552
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "0184e91d9fff5e3ab77a140fff85faf7ad8f20293b8fb683e59ec6a9cb56ea1d"
+    },
+    {
+      "id": "dlr-rec139-mic-230",
+      "channel_zero_based": 230,
+      "audio_path": "mic-230.wav",
+      "audio_sha256": "075aa9d84008d310ffaa5362dc27be01ca0e9312fa9c5561d94ead396c0b3963",
+      "original_pressure_path": "mic-230.pressure-pa.npy",
+      "original_data_range": {
+        "start": 310382472,
+        "end": 311731847,
+        "bytes": 1349376,
+        "sha256": "790a6f721421b2a41183a170a8978030aaa2d0067a6c42e77d9e145ebca0e5c6"
+      },
+      "normalization_gain": 0.26032675653516174,
+      "microphone_local_xyz_m": [
+        -3.632999897003174,
+        -18.68000030517578,
+        -0.14399999380111694
+      ],
+      "sample_rate_hz": 48192.0,
+      "samples": 337344,
+      "duration_s": 7.0,
+      "exact_location_eligible_in_source_local_frame": true,
+      "absolute_geographic_location_eligible": false,
+      "npy_header_base64": "k05VTVBZAQB2AHsnZGVzY3InOiAnPGY0JywgJ2ZvcnRyYW5fb3JkZXInOiBGYWxzZSwgJ3NoYXBlJzogKDMzNzM0NCwpLCB9ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAo=",
+      "original_pressure_sha256": "51a2d29f569f0fa2483ece5be1f20b5af3f8ca0f9b201a20c0624088fbd8a42f"
+    }
+  ],
+  "metadata": "metadata.json",
+  "limitations": [
+    "Independent measured receiver coordinates exist in a local Cartesian frame, without absolute geographic origin.",
+    "No absolute UTC is supplied. Trajectory reference samples establish a source internal clock with documented convention caveats.",
+    "All six channels are correlated observations of one flight, not six independent aircraft or recording sessions.",
+    "Full archive MD5 not checked because only metadata and selected channel byte ranges were retrieved."
+  ]
+}

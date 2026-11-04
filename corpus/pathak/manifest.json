@@ -1,0 +1,414 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "Aeroplane data full analysis and raw files",
+    "author": "Praveen Pathak",
+    "url": "https://zenodo.org/records/23424278",
+    "doi": "10.5281/zenodo.23424278",
+    "published_date": "2026-10-16",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "archive_url": "https://zenodo.org/api/records/23424278/files/Raw%20data_V_constant_H_constant.zip/content",
+    "archive_md5": "d34b32ae57477074d6e8563300a7fc19",
+    "source_metadata": "source_record.json"
+  },
+  "selection": "Three cases selected by source archive category, before running the localization engine. Development cases, not a held-out accuracy benchmark.",
+  "cases": [
+    {
+      "id": "N373DF_R06",
+      "aircraft_registration": "N373DF",
+      "category": "V_constant_H_constant",
+      "audio": {
+        "sample_rate_hz": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "frames": 2397041,
+        "duration_seconds": 49.93835416666667
+      },
+      "first_ridge_utc": "2026-05-13T20:03:45.776Z",
+      "last_ridge_utc": "2026-05-13T20:04:25.370Z",
+      "ridge_point_count": 108,
+      "waveform_first_sample_utc": null,
+      "microphone_coordinate": null,
+      "altitude_reference": "EGM96 orthometric mean sea level",
+      "normalization": [
+        {
+          "segment_index": 0,
+          "input_points": 55,
+          "unique_points": 53,
+          "duplicates": 2,
+          "conflicting_duplicates": 0
+        },
+        {
+          "segment_index": 1,
+          "input_points": 199,
+          "unique_points": 198,
+          "duplicates": 1,
+          "conflicting_duplicates": 0
+        },
+        {
+          "segment_index": 2,
+          "input_points": 72,
+          "unique_points": 71,
+          "duplicates": 1,
+          "conflicting_duplicates": 0
+        }
+      ],
+      "author_summary": {
+        "rank": "6",
+        "case": "N373DF_R06",
+        "category": "V_constant_H_constant",
+        "received_start_utc": "2026-05-13T20:03:45.776Z",
+        "track_file": "N373DF-track-EGM96.kml",
+        "altitude_basis": "EGM96 geometric altitude MSL",
+        "n_frequency_points": "108",
+        "L_ADSB_m": "203.05734",
+        "V_ADSB_median_kmh": "329.638877",
+        "V_ADSB_at_closest_kmh": "329.638877",
+        "H_ADSB_above_recorder_m": "918.773152",
+        "R_ADSB_m": "940.944412897962",
+        "timing_difference_s": "0.3019845485687256",
+        "MI_endpoint_fraction": "0.05",
+        "MI_band_fraction": "0.12",
+        "MI_fmax_Hz": "296.171",
+        "MI_fmin_Hz": "184.384",
+        "MI_V_kmh": "284.72763367356504",
+        "MI_V_uncertainty_kmh": "1.1427719694708403",
+        "MI_Rmin_m": "766.1961713930933",
+        "MI_Rmin_uncertainty_m": "19.15682120117996",
+        "MI_H_m": "738.799221527445",
+        "MI_H_uncertainty_m": "19.867215114358196",
+        "MI_V_error_percent": "-13.624376995567468",
+        "MI_H_error_percent": "-19.588505615426936",
+        "MII_f0_Hz": "227.80086806088076",
+        "MII_V_kmh": "327.86866233786805",
+        "MII_V_uncertainty_kmh": "1.5101166081581359",
+        "MII_Rmin_m": "963.0077976020921",
+        "MII_Rmin_uncertainty_m": "14.74387511567869",
+        "MII_H_m": "941.356327282372",
+        "MII_H_uncertainty_m": "15.082988547237981",
+        "MII_V_error_percent": "-0.5370163489945193",
+        "MII_H_error_percent": "2.457970744270513",
+        "MII_RMSE_Hz": "0.7608179147679826",
+        "flags": ""
+      },
+      "validation": {
+        "role": "reference ridge and known-flight association; raw-audio event discovery comparison",
+        "independent_location_error_eligible": false,
+        "known_missing": [
+          "surveyed microphone coordinate and height",
+          "verified mapping of first WAV sample to UTC",
+          "recording-clock and atmospheric uncertainty"
+        ]
+      },
+      "files": [
+        {
+          "path": "N373DF_R06/N373DF-track-EGM96.kml",
+          "bytes": 29152,
+          "sha256": "b64c7f6733a526d4477a2111467553a83d88c89cd2451658e1ce355268cbdda7",
+          "derived": false
+        },
+        {
+          "path": "N373DF_R06/audio.wav",
+          "bytes": 4794126,
+          "sha256": "27629dee59acf4877ac3094f9b6db46189b1f6572bf2ceecff06360caaee49bd",
+          "derived": false
+        },
+        {
+          "path": "N373DF_R06/frequency_vs_time_used.csv",
+          "bytes": 3586,
+          "sha256": "766fc0835220215be110fef2c9deb2766d2d05a2f7cbff455bc1957d72d1aba7",
+          "derived": false
+        },
+        {
+          "path": "N373DF_R06/result_page.pdf",
+          "bytes": 324864,
+          "sha256": "ff5dcd23671233d4866f4c3732821ee5a60406ab270c8735f3010a052a9d8e2d",
+          "derived": false
+        },
+        {
+          "path": "N373DF_R06/result_page.txt",
+          "bytes": 1091,
+          "sha256": "1f5b7a71390b737be5f42d2b3769d326639b2683e4d0fecbab21e11bb7b61421",
+          "derived": true
+        },
+        {
+          "path": "N373DF_R06/ridge.reference.json",
+          "bytes": 12660,
+          "sha256": "772b49f3f63e9df30140e30630172785ef9cef8452dfb82c5cf10db819943e32",
+          "derived": true
+        },
+        {
+          "path": "N373DF_R06/track.normalized.csv",
+          "bytes": 22625,
+          "sha256": "0db2d7c935734fd8e4a190746f7edf34acad5e22c6053c7e107eda1bd8ca68f7",
+          "derived": true
+        }
+      ]
+    },
+    {
+      "id": "N784MB_R04",
+      "aircraft_registration": "N784MB",
+      "category": "V_constant_H_constant",
+      "audio": {
+        "sample_rate_hz": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "frames": 4091169,
+        "duration_seconds": 85.2326875
+      },
+      "first_ridge_utc": "2026-05-14T17:41:37.239Z",
+      "last_ridge_utc": "2026-05-14T17:42:52.471Z",
+      "ridge_point_count": 403,
+      "waveform_first_sample_utc": null,
+      "microphone_coordinate": null,
+      "altitude_reference": "EGM96 orthometric mean sea level",
+      "normalization": [
+        {
+          "segment_index": 0,
+          "input_points": 54,
+          "unique_points": 52,
+          "duplicates": 2,
+          "conflicting_duplicates": 0
+        },
+        {
+          "segment_index": 1,
+          "input_points": 600,
+          "unique_points": 596,
+          "duplicates": 4,
+          "conflicting_duplicates": 3
+        },
+        {
+          "segment_index": 2,
+          "input_points": 38,
+          "unique_points": 37,
+          "duplicates": 1,
+          "conflicting_duplicates": 0
+        }
+      ],
+      "author_summary": {
+        "rank": "4",
+        "case": "N784MB_R04",
+        "category": "V_constant_H_constant",
+        "received_start_utc": "2026-05-14T17:41:37.239Z",
+        "track_file": "N784MB-track-EGM96.kml",
+        "altitude_basis": "EGM96 geometric altitude MSL",
+        "n_frequency_points": "403",
+        "L_ADSB_m": "993.814247",
+        "V_ADSB_median_kmh": "329.512743",
+        "V_ADSB_at_closest_kmh": "327.23705",
+        "H_ADSB_above_recorder_m": "2034.755737",
+        "R_ADSB_m": "2264.4861816303032",
+        "timing_difference_s": "-0.3451728820800781",
+        "MI_endpoint_fraction": "0.05",
+        "MI_band_fraction": "0.12",
+        "MI_fmax_Hz": "320.312",
+        "MI_fmin_Hz": "203.493",
+        "MI_V_kmh": "272.9765007970523",
+        "MI_V_uncertainty_kmh": "2.7070544852501754",
+        "MI_Rmin_m": "1558.3915318167717",
+        "MI_Rmin_uncertainty_m": "34.857649159605366",
+        "MI_H_m": "1200.3821928444486",
+        "MI_H_uncertainty_m": "45.25380798980938",
+        "MI_V_error_percent": "-17.157528321430554",
+        "MI_H_error_percent": "-41.006078959911605",
+        "MII_f0_Hz": "245.78107182555541",
+        "MII_V_kmh": "327.9586428172643",
+        "MII_V_uncertainty_kmh": "3.093819295311141",
+        "MII_Rmin_m": "2227.8859404301493",
+        "MII_Rmin_uncertainty_m": "64.15012522844135",
+        "MII_H_m": "1993.9430799363743",
+        "MII_H_uncertainty_m": "71.67665090913145",
+        "MII_V_error_percent": "-0.47163583677723836",
+        "MII_H_error_percent": "-2.005776728945313",
+        "MII_RMSE_Hz": "2.70221242271789",
+        "flags": ""
+      },
+      "validation": {
+        "role": "reference ridge and known-flight association; raw-audio event discovery comparison",
+        "independent_location_error_eligible": false,
+        "known_missing": [
+          "surveyed microphone coordinate and height",
+          "verified mapping of first WAV sample to UTC",
+          "recording-clock and atmospheric uncertainty"
+        ]
+      },
+      "files": [
+        {
+          "path": "N784MB_R04/N784MB-track-EGM96.kml",
+          "bytes": 61464,
+          "sha256": "411dde59aeb238bb74447a73899a4d68cab3c1df740477ec54fce86381a21dce",
+          "derived": false
+        },
+        {
+          "path": "N784MB_R04/audio.wav",
+          "bytes": 8182382,
+          "sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+          "derived": false
+        },
+        {
+          "path": "N784MB_R04/frequency_vs_time_used.csv",
+          "bytes": 13321,
+          "sha256": "3610fe509fed244d75c8720b55b396ba3f44258bec2a57c59fedd5afb6881638",
+          "derived": false
+        },
+        {
+          "path": "N784MB_R04/result_page.pdf",
+          "bytes": 349784,
+          "sha256": "d78bf4e8d2880cddc7924ca6c94253ccc91cae631b333c84f786533e47b5155d",
+          "derived": false
+        },
+        {
+          "path": "N784MB_R04/result_page.txt",
+          "bytes": 1104,
+          "sha256": "251d3d423ee29caf5e8aba87901dca2308280d940743ae531180f33f0613c38a",
+          "derived": true
+        },
+        {
+          "path": "N784MB_R04/ridge.reference.json",
+          "bytes": 46318,
+          "sha256": "ed0676e9095bb69338b1975bee5156931a2ed7fa62235622d0af0f0d38147c99",
+          "derived": true
+        },
+        {
+          "path": "N784MB_R04/track.normalized.csv",
+          "bytes": 48866,
+          "sha256": "90ba6f9ba19b8ca105d4f13a6b27d4aab73fb935a51380c8e6f8fa23a4a7d609",
+          "derived": true
+        }
+      ]
+    },
+    {
+      "id": "N788BM_R03",
+      "aircraft_registration": "N788BM",
+      "category": "V_constant_H_constant",
+      "audio": {
+        "sample_rate_hz": 48000,
+        "channels": 1,
+        "sample_width_bytes": 2,
+        "frames": 3265280,
+        "duration_seconds": 68.02666666666667
+      },
+      "first_ridge_utc": "2026-05-17T19:29:49.139Z",
+      "last_ridge_utc": "2026-05-17T19:30:47.165Z",
+      "ridge_point_count": 341,
+      "waveform_first_sample_utc": null,
+      "microphone_coordinate": null,
+      "altitude_reference": "EGM96 orthometric mean sea level",
+      "normalization": [
+        {
+          "segment_index": 0,
+          "input_points": 89,
+          "unique_points": 85,
+          "duplicates": 4,
+          "conflicting_duplicates": 3
+        },
+        {
+          "segment_index": 1,
+          "input_points": 1068,
+          "unique_points": 1063,
+          "duplicates": 5,
+          "conflicting_duplicates": 4
+        },
+        {
+          "segment_index": 2,
+          "input_points": 72,
+          "unique_points": 71,
+          "duplicates": 1,
+          "conflicting_duplicates": 0
+        }
+      ],
+      "author_summary": {
+        "rank": "3",
+        "case": "N788BM_R03",
+        "category": "V_constant_H_constant",
+        "received_start_utc": "2026-05-17T19:29:49.139Z",
+        "track_file": "N788BM-track-EGM96.kml",
+        "altitude_basis": "EGM96 geometric altitude MSL",
+        "n_frequency_points": "341",
+        "L_ADSB_m": "858.430129",
+        "V_ADSB_median_kmh": "305.386785",
+        "V_ADSB_at_closest_kmh": "310.076573",
+        "H_ADSB_above_recorder_m": "924.882707",
+        "R_ADSB_m": "1261.8677854999723",
+        "timing_difference_s": "1.1718919277191162",
+        "MI_endpoint_fraction": "0.15",
+        "MI_band_fraction": "0.12",
+        "MI_fmax_Hz": "393.799",
+        "MI_fmin_Hz": "258.926",
+        "MI_V_kmh": "252.91593243709067",
+        "MI_V_uncertainty_kmh": "1.443954340176397",
+        "MI_Rmin_m": "976.5223911260435",
+        "MI_Rmin_uncertainty_m": "35.38660462428766",
+        "MI_H_m": "465.5036992286624",
+        "MI_H_uncertainty_m": "74.23316252652799",
+        "MI_V_error_percent": "-17.18176919898787",
+        "MI_H_error_percent": "-49.66889361153744",
+        "MII_f0_Hz": "304.9699535977257",
+        "MII_V_kmh": "300.7240676900188",
+        "MII_V_uncertainty_kmh": "2.3219163178361684",
+        "MII_Rmin_m": "1285.23937925201",
+        "MII_Rmin_uncertainty_m": "31.397747408596615",
+        "MII_H_m": "956.5239022654558",
+        "MII_H_uncertainty_m": "42.1877815010807",
+        "MII_V_error_percent": "-1.5268235362513116",
+        "MII_H_error_percent": "3.42110356545523",
+        "MII_RMSE_Hz": "2.863280412360031",
+        "flags": ""
+      },
+      "validation": {
+        "role": "reference ridge and known-flight association; raw-audio event discovery comparison",
+        "independent_location_error_eligible": false,
+        "known_missing": [
+          "surveyed microphone coordinate and height",
+          "verified mapping of first WAV sample to UTC",
+          "recording-clock and atmospheric uncertainty"
+        ]
+      },
+      "files": [
+        {
+          "path": "N788BM_R03/N788BM-track-EGM96.kml",
+          "bytes": 107666,
+          "sha256": "1773f3bc696c9116f77cea39ea4a297eaef5c4953ab2b8c57c5925451f562b75",
+          "derived": false
+        },
+        {
+          "path": "N788BM_R03/audio.wav",
+          "bytes": 6530604,
+          "sha256": "8d23e3aa36ad439801fcbec6ef3f7f80647ed70d3b9ed11157539e72e771b38b",
+          "derived": false
+        },
+        {
+          "path": "N788BM_R03/frequency_vs_time_used.csv",
+          "bytes": 11275,
+          "sha256": "f12e56c8105d43c1c830edc781913736870e0f10c0c32cefdce0695299806f14",
+          "derived": false
+        },
+        {
+          "path": "N788BM_R03/result_page.pdf",
+          "bytes": 346549,
+          "sha256": "101fab48cb5a05bd7b9e81aa64c9b1e353a745a6ef33c48fb8bee4b91cae90fd",
+          "derived": false
+        },
+        {
+          "path": "N788BM_R03/result_page.txt",
+          "bytes": 1102,
+          "sha256": "14c52b24d685bce1c31eb27a0aad38e44ece6118989c103095fc145a9e3dde4c",
+          "derived": true
+        },
+        {
+          "path": "N788BM_R03/ridge.reference.json",
+          "bytes": 39259,
+          "sha256": "a3dc897970b04c1f35bb34c76ece4ac9cdbfcc3e5c597e2adca7b6afc17cdd64",
+          "derived": true
+        },
+        {
+          "path": "N788BM_R03/track.normalized.csv",
+          "bytes": 86270,
+          "sha256": "506ea31f5e7e59887ac20aedf10a00b7cfb81a55b9cc6a8e7d2fc547f555ef92",
+          "derived": true
+        }
+      ]
+    }
+  ]
+}

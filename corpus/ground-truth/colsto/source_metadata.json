@@ -1,0 +1,31 @@
+{
+  "raw_recording": {
+    "id": "4CxVxuMVkMc",
+    "title": "Unknown location - raw audio",
+    "webpage_url": "https://www.youtube.com/watch?v=4CxVxuMVkMc",
+    "description": "",
+    "channel": "colsto",
+    "uploader": "colsto",
+    "channel_url": "https://www.youtube.com/channel/UCyeWuyC3eSJgmOEyDCpZbPw",
+    "duration": 3600,
+    "upload_date": "20261101",
+    "timestamp": 1793497503,
+    "license": null,
+    "availability": "unlisted"
+  },
+  "creator_explainer": {
+    "id": "UytYrhYLOKI",
+    "title": "I discovered a sound that leaks your exact location (and it's everywhere)",
+    "webpage_url": "https://www.youtube.com/watch?v=UytYrhYLOKI",
+    "description": "This video examines the amount of location information carried by inaudible background sounds, using the Doppler effect to locate a reference recording within ~100m, and only needing (in some cases) less 1-min of audio. This video raises awareness of these capabilities and closes by discussing preventative measures one could take.\n\nMethodology: \nAircraft position, altitude, and velocity data were sourced from ADS-B data and filtered in Python using ICAO type-code classification for propeller vs jet types. For each candidate location on a 200m grid, the closest point of approach (CPA) and sound propagation delay were computed from 3D slant distance, using a digital elevation model (DEM).\n\nDoppler curve spectrogram measurements constrained each event's velocity and CPA slant distance. Candidates were then filtered by the 920-second offset between two flyovers, plus a silence constraint. The exact Doppler curve each candidate would hear was modelled, using emission-time radial velocity from interpolated ADS-B data. \n\nModelled doppler curves were scored against the observed spectrogram using a locked two-event scoring method. This corrected for measurement error on CPA time & fundamental frequency, while preserving the purely physics-derived temporal offset between the two events.\n\nThe pipeline was repeated again for a single 1-min clip of known time, US-wide search, and again, successfully scored the true location 1st.\n\nLastly, preventative measures were assessed, including rationale behind why common signal processing fixes fail (high-pass filtering, drowning out, and phone call compression/noise reduction).\n\nThis video is an educational demonstration of acoustics, signal processing, and data analysis using publicly available data. No code or tools are being released.\n\n\nLink to full recording: https://youtu.be/4CxVxuMVkMc",
+    "channel": "colsto",
+    "uploader": "colsto",
+    "channel_url": "https://www.youtube.com/channel/UCyeWuyC3eSJgmOEyDCpZbPw",
+    "duration": 1752,
+    "upload_date": "20261102",
+    "timestamp": 1793627143,
+    "license": null,
+    "availability": "public"
+  },
+  "note": "Upload timestamps do not establish recording timestamps. Raw recording description is empty."
+}

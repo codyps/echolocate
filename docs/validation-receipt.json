@@ -1,0 +1,293 @@
+{
+  "schema_version": 1,
+  "synthetic": {
+    "position_error_m": 117.26451906996536,
+    "start_error_s": -1.0,
+    "detected_events": 6,
+    "matched_events": 2,
+    "status": "candidates_uncalibrated",
+    "audio_sha256": "4d86481e3f1b4d403c49c507b091f58b2011edd9757fefac761ca043698b9982",
+    "assisted_inputs": [
+      "finite search region",
+      "20 second start interval",
+      "all four candidate trajectories"
+    ],
+    "not_supplied": [
+      "event windows",
+      "event frequency bands",
+      "location truth",
+      "correct flight IDs"
+    ]
+  },
+  "checks": {
+    "rust_tests_passed": 13,
+    "native_wasm_tests_passed": 3,
+    "native_service": "passed",
+    "chromium_browser": "passed",
+    "mobile_width_px": 390,
+    "corpus_integrity": "passed"
+  },
+  "real_audio": {
+    "generated_at_utc": "2026-11-04T00:49:46.384808+00:00",
+    "engine_sha256": "7b3c0934bf85ecad24ea969272c88a285242bdc78c38a1c45f1ff8356e6baa16",
+    "method": "unattended Rust audio discovery + required no-package abstention",
+    "location_accuracy_measured": false,
+    "limitations": [
+      "These reports do not have independently verified microphone coordinates and waveform start timestamps.",
+      "Detected events are proposals, not confirmed aircraft.",
+      "No archived flight packages were supplied; location matching was intentionally not attempted."
+    ],
+    "cases": [
+      {
+        "id": "fox-thunderbirds",
+        "sha256": "3d7c341bd404c2ef33b27b43650ab93d7f64b74739d4dbc18b314691cc3b5e2e",
+        "source_url": "https://www.fox5dc.com/video/1706587",
+        "class": "news_or_public_affairs",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/audio/fox-thunderbirds.wav",
+        "seconds": 2.006,
+        "exit_code": 0,
+        "stderr": "needs_flight_data: 5 events, 0 candidate regions",
+        "status": "needs_flight_data",
+        "events": 5,
+        "duration_s": 60.0,
+        "candidates": 0,
+        "events_summary": [
+          {
+            "start_s": 50.5,
+            "end_s": 59.0,
+            "drop_hz": 2.12,
+            "harmonics": 1
+          },
+          {
+            "start_s": 50.75,
+            "end_s": 59.5,
+            "drop_hz": 41.28,
+            "harmonics": 1
+          },
+          {
+            "start_s": 50.75,
+            "end_s": 59.5,
+            "drop_hz": 38.71,
+            "harmonics": 1
+          },
+          {
+            "start_s": 51.0,
+            "end_s": 59.75,
+            "drop_hz": 56.33,
+            "harmonics": 1
+          },
+          {
+            "start_s": 51.0,
+            "end_s": 59.75,
+            "drop_hz": 12.96,
+            "harmonics": 1
+          }
+        ]
+      },
+      {
+        "id": "fox-frecce",
+        "sha256": "fc3ac6c5a21eecccf5b376e038d5067be9ed219f55a57ed768da2754d8f2a4ba",
+        "source_url": "https://www.fox5dc.com/video/1504530",
+        "class": "news_or_public_affairs",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/audio/fox-frecce.wav",
+        "seconds": 1.511,
+        "exit_code": 0,
+        "stderr": "no_usable_events: 0 events, 0 candidate regions",
+        "status": "no_usable_events",
+        "events": 0,
+        "duration_s": 45.0,
+        "candidates": 0,
+        "events_summary": []
+      },
+      {
+        "id": "fox-af1",
+        "sha256": "e90225a3534f0ae1d66e0278c075d1232c658da8078f2c1179cf3222feab6793",
+        "source_url": "https://www.livenowfox.com/video/1737993",
+        "class": "news_or_public_affairs",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/audio/fox-af1.wav",
+        "seconds": 1.516,
+        "exit_code": 0,
+        "stderr": "no_usable_events: 0 events, 0 candidate regions",
+        "status": "no_usable_events",
+        "events": 0,
+        "duration_s": 45.0,
+        "candidates": 0,
+        "events_summary": []
+      },
+      {
+        "id": "dvids-yuma",
+        "sha256": "afa468426109fb0e0f1abd1fc4d648e6baa7733b7ad4650a037a844f82a8feb1",
+        "source_url": "https://www.dvidshub.net/video/955827/fat-albert-flyover-with-silent-drill-platoon-mcas-yuma-landscape",
+        "class": "news_or_public_affairs",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/audio/dvids-yuma.wav",
+        "seconds": 1.641,
+        "exit_code": 0,
+        "stderr": "no_usable_events: 0 events, 0 candidate regions",
+        "status": "no_usable_events",
+        "events": 0,
+        "duration_s": 48.999,
+        "candidates": 0,
+        "events_summary": []
+      },
+      {
+        "id": "N373DF_R06",
+        "sha256": "27629dee59acf4877ac3094f9b6db46189b1f6572bf2ceecff06360caaee49bd",
+        "source_url": "https://zenodo.org/records/23424278",
+        "class": "independent_aircraft_dataset",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/pathak/N373DF_R06/audio.wav",
+        "seconds": 4.982,
+        "exit_code": 0,
+        "stderr": "needs_flight_data: 4 events, 0 candidate regions",
+        "status": "needs_flight_data",
+        "events": 4,
+        "duration_s": 49.93835416666667,
+        "candidates": 0,
+        "events_summary": [
+          {
+            "start_s": 14.25,
+            "end_s": 35.5,
+            "drop_hz": 34.42,
+            "harmonics": 1
+          },
+          {
+            "start_s": 39.25,
+            "end_s": 48.75,
+            "drop_hz": 4.21,
+            "harmonics": 1
+          },
+          {
+            "start_s": 39.5,
+            "end_s": 48.25,
+            "drop_hz": 7.8,
+            "harmonics": 1
+          },
+          {
+            "start_s": 40.25,
+            "end_s": 48.75,
+            "drop_hz": 3.35,
+            "harmonics": 1
+          }
+        ]
+      },
+      {
+        "id": "N784MB_R04",
+        "sha256": "c0366b111fbf82877bcaba53aa53a99602f9f5512513bc996e629aa04633d37e",
+        "source_url": "https://zenodo.org/records/23424278",
+        "class": "independent_aircraft_dataset",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/pathak/N784MB_R04/audio.wav",
+        "seconds": 8.492,
+        "exit_code": 0,
+        "stderr": "needs_flight_data: 6 events, 0 candidate regions",
+        "status": "needs_flight_data",
+        "events": 6,
+        "duration_s": 85.2326875,
+        "candidates": 0,
+        "events_summary": [
+          {
+            "start_s": 0.25,
+            "end_s": 60.75,
+            "drop_hz": 51.51,
+            "harmonics": 3
+          },
+          {
+            "start_s": 5.75,
+            "end_s": 60.75,
+            "drop_hz": 97.55,
+            "harmonics": 1
+          },
+          {
+            "start_s": 10.0,
+            "end_s": 37.75,
+            "drop_hz": 30.4,
+            "harmonics": 1
+          },
+          {
+            "start_s": 30.0,
+            "end_s": 48.0,
+            "drop_hz": 56.26,
+            "harmonics": 1
+          },
+          {
+            "start_s": 31.75,
+            "end_s": 42.0,
+            "drop_hz": 67.65,
+            "harmonics": 1
+          },
+          {
+            "start_s": 36.75,
+            "end_s": 60.75,
+            "drop_hz": 29.8,
+            "harmonics": 3
+          }
+        ]
+      },
+      {
+        "id": "N788BM_R03",
+        "sha256": "8d23e3aa36ad439801fcbec6ef3f7f80647ed70d3b9ed11157539e72e771b38b",
+        "source_url": "https://zenodo.org/records/23424278",
+        "class": "independent_aircraft_dataset",
+        "accuracy_eligible": false,
+        "audio_path": "corpus/pathak/N788BM_R03/audio.wav",
+        "seconds": 6.775,
+        "exit_code": 0,
+        "stderr": "needs_flight_data: 6 events, 0 candidate regions",
+        "status": "needs_flight_data",
+        "events": 6,
+        "duration_s": 68.02666666666667,
+        "candidates": 0,
+        "events_summary": [
+          {
+            "start_s": 28.0,
+            "end_s": 44.75,
+            "drop_hz": 37.29,
+            "harmonics": 1
+          },
+          {
+            "start_s": 29.25,
+            "end_s": 38.75,
+            "drop_hz": 72.28,
+            "harmonics": 1
+          },
+          {
+            "start_s": 31.5,
+            "end_s": 42.5,
+            "drop_hz": 65.65,
+            "harmonics": 1
+          },
+          {
+            "start_s": 32.75,
+            "end_s": 46.5,
+            "drop_hz": 43.54,
+            "harmonics": 1
+          },
+          {
+            "start_s": 36.25,
+            "end_s": 47.5,
+            "drop_hz": 74.8,
+            "harmonics": 1
+          },
+          {
+            "start_s": 36.5,
+            "end_s": 54.75,
+            "drop_hz": 41.25,
+            "harmonics": 1
+          }
+        ]
+      }
+    ]
+  },
+  "real_location_accuracy_measured": false,
+  "engine_binary_sha256": "be59370b233e4893b5fd1e401450a7d3f9c67c34b1d66c40c6487721eb4cb537",
+  "portable_linux": {
+    "linkage": "static PIE, musl",
+    "sha256": "e265017f618d3e6dad1190b586521549b469439c70a6c57e6022ff63b30a51bd",
+    "synthetic_matches_native": true,
+    "service_tests": "passed"
+  }
+}

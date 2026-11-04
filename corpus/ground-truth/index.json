@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "datasets": {
+    "aerosonic": {
+      "manifest": "aerosonic/manifest.json",
+      "manifest_sha256": "4f455b43dff6bebc470f3184c6a015e8e412dc3128af2066a221360080809203",
+      "cases": 4,
+      "license": "CC-BY-NC-4.0",
+      "known_local_microphone_coordinates": false,
+      "known_exact_geographic_microphone_coordinates": false
+    },
+    "dlr-rec139": {
+      "manifest": "dlr-rec139/manifest.json",
+      "manifest_sha256": "24c207c6b679f03a478b61f8959ebfdeb6e50480f9acedb22a491f4ab85cc120",
+      "cases": 6,
+      "license": "CC-BY-4.0",
+      "known_local_microphone_coordinates": true,
+      "known_exact_geographic_microphone_coordinates": false
+    },
+    "colsto": {
+      "manifest": "colsto/manifest.json",
+      "manifest_sha256": "87ae4d05cc3e0f4fc7d01e2e84c7deab5352de7d1a74f055dd936d7fb8383e25",
+      "cases": 1,
+      "license": "publisher rights; redistribution permission not established",
+      "known_local_microphone_coordinates": false,
+      "known_exact_geographic_microphone_coordinates": false,
+      "primary_source_date_and_site": true
+    }
+  }
+}

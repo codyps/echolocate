@@ -1,0 +1,780 @@
+{
+  "schema_version": 1,
+  "method": {
+    "offset_definition": "reference CSV time zero occurs this many seconds after waveform time zero; fitted, not ground truth",
+    "offset_grid_step_s": 0.05,
+    "individual_offset_refinement_step_s": 0.005,
+    "harmonic_ratios": [
+      "1/6",
+      "1/5",
+      "1/4",
+      "1/3",
+      "2/5",
+      "1/2",
+      "3/5",
+      "2/3",
+      "3/4",
+      "4/5",
+      "5/6",
+      "1",
+      "6/5",
+      "5/4",
+      "4/3",
+      "3/2",
+      "5/3",
+      "2",
+      "5/2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "harmonic_ratio_definition": "observed frequency / reference frequency = p/q, 1<=p,q<=6; no continuous frequency scaling",
+    "minimum_overlap_span_s": 8.0,
+    "minimum_paired_points": 20,
+    "minimum_detected_event_span_overlap_fraction": 0.8,
+    "selection_metric": "RMS frequency residual after converting observed points to the reference harmonic",
+    "exploratory_threshold_reference_hz": 5.0,
+    "threshold_is_release_acceptance_criterion": false,
+    "reference_interpolation": "piecewise linear at observed point times; no extrapolation",
+    "shared_offset_selection": "best individual offset of the longest event within the exploratory residual threshold; remaining events evaluated at that fixed offset",
+    "limitations": [
+      "Offsets and harmonic choices fitted on the same published curves being compared",
+      "No verified absolute waveform clock or microphone position",
+      "No false-match null distribution or held-out threshold calibration",
+      "Unexplained events may be other aircraft/harmonics or spurious; labels not established",
+      "Coverage is time-span union, not proof of uniformly dense/continuous detection",
+      "All three cases are development data"
+    ]
+  },
+  "cases": [
+    {
+      "case": "N373DF_R06",
+      "analysis_sha256": "cead59d3f518ac35928ebab5ca057b996bb77b8dc5118ce38873d0d485b53b54",
+      "reference_sha256": "772b49f3f63e9df30140e30630172785ef9cef8452dfb82c5cf10db819943e32",
+      "engine_version": "0.1.0",
+      "reference_span_s": 39.5939998626709,
+      "audio_duration_s": 49.93835416666667,
+      "searched_waveform_offset_range_s": [
+        0.0,
+        10.344354303995772
+      ],
+      "reference_first_frequency_hz": 297.664,
+      "reference_last_frequency_hz": 184.384,
+      "reference_endpoint_drop_hz": 113.28,
+      "author_identified_aircraft": "N373DF",
+      "events": [
+        {
+          "event_id": 0,
+          "start_s": 14.25,
+          "end_s": 35.5,
+          "point_count": 74,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 34.421784173283314,
+          "best_individual_fit": {
+            "waveform_offset_s": 3.825,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 1.6815168954368103,
+            "rms_observed_hz": 0.8407584477184051,
+            "median_absolute_reference_error_hz": 0.5150772399303918,
+            "relative_rms_percent": 0.7771606136684611,
+            "paired_points": 74,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 21.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.5366974812775719,
+            "reference_interval_s": [
+              10.425,
+              31.675
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 2.047999858856201
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 1,
+          "start_s": 39.25,
+          "end_s": 48.75,
+          "point_count": 31,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 4.2075536443541495,
+          "best_individual_fit": {
+            "waveform_offset_s": 7.66,
+            "observed_over_reference_ratio": "3/5",
+            "ratio_numerator": 3,
+            "ratio_denominator": 5,
+            "rms_reference_hz": 10.981698934165056,
+            "rms_observed_hz": 6.589019360499034,
+            "median_absolute_reference_error_hz": 9.147484200569266,
+            "relative_rms_percent": 5.908866658768774,
+            "paired_points": 26,
+            "observed_point_fraction": 0.8387096774193549,
+            "overlap_span_s": 8.0,
+            "event_span_coverage_fraction": 0.8421052631578947,
+            "reference_span_coverage_fraction": 0.20205081648096826,
+            "reference_interval_s": [
+              31.59,
+              39.59
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.34200000762939453
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        },
+        {
+          "event_id": 2,
+          "start_s": 39.5,
+          "end_s": 48.25,
+          "point_count": 31,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 7.800210675923154,
+          "best_individual_fit": {
+            "waveform_offset_s": 7.91,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 8.264424954194002,
+            "rms_observed_hz": 4.132212477097001,
+            "median_absolute_reference_error_hz": 8.334598597162625,
+            "relative_rms_percent": 4.451484815204546,
+            "paired_points": 29,
+            "observed_point_fraction": 0.9354838709677419,
+            "overlap_span_s": 8.0,
+            "event_span_coverage_fraction": 0.9142857142857143,
+            "reference_span_coverage_fraction": 0.20205081648096826,
+            "reference_interval_s": [
+              31.59,
+              39.59
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.34200000762939453
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        },
+        {
+          "event_id": 3,
+          "start_s": 40.25,
+          "end_s": 48.75,
+          "point_count": 26,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 3.351577650522813,
+          "best_individual_fit": {
+            "waveform_offset_s": 10.344354303995772,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 8.946384307145236,
+            "rms_observed_hz": 4.473192153572618,
+            "median_absolute_reference_error_hz": 8.444992878148625,
+            "relative_rms_percent": 4.789052089128311,
+            "paired_points": 26,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 8.5,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.21467899251102876,
+            "reference_interval_s": [
+              29.90564569600423,
+              38.40564569600423
+            ],
+            "max_observed_gap_s": 0.75,
+            "max_reference_interpolation_gap_s": 0.34200000762939453
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        }
+      ],
+      "shared_offset_diagnostic": {
+        "anchor_event_id": 0,
+        "waveform_offset_s": 3.825,
+        "reference_covered_union_s": 21.25,
+        "reference_covered_fraction": 0.5366974812775719,
+        "duration_weighted_rms_reference_hz": 1.6815168954368103,
+        "matched_event_ids": [
+          0
+        ],
+        "fits": [
+          {
+            "event_id": 0,
+            "waveform_offset_s": 3.825,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 1.6815168954368103,
+            "rms_observed_hz": 0.8407584477184051,
+            "median_absolute_reference_error_hz": 0.5150772399303918,
+            "relative_rms_percent": 0.7771606136684611,
+            "paired_points": 74,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 21.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.5366974812775719,
+            "reference_interval_s": [
+              10.425,
+              31.675
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 2.047999858856201
+          }
+        ]
+      }
+    },
+    {
+      "case": "N784MB_R04",
+      "analysis_sha256": "d4bdb330f31b35c24e223a8d7aade4b71aa3aebaf064a7d194eb0d0d8250707f",
+      "reference_sha256": "ed0676e9095bb69338b1975bee5156931a2ed7fa62235622d0af0f0d38147c99",
+      "engine_version": "0.1.0",
+      "reference_span_s": 75.23199987411499,
+      "audio_duration_s": 85.2326875,
+      "searched_waveform_offset_range_s": [
+        0.0,
+        10.000687625885007
+      ],
+      "reference_first_frequency_hz": 321.073,
+      "reference_last_frequency_hz": 202.791,
+      "reference_endpoint_drop_hz": 118.28199999999998,
+      "author_identified_aircraft": "N784MB",
+      "events": [
+        {
+          "event_id": 0,
+          "start_s": 0.25,
+          "end_s": 60.75,
+          "point_count": 233,
+          "reported_harmonics": 3,
+          "reported_drop_hz": 51.506755296269375,
+          "best_individual_fit": {
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 2.69515968011954,
+            "rms_observed_hz": 1.34757984005977,
+            "median_absolute_reference_error_hz": 0.3781607881300886,
+            "relative_rms_percent": 0.9859730266772382,
+            "paired_points": 213,
+            "observed_point_fraction": 0.9141630901287554,
+            "overlap_span_s": 55.0,
+            "event_span_coverage_fraction": 0.9090909090909091,
+            "reference_span_coverage_fraction": 0.7310718855278471,
+            "reference_interval_s": [
+              0.6799999999999997,
+              55.68
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 1,
+          "start_s": 5.75,
+          "end_s": 60.75,
+          "point_count": 202,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 97.55292679876092,
+          "best_individual_fit": {
+            "waveform_offset_s": 5.015,
+            "observed_over_reference_ratio": "1",
+            "ratio_numerator": 1,
+            "ratio_denominator": 1,
+            "rms_reference_hz": 1.4416833103209414,
+            "rms_observed_hz": 1.4416833103209414,
+            "median_absolute_reference_error_hz": 0.16894784348224334,
+            "relative_rms_percent": 0.5321445851188553,
+            "paired_points": 202,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 55.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.7310718855278471,
+            "reference_interval_s": [
+              0.7350000000000003,
+              55.735
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 2,
+          "start_s": 10.0,
+          "end_s": 37.75,
+          "point_count": 104,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 30.404457575426648,
+          "best_individual_fit": {
+            "waveform_offset_s": 5.085000000000001,
+            "observed_over_reference_ratio": "2/3",
+            "ratio_numerator": 2,
+            "ratio_denominator": 3,
+            "rms_reference_hz": 1.9111831970488982,
+            "rms_observed_hz": 1.274122131365932,
+            "median_absolute_reference_error_hz": 0.4837528319642672,
+            "relative_rms_percent": 0.6453166486729587,
+            "paired_points": 104,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 27.75,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.3688589967890501,
+            "reference_interval_s": [
+              4.914999999999999,
+              32.665
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 3,
+          "start_s": 30.0,
+          "end_s": 48.0,
+          "point_count": 64,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 56.258393640164286,
+          "best_individual_fit": {
+            "waveform_offset_s": 4.945,
+            "observed_over_reference_ratio": "5/4",
+            "ratio_numerator": 5,
+            "ratio_denominator": 4,
+            "rms_reference_hz": 0.3605173741153005,
+            "rms_observed_hz": 0.4506467176441256,
+            "median_absolute_reference_error_hz": 0.21467347342105825,
+            "relative_rms_percent": 0.13918496797990856,
+            "paired_points": 64,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 18.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.23925988980911359,
+            "reference_interval_s": [
+              25.055,
+              43.055
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.18600010871887207
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 4,
+          "start_s": 31.75,
+          "end_s": 42.0,
+          "point_count": 35,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 67.65118200704455,
+          "best_individual_fit": {
+            "waveform_offset_s": 10.000687625885007,
+            "observed_over_reference_ratio": "5/2",
+            "ratio_numerator": 5,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 3.582408421648268,
+            "rms_observed_hz": 8.95602105412067,
+            "median_absolute_reference_error_hz": 3.170712346963114,
+            "relative_rms_percent": 1.2773374936492172,
+            "paired_points": 35,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 10.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.1362452150301897,
+            "reference_interval_s": [
+              21.749312374114993,
+              31.999312374114993
+            ],
+            "max_observed_gap_s": 0.75,
+            "max_reference_interpolation_gap_s": 0.18600010871887207
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 5,
+          "start_s": 36.75,
+          "end_s": 60.75,
+          "point_count": 96,
+          "reported_harmonics": 3,
+          "reported_drop_hz": 29.795310575515032,
+          "best_individual_fit": {
+            "waveform_offset_s": 5.02,
+            "observed_over_reference_ratio": "2/3",
+            "ratio_numerator": 2,
+            "ratio_denominator": 3,
+            "rms_reference_hz": 1.9618101804602028,
+            "rms_observed_hz": 1.307873453640135,
+            "median_absolute_reference_error_hz": 0.23670540218606106,
+            "relative_rms_percent": 0.8317524974836087,
+            "paired_points": 96,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 24.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.31901318641215143,
+            "reference_interval_s": [
+              31.73,
+              55.730000000000004
+            ],
+            "max_observed_gap_s": 0.5,
+            "max_reference_interpolation_gap_s": 0.18600010871887207
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        }
+      ],
+      "shared_offset_diagnostic": {
+        "anchor_event_id": 0,
+        "waveform_offset_s": 5.07,
+        "reference_covered_union_s": 55.0,
+        "reference_covered_fraction": 0.7310718855278471,
+        "duration_weighted_rms_reference_hz": 1.953750446348873,
+        "matched_event_ids": [
+          0,
+          1,
+          2,
+          3,
+          5
+        ],
+        "fits": [
+          {
+            "event_id": 0,
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 2.69515968011954,
+            "rms_observed_hz": 1.34757984005977,
+            "median_absolute_reference_error_hz": 0.3781607881300886,
+            "relative_rms_percent": 0.9859730266772382,
+            "paired_points": 213,
+            "observed_point_fraction": 0.9141630901287554,
+            "overlap_span_s": 55.0,
+            "event_span_coverage_fraction": 0.9090909090909091,
+            "reference_span_coverage_fraction": 0.7310718855278471,
+            "reference_interval_s": [
+              0.6799999999999997,
+              55.68
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          {
+            "event_id": 1,
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "1",
+            "ratio_numerator": 1,
+            "ratio_denominator": 1,
+            "rms_reference_hz": 1.6576252303264432,
+            "rms_observed_hz": 1.6576252303264432,
+            "median_absolute_reference_error_hz": 0.27920515954065195,
+            "relative_rms_percent": 0.6116698880299329,
+            "paired_points": 202,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 55.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.7310718855278471,
+            "reference_interval_s": [
+              0.6799999999999997,
+              55.68
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          {
+            "event_id": 2,
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "2/3",
+            "ratio_numerator": 2,
+            "ratio_denominator": 3,
+            "rms_reference_hz": 1.9269074038538057,
+            "rms_observed_hz": 1.284604935902537,
+            "median_absolute_reference_error_hz": 0.4824186949549869,
+            "relative_rms_percent": 0.6507231188261882,
+            "paired_points": 104,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 27.75,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.3688589967890501,
+            "reference_interval_s": [
+              4.93,
+              32.68
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.3710000514984131
+          },
+          {
+            "event_id": 3,
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "5/4",
+            "ratio_numerator": 5,
+            "ratio_denominator": 4,
+            "rms_reference_hz": 0.4701150286234842,
+            "rms_observed_hz": 0.5876437857793553,
+            "median_absolute_reference_error_hz": 0.3083078965658643,
+            "relative_rms_percent": 0.1812682923562042,
+            "paired_points": 64,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 18.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.23925988980911359,
+            "reference_interval_s": [
+              24.93,
+              42.93
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.18600010871887207
+          },
+          {
+            "event_id": 5,
+            "waveform_offset_s": 5.07,
+            "observed_over_reference_ratio": "2/3",
+            "ratio_numerator": 2,
+            "ratio_denominator": 3,
+            "rms_reference_hz": 2.077071736854794,
+            "rms_observed_hz": 1.3847144912365295,
+            "median_absolute_reference_error_hz": 0.26824214108798117,
+            "relative_rms_percent": 0.8803479048860922,
+            "paired_points": 96,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 24.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.31901318641215143,
+            "reference_interval_s": [
+              31.68,
+              55.68
+            ],
+            "max_observed_gap_s": 0.5,
+            "max_reference_interpolation_gap_s": 0.18600010871887207
+          }
+        ]
+      }
+    },
+    {
+      "case": "N788BM_R03",
+      "analysis_sha256": "ab972e5ae3fea49a649de1190ff42667292667b5655ad727bdbb1428b527b7c9",
+      "reference_sha256": "a3dc897970b04c1f35bb34c76ece4ac9cdbfcc3e5c597e2adca7b6afc17cdd64",
+      "engine_version": "0.1.0",
+      "reference_span_s": 58.026000022888184,
+      "audio_duration_s": 68.02666666666667,
+      "searched_waveform_offset_range_s": [
+        0.0,
+        10.000666643778487
+      ],
+      "reference_first_frequency_hz": 397.852,
+      "reference_last_frequency_hz": 263.253,
+      "reference_endpoint_drop_hz": 134.599,
+      "author_identified_aircraft": "N788BM",
+      "events": [
+        {
+          "event_id": 0,
+          "start_s": 28.0,
+          "end_s": 44.75,
+          "point_count": 48,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 37.28612205448249,
+          "best_individual_fit": {
+            "waveform_offset_s": 9.530000000000001,
+            "observed_over_reference_ratio": "1/2",
+            "ratio_numerator": 1,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 5.665610512596815,
+            "rms_observed_hz": 2.8328052562984074,
+            "median_absolute_reference_error_hz": 4.066709901867171,
+            "relative_rms_percent": 1.6398253594455499,
+            "paired_points": 48,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 16.75,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.28866370236433686,
+            "reference_interval_s": [
+              18.47,
+              35.22
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        },
+        {
+          "event_id": 1,
+          "start_s": 29.25,
+          "end_s": 38.75,
+          "point_count": 24,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 72.28389396270114,
+          "best_individual_fit": {
+            "waveform_offset_s": 8.375,
+            "observed_over_reference_ratio": "1",
+            "ratio_numerator": 1,
+            "ratio_denominator": 1,
+            "rms_reference_hz": 15.292301180934375,
+            "rms_observed_hz": 15.292301180934375,
+            "median_absolute_reference_error_hz": 9.682822441851954,
+            "relative_rms_percent": 4.295580961522438,
+            "paired_points": 24,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 9.5,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.16371971178872838,
+            "reference_interval_s": [
+              20.875,
+              30.375
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        },
+        {
+          "event_id": 2,
+          "start_s": 31.5,
+          "end_s": 42.5,
+          "point_count": 31,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 65.65005389663082,
+          "best_individual_fit": {
+            "waveform_offset_s": 3.235,
+            "observed_over_reference_ratio": "5/3",
+            "ratio_numerator": 5,
+            "ratio_denominator": 3,
+            "rms_reference_hz": 4.973028315080324,
+            "rms_observed_hz": 8.288380525133874,
+            "median_absolute_reference_error_hz": 3.630332199062252,
+            "relative_rms_percent": 1.5780045343370501,
+            "paired_points": 31,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 11.0,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.18957019259747496,
+            "reference_interval_s": [
+              28.265,
+              39.265
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 3,
+          "start_s": 32.75,
+          "end_s": 46.5,
+          "point_count": 43,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 43.542110979184486,
+          "best_individual_fit": {
+            "waveform_offset_s": 0.0,
+            "observed_over_reference_ratio": "6/5",
+            "ratio_numerator": 6,
+            "ratio_denominator": 5,
+            "rms_reference_hz": 6.742996268063666,
+            "rms_observed_hz": 8.0915955216764,
+            "median_absolute_reference_error_hz": 5.247560778629406,
+            "relative_rms_percent": 2.3218280208439213,
+            "paired_points": 43,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 13.75,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.2369627407468437,
+            "reference_interval_s": [
+              32.75,
+              46.5
+            ],
+            "max_observed_gap_s": 0.75,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "unexplained_by_reference_at_tested_ratios"
+        },
+        {
+          "event_id": 4,
+          "start_s": 36.25,
+          "end_s": 47.5,
+          "point_count": 31,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 74.79819570233428,
+          "best_individual_fit": {
+            "waveform_offset_s": 9.465000000000002,
+            "observed_over_reference_ratio": "3/2",
+            "ratio_numerator": 3,
+            "ratio_denominator": 2,
+            "rms_reference_hz": 2.44257908331841,
+            "rms_observed_hz": 3.6638686249776145,
+            "median_absolute_reference_error_hz": 1.5871079007696949,
+            "relative_rms_percent": 0.7586403983130234,
+            "paired_points": 31,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 11.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.1938786060655994,
+            "reference_interval_s": [
+              26.784999999999997,
+              38.035
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        },
+        {
+          "event_id": 5,
+          "start_s": 36.5,
+          "end_s": 54.75,
+          "point_count": 50,
+          "reported_harmonics": 1,
+          "reported_drop_hz": 41.24832824493447,
+          "best_individual_fit": {
+            "waveform_offset_s": 4.99,
+            "observed_over_reference_ratio": "4/5",
+            "ratio_numerator": 4,
+            "ratio_denominator": 5,
+            "rms_reference_hz": 2.026422357204769,
+            "rms_observed_hz": 1.6211378857638152,
+            "median_absolute_reference_error_hz": 0.9219242098334064,
+            "relative_rms_percent": 0.6999415924501122,
+            "paired_points": 50,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 18.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.3145141831730835,
+            "reference_interval_s": [
+              31.509999999999998,
+              49.76
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          },
+          "diagnostic_status": "within_exploratory_5hz_threshold"
+        }
+      ],
+      "shared_offset_diagnostic": {
+        "anchor_event_id": 5,
+        "waveform_offset_s": 4.99,
+        "reference_covered_union_s": 18.25,
+        "reference_covered_fraction": 0.3145141831730835,
+        "duration_weighted_rms_reference_hz": 2.026422357204769,
+        "matched_event_ids": [
+          5
+        ],
+        "fits": [
+          {
+            "event_id": 5,
+            "waveform_offset_s": 4.99,
+            "observed_over_reference_ratio": "4/5",
+            "ratio_numerator": 4,
+            "ratio_denominator": 5,
+            "rms_reference_hz": 2.026422357204769,
+            "rms_observed_hz": 1.6211378857638152,
+            "median_absolute_reference_error_hz": 0.9219242098334064,
+            "relative_rms_percent": 0.6999415924501122,
+            "paired_points": 50,
+            "observed_point_fraction": 1.0,
+            "overlap_span_s": 18.25,
+            "event_span_coverage_fraction": 1.0,
+            "reference_span_coverage_fraction": 0.3145141831730835,
+            "reference_interval_s": [
+              31.509999999999998,
+              49.76
+            ],
+            "max_observed_gap_s": 1.0,
+            "max_reference_interpolation_gap_s": 0.17100000381469727
+          }
+        ]
+      }
+    }
+  ]
+}

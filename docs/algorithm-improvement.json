@@ -1,0 +1,70 @@
+{
+  "summary": {
+    "baseline": {
+      "answers": 5,
+      "median_single_clip_distance_to_metadata_reference_m": 3295.064311072863,
+      "median_ground_track_offset_error_m": 1007.4771439051905,
+      "all_five_fusion_distance_to_metadata_reference_m": 2473.7374584812974,
+      "nearest_tested_cell_distance_m": 100.82120602849018,
+      "nearest_tested_cell_rank": 111,
+      "fusion_joint_cells": 344
+    },
+    "revised": {
+      "answers": 5,
+      "median_single_clip_distance_to_metadata_reference_m": 2791.528996025393,
+      "median_ground_track_offset_error_m": 435.0974705404411,
+      "all_five_fusion_distance_to_metadata_reference_m": 1432.4320261268365,
+      "nearest_tested_cell_distance_m": 100.82120602849018,
+      "nearest_tested_cell_rank": 4,
+      "fusion_joint_cells": 46
+    }
+  },
+  "original_development_case": {
+    "distance_to_creator_map_reference_m": 326.1339055066913,
+    "estimate_lat_lon": [
+      40.87494172206252,
+      -73.52335741492112
+    ],
+    "matched_flights": [
+      "a1dfeb-1788825600-0",
+      "ace391-1788825600-0"
+    ],
+    "rms_hz": [
+      0.3988501563161601,
+      0.74024323342544
+    ],
+    "event_coverage": [
+      1.0,
+      0.75
+    ],
+    "runner_up_score_gap": 0.2894381462173765,
+    "search": {
+      "anchor_fits_evaluated": 2803584,
+      "bounds": {
+        "east": -73.48,
+        "north": 40.91,
+        "south": 40.84,
+        "west": -73.57
+      },
+      "budget_exhausted": false,
+      "cells_evaluated": 397,
+      "hypotheses_evaluated": 4066,
+      "method": "coarse regional lattice; bounded 16-clock anchor pruning; robust nonlinear shape vs linear-chirp null; fixed support alternatives; heuristic refinement",
+      "time_prior": {
+        "estimate_unix_s": null,
+        "sigma_s": null,
+        "windows": [
+          {
+            "end_unix_s": 1788926400.0,
+            "start_unix_s": 1788840000.0,
+            "weight": 1.0
+          }
+        ]
+      }
+    },
+    "result_sha256": "75dd39e5db04a4f5f1fbaa281b43c3e6fe75e30fa7a4810122075d7a35fb1010"
+  },
+  "frozen_source_and_protocol_checks_passed": true,
+  "interpretation": "Ranking improved on five separate recordings, but top-ranked sites remain wrong by more than a kilometer. Nearest-cell rank is a diagnostic, not top-1 accuracy. No surveyed GPS accuracy or global aircraft-association accuracy is established.",
+  "after_evaluation_tuning": false
+}

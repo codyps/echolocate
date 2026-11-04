@@ -1,0 +1,31 @@
+{
+  "created_before_algorithm_changes": true,
+  "development": [
+    "original creator 18-minute recording"
+  ],
+  "new_separate_recordings": [
+    {
+      "path": "corpus/ground-truth/aerosonic/audio/7C1CA5_2023-05-09_12-52-42_2_1.wav",
+      "sha256": "fdc1dae6d8cb0f55d8422628de76e6c94037e9a0b717bd295e49d9d922d402c1"
+    },
+    {
+      "path": "corpus/ground-truth/aerosonic/audio/7C3FCB_2023-05-09_15-10-12_0_1.wav",
+      "sha256": "7aac827ce1b5499688597417705928c68ae28851e80a14317294749453c04ea1"
+    },
+    {
+      "path": "corpus/ground-truth/aerosonic/audio/7C6275_2023-05-09_14-22-08_0_1.wav",
+      "sha256": "3c7608fd2cfacc4d716c7034df3837620de52f24e580345f5e31e120f80bcbb1"
+    },
+    {
+      "path": "corpus/ground-truth/aerosonic/audio/7C79B7_2023-05-09_12-39-52_2_1.wav",
+      "sha256": "0c52d92fb0d7d97cfa9326accbbbe7ca748b3e37759894db85e837ab3293b0ec"
+    }
+  ],
+  "development_seen_earlier": [
+    "Pathak three examples",
+    "DLR six correlated channels",
+    "four news clips"
+  ],
+  "protocol": "Freeze algorithm and numerical settings using the original recording before running the four AeroSonicDB signals. Report detection and acoustic curve model fit only unless trajectory and microphone truth become independently available. No post-test tuning without marking set development. Compare exact baseline and revised binaries on identical audio/settings.",
+  "baseline_binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf"
+}

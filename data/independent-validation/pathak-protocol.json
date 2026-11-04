@@ -1,0 +1,87 @@
+{
+  "reference": {
+    "kind": "metadata-reconstructed reference; not independently surveyed GPS",
+    "audio_used": false,
+    "reference_lat": 37.66320218187498,
+    "reference_lon": -121.7818593252929,
+    "reference_xy_m": [
+      -1044.8393024655402,
+      -1864.5578118772876
+    ],
+    "recorder_msl_m": 153.24426300000005,
+    "source_cases": [
+      "N373DF_R06",
+      "N784MB_R04",
+      "N788BM_R03"
+    ],
+    "offset_residuals_m": [
+      0.3170473263403437,
+      0.181403507669188,
+      -0.22523623920176306
+    ],
+    "height_estimates_msl_m": [
+      153.24208149228934,
+      153.24426300000005,
+      153.264198872517
+    ],
+    "uncertainty_bound_known": false,
+    "conditional_on": "The source used one recorder site for these passages; nearby-point geometric consistency is checked separately for every new case."
+  },
+  "arbitrary_embedding": {
+    "east_m_per_degree": 111319.49079327358,
+    "north_m_per_degree": 110574.27582159435,
+    "town_lat": 37.68,
+    "town_lon": -121.77,
+    "east_source_scale": 88102.76104750673,
+    "north_source_scale": 111000.0
+  },
+  "cases": [
+    {
+      "id": "N4040_R12",
+      "audio": "corpus/pathak-heldout/N4040_R12/audio.wav",
+      "expected_flight_prefix": "N4040_R12",
+      "reference_offset_check_m": 585.788382695146,
+      "source_offset_m": 586.600859,
+      "reference_offset_residual_m": -0.8124763048540444,
+      "interpretation": "Single pass with uncertain clock has along-track/time and mirror ambiguities. Site fusion uses all five independent recordings with separate clocks and equal weights. No failed case is silently dropped."
+    },
+    {
+      "id": "N394FX_R20",
+      "audio": "corpus/pathak-heldout/N394FX_R20/audio.wav",
+      "expected_flight_prefix": "N394FX_R20",
+      "reference_offset_check_m": 389.1469957380543,
+      "source_offset_m": 388.91114,
+      "reference_offset_residual_m": 0.2358557380542834,
+      "interpretation": "Single pass with uncertain clock has along-track/time and mirror ambiguities. Site fusion uses all five independent recordings with separate clocks and equal weights. No failed case is silently dropped."
+    },
+    {
+      "id": "N916KT_R22",
+      "audio": "corpus/pathak-heldout/N916KT_R22/audio.wav",
+      "expected_flight_prefix": "N916KT_R22",
+      "reference_offset_check_m": 535.0712015117251,
+      "source_offset_m": 534.88127,
+      "reference_offset_residual_m": 0.189931511725149,
+      "interpretation": "Single pass with uncertain clock has along-track/time and mirror ambiguities. Site fusion uses all five independent recordings with separate clocks and equal weights. No failed case is silently dropped."
+    },
+    {
+      "id": "N757AH_R41",
+      "audio": "corpus/pathak-heldout/N757AH_R41/audio.wav",
+      "expected_flight_prefix": "N757AH_R41",
+      "reference_offset_check_m": 136.65074045031636,
+      "source_offset_m": 136.471645,
+      "reference_offset_residual_m": 0.17909545031636753,
+      "interpretation": "Single pass with uncertain clock has along-track/time and mirror ambiguities. Site fusion uses all five independent recordings with separate clocks and equal weights. No failed case is silently dropped."
+    },
+    {
+      "id": "N413AK_R49",
+      "audio": "corpus/pathak-heldout/N413AK_R49/audio.wav",
+      "expected_flight_prefix": "N413AK_R49",
+      "reference_offset_check_m": 3729.6216970885325,
+      "source_offset_m": 3732.148642,
+      "reference_offset_residual_m": -2.526944911467581,
+      "interpretation": "Single pass with uncertain clock has along-track/time and mirror ambiguities. Site fusion uses all five independent recordings with separate clocks and equal weights. No failed case is silently dropped."
+    }
+  ],
+  "not_a_blind_aircraft_identification_test": true,
+  "fusion_predeclared": "sum the per-cell profiled scores, independently profiling each recording clock; require evidence from all five recordings; same coarse 500 m grid, no truth-dependent weights or basin choice; no calibrated probabilities"
+}

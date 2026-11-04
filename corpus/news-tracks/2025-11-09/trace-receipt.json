@@ -1,0 +1,545 @@
+[
+  {
+    "day": "2025-11-09",
+    "icao": "a03448",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/48/trace_full_a03448.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1e6b9",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b9/trace_full_a1e6b9.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1dffb",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/fb/trace_full_a1dffb.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1d4f2",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/f2/trace_full_a1d4f2.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a03816",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/16/trace_full_a03816.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1cd4e",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/4e/trace_full_a1cd4e.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1e943",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/43/trace_full_a1e943.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a1ecfd",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/fd/trace_full_a1ecfd.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a271b0",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b0/trace_full_a271b0.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a2b133",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/33/trace_full_a2b133.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a340b8",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b8/trace_full_a340b8.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a20957",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/57/trace_full_a20957.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a34978",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/78/trace_full_a34978.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a356db",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/db/trace_full_a356db.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a34d52",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/52/trace_full_a34d52.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a360ea",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/ea/trace_full_a360ea.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a37fb0",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b0/trace_full_a37fb0.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a3d4c6",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/c6/trace_full_a3d4c6.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a418b2",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b2/trace_full_a418b2.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a448f5",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/f5/trace_full_a448f5.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a449e5",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e5/trace_full_a449e5.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a4b065",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/65/trace_full_a4b065.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a55b50",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/50/trace_full_a55b50.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a4e6c0",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/c0/trace_full_a4e6c0.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a58fdf",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/df/trace_full_a58fdf.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a648d1",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/d1/trace_full_a648d1.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a653f6",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/f6/trace_full_a653f6.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6837d",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/7d/trace_full_a6837d.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a657aa",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/aa/trace_full_a657aa.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a695ea",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/ea/trace_full_a695ea.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6a711",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/11/trace_full_a6a711.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6b0d2",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/d2/trace_full_a6b0d2.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6d241",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/41/trace_full_a6d241.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6dbf3",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/f3/trace_full_a6dbf3.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a6d857",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/57/trace_full_a6d857.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a72213",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/13/trace_full_a72213.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a94bfc",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/fc/trace_full_a94bfc.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a72823",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/23/trace_full_a72823.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a76235",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/35/trace_full_a76235.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a96144",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/44/trace_full_a96144.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a95de2",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e2/trace_full_a95de2.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a96199",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/99/trace_full_a96199.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a96c2e",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/2e/trace_full_a96c2e.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a993ad",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/ad/trace_full_a993ad.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a9ad36",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/36/trace_full_a9ad36.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "a9d44c",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/4c/trace_full_a9d44c.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "aa7668",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/68/trace_full_aa7668.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "aa4ac9",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/c9/trace_full_aa4ac9.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab10df",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/df/trace_full_ab10df.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "aab187",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/87/trace_full_aab187.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab48e8",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e8/trace_full_ab48e8.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab2ae0",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e0/trace_full_ab2ae0.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab586f",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/6f/trace_full_ab586f.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab6eb9",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/b9/trace_full_ab6eb9.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab774b",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/4b/trace_full_ab774b.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ab9de9",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e9/trace_full_ab9de9.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "abc649",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/49/trace_full_abc649.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "abd1e3",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e3/trace_full_abd1e3.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "abd7d1",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/d1/trace_full_abd7d1.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "abe056",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/56/trace_full_abe056.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac1951",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/51/trace_full_ac1951.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac2a33",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/33/trace_full_ac2a33.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac3ea3",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/a3/trace_full_ac3ea3.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac52ff",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/ff/trace_full_ac52ff.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac71e7",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/e7/trace_full_ac71e7.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac9a74",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/74/trace_full_ac9a74.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "adfdf9",
+    "ok": true,
+    "path": "2025-11-09/traces/trace_full_adfdf9.json",
+    "points": 838,
+    "geometric_altitude_points": 0,
+    "registration": "92-9000",
+    "aircraft_type": "B742",
+    "timestamp": 1762646400.0,
+    "source_sha256": "666a98a7009d495fc5ff63404c9f5fb10e315eeeacf75deb1af93024ae07a6c3",
+    "decoded_sha256": "23fcc7abcb77194c3a9806060661ad59837ded8479a4b6292a5525a7807b4454",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/f9/trace_full_adfdf9.json",
+      "bytes": 18028
+    }
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "acce3f",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/3f/trace_full_acce3f.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ac9bae",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/ae/trace_full_ac9bae.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "acc59d",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/9d/trace_full_acc59d.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ad493b",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/3b/trace_full_ad493b.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "ad4c2a",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/2a/trace_full_ad4c2a.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "c003a8",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/a8/trace_full_c003a8.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "~278132",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/32/trace_full_~278132.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "~27badb",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/db/trace_full_~27badb.json"
+  },
+  {
+    "day": "2025-11-09",
+    "icao": "~27bd93",
+    "ok": false,
+    "error": "HTTP Error 403: Forbidden; HTTP Error 403: Forbidden; HTTP Error 403: Forbidden",
+    "url": "https://globe.adsb.lol/globe_history/2025/11/09/traces/93/trace_full_~27bd93.json"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "source_archive_sha256": "5c2710f27520e10feb34c78aafed7fd90f4e5a3d749b5e22c63e8a1fb69ef169",
+  "source": "previous delivered echolocate-project.zip",
+  "binary_sha256": "eff8dca1a8492df727f72b89d016af1a50d18454fd1afdf23ede31e9eb9dc7cf",
+  "source_files_sha256": {
+    "validation-baseline/Cargo.lock": "dc4039160154d11e6c268d7bda87db8fea0420c36b1ac22a3e6f374745950291",
+    "validation-baseline/Cargo.toml": "62703e58499a91bc9adfa7544f31a18addf1c2ce56821374a18fa7888d2046f5",
+    "validation-baseline/LICENSE": "8798d82c904cf8d2df4f6979d91b288fb1ad5c52dde51fb82821d5f068e966af",
+    "validation-baseline/README.md": "54801afd4dbadafb8c6bac02dba97bc1befe83543f15db82a2afa11bc51ffee3",
+    "validation-baseline/crates/echo-cli/Cargo.toml": "f652fa5d352c5ee6f7eacc5f28f7d29c3057a34d9b9b7179aa0f2220d5012502",
+    "validation-baseline/crates/echo-cli/src/ingest.rs": "762231c82ef052a366e81cd2c86bcd340836853cf9f4bc4396b0787e64bf2323",
+    "validation-baseline/crates/echo-cli/src/main.rs": "9cc08b7c302b9cea8c7841f25e0aef5756ca3f27d0b3f4ead721b631a82e5cba",
+    "validation-baseline/crates/echo-cli/src/publish.rs": "973a5cbc6570c8db4905af62bc88d8704be195fb81e06c9073d4f3d87dfaec9a",
+    "validation-baseline/crates/echo-core/Cargo.toml": "03b04416b854f6041af4023fbb1d91b92a2cd9a33855b36d8890503e94cdeef6",
+    "validation-baseline/crates/echo-core/examples/diagnose.rs": "9a6807484f88a9ea206404890716a9249d0403a592537d88e909353e7b173cbb",
+    "validation-baseline/crates/echo-core/src/audio.rs": "47b82f8f68f35ca119f9d0f7ae086f8d0b259d2cd29bf28f24be2c974a492d60",
+    "validation-baseline/crates/echo-core/src/demo.rs": "da61c2586dccfd927704f8029f5f5d5b0df838f831ae4c253f07c84eb6277da0",
+    "validation-baseline/crates/echo-core/src/lib.rs": "1a776e7ab0c6e3027495f503e4961afdd7d37781f68f5196dadbb2818c99a824",
+    "validation-baseline/crates/echo-core/src/model.rs": "7296a8f905b7bff52aee874af4033a3f38e7b05181863af937b297ca1f2caa80",
+    "validation-baseline/crates/echo-core/src/physics.rs": "311f2ee807ecfa45e1e709eac4ea8dbd938d42f00530a6329d1831052edde1d1",
+    "validation-baseline/crates/echo-core/src/search.rs": "fc202533567706c10397c960ac4d2a6c194f15445b5714277461bb6fb1c35127",
+    "validation-baseline/crates/echo-core/src/spectral.rs": "a5269220a7e0efaed893467d4cb647849fe02e567c40ac4e68c7f7c05c42ba46"
+  }
+}

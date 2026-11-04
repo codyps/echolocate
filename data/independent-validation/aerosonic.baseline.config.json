@@ -1,0 +1,12 @@
+{
+  "max_audio_s": 1080,
+  "min_hz": 35,
+  "max_hz": 1000,
+  "window_s": 2,
+  "hop_s": 0.5,
+  "min_event_s": 8,
+  "peak_threshold_db": 9,
+  "max_events": 16,
+  "multiresolution": false,
+  "frequency_sigma_hz": 2
+}

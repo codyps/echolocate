@@ -1,0 +1,7 @@
+{
+  "grid_spacing_m": 500,
+  "max_cells": 3000,
+  "max_hypotheses": 2000000,
+  "frequency_sigma_hz": 2,
+  "max_track_gap_s": 30
+}

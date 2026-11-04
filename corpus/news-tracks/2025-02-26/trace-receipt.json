@@ -1,0 +1,344 @@
+[
+  {
+    "day": "2025-02-26",
+    "icao": "a330a0",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a330a0.json",
+    "points": 2297,
+    "geometric_altitude_points": 2125,
+    "registration": "N30401",
+    "aircraft_type": "B739",
+    "timestamp": 1740528000.0,
+    "source_sha256": "228f5ddffbbc4ee8a37ef19009d547b709030dbcf5985baddea4240cd12e55bf",
+    "decoded_sha256": "8fb8f1f517bda547dcbde1490c7c3a5b779f59cfd03b799fde7f85ac627e03cb",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/a0/trace_full_a330a0.json",
+      "bytes": 57337
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a31370",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a31370.json",
+    "points": 2517,
+    "geometric_altitude_points": 2349,
+    "registration": "N298CM",
+    "aircraft_type": "B763",
+    "timestamp": 1740528000.0,
+    "source_sha256": "2b641fefc2b27aee359965bafac85cfbb0dd7c5dc5f80d1f290f4dd19774f2bc",
+    "decoded_sha256": "d5fd7d7bde007c45fb1cd397dadcfcef52eba81cf484856d7c592e09001276f7",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/70/trace_full_a31370.json",
+      "bytes": 66215
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a20a81",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a20a81.json",
+    "points": 3361,
+    "geometric_altitude_points": 2794,
+    "registration": "N230WN",
+    "aircraft_type": "B737",
+    "timestamp": 1740528000.0,
+    "source_sha256": "1484989289921b568f9ade8aade80ef3a621fcc342fd51bfdff2be1d702e8348",
+    "decoded_sha256": "21fef2c8ced66a47164710e6ed8ac87630293bd554b16292d32a4f1bac7c3d7a",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/81/trace_full_a20a81.json",
+      "bytes": 91080
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a46c9a",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a46c9a.json",
+    "points": 3366,
+    "geometric_altitude_points": 3163,
+    "registration": "N38403",
+    "aircraft_type": "B739",
+    "timestamp": 1740528000.0,
+    "source_sha256": "f754802af5d7c12a4e02e9474d08d0bb75f5b6fdc3b2fc380e14abd3d30dcb7f",
+    "decoded_sha256": "05750512d4706989ba41df8d3c5e9af8e22e03409917af67db79542aaa873bd0",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/9a/trace_full_a46c9a.json",
+      "bytes": 86408
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a2fee9",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a2fee9.json",
+    "points": 3720,
+    "geometric_altitude_points": 3082,
+    "registration": "N292WN",
+    "aircraft_type": "B737",
+    "timestamp": 1740528000.0,
+    "source_sha256": "ef50d7f030065e87d061704e8bb074074e96de7376d02f55bf7fbc6c4b5eb13c",
+    "decoded_sha256": "52e7ac82ccaeb5d1babc1169de1c16af6ee39b294967d699ca2c1523d079f2d5",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/e9/trace_full_a2fee9.json",
+      "bytes": 97848
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a437da",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a437da.json",
+    "points": 3725,
+    "geometric_altitude_points": 3396,
+    "registration": "N371DN",
+    "aircraft_type": "A321",
+    "timestamp": 1740528000.0,
+    "source_sha256": "41ee5903d64c409876af43b633bfce72723d51a69de08b955f30077cf284e299",
+    "decoded_sha256": "5d93ddbec315077333fa897171a47d56aa61aa84acc3a26cadb887e3d91efdfe",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/da/trace_full_a437da.json",
+      "bytes": 95163
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a727b7",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a727b7.json",
+    "points": 820,
+    "geometric_altitude_points": 803,
+    "registration": "N560JE",
+    "aircraft_type": "C56X",
+    "timestamp": 1740528000.0,
+    "source_sha256": "2c08118454f98680b62de5203ceeea10d33e5869083b87a6f163a61c6b6aa4bf",
+    "decoded_sha256": "a8bff6cd61c12c8f6ebb5046eff7922cedf46fa3b3299d998ba78115be7943f1",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/b7/trace_full_a727b7.json",
+      "bytes": 22179
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a51968",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a51968.json",
+    "points": 1912,
+    "geometric_altitude_points": 1551,
+    "registration": "N428AS",
+    "aircraft_type": "B739",
+    "timestamp": 1740528000.0,
+    "source_sha256": "5da6acf2629e41cfbc1fe9a84625d2376dc6e3c1645eb96a6b138e3a0c92cb3e",
+    "decoded_sha256": "e0792103b57eb8fe0d7e10d937c1aeb8639df909c8ce40d224be3a090db64109",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/68/trace_full_a51968.json",
+      "bytes": 46619
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a52e50",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a52e50.json",
+    "points": 2185,
+    "geometric_altitude_points": 1928,
+    "registration": "N433AN",
+    "aircraft_type": "A21N",
+    "timestamp": 1740528000.0,
+    "source_sha256": "bf515b0018e134ec6ebb646b3b3f50ed85da1ca022d1cd6ed245dc2ca2c4ed20",
+    "decoded_sha256": "017df175f66b68227db8e417cd1e408f0cd5fffc8c1a1936785403f256ea8bb8",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/50/trace_full_a52e50.json",
+      "bytes": 53871
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "a774c2",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_a774c2.json",
+    "points": 692,
+    "geometric_altitude_points": 690,
+    "registration": "N58NG",
+    "aircraft_type": "PC12",
+    "timestamp": 1740528000.0,
+    "source_sha256": "f7e59a391e93b8aead38570a9be7c62408d86663daf06ac3fc463851359d0e83",
+    "decoded_sha256": "7c34d6232e3476552e9a427253bb635e61785baceb13d095950bfc24bd6ea78b",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/c2/trace_full_a774c2.json",
+      "bytes": 16792
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "aa568f",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_aa568f.json",
+    "points": 2275,
+    "geometric_altitude_points": 1995,
+    "registration": "N76503",
+    "aircraft_type": "B738",
+    "timestamp": 1740528000.0,
+    "source_sha256": "35818f7b0316895de3793f24d61dd8850325d167ccaf711007bfc9c042953160",
+    "decoded_sha256": "e4f5802ad2aba9b7edfe36d038a73c46411efaaff1805a4b43942768129dea02",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/8f/trace_full_aa568f.json",
+      "bytes": 59404
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "aaecd7",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_aaecd7.json",
+    "points": 2039,
+    "geometric_altitude_points": 2035,
+    "registration": "N80283",
+    "aircraft_type": "C172",
+    "timestamp": 1740528000.0,
+    "source_sha256": "b5363ef2188fc7de3fcd76db57a3eba899f614207978f1cbee3b16619999e36c",
+    "decoded_sha256": "4ea188e9e6a98e22cfa9461282f6a37008114d7dc164034f848717dd7ed5df5c",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/d7/trace_full_aaecd7.json",
+      "bytes": 52669
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "ad561e",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_ad561e.json",
+    "points": 868,
+    "geometric_altitude_points": 855,
+    "registration": "N959AH",
+    "aircraft_type": "HDJT",
+    "timestamp": 1740528000.0,
+    "source_sha256": "cdafc483ee14ea043ca128ba09a27d6e6285bdd1a6e253ede9df8180fe1dfe48",
+    "decoded_sha256": "30376f8de36bacbc7518df697d56dc0ca30168371e7cc9d5425f1503846eb796",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/1e/trace_full_ad561e.json",
+      "bytes": 23310
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "acc3b4",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_acc3b4.json",
+    "points": 3315,
+    "geometric_altitude_points": 2785,
+    "registration": "N921US",
+    "aircraft_type": "A321",
+    "timestamp": 1740528000.0,
+    "source_sha256": "1174f6e84705362ca940c88122469dac6925e1ee02a8330c9206e4080a7e8902",
+    "decoded_sha256": "ce20373bf3afe4232bee7f725612f2551c21cc50f54091c7a7116ef5bd6b9e1e",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/b4/trace_full_acc3b4.json",
+      "bytes": 78961
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "ac0fb6",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_ac0fb6.json",
+    "points": 3095,
+    "geometric_altitude_points": 2728,
+    "registration": "N8765Q",
+    "aircraft_type": "B38M",
+    "timestamp": 1740528000.0,
+    "source_sha256": "b6276e4ae33f94a0da46f05180cba1378ae29f1cdde44dc77d8e58d820ab5343",
+    "decoded_sha256": "a8b4310df4de3acf7ebc46ec025a939292e547a828fd7eee364b80d6d4248012",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/b6/trace_full_ac0fb6.json",
+      "bytes": 80769
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "ac541b",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_ac541b.json",
+    "points": 3264,
+    "geometric_altitude_points": 2909,
+    "registration": "N8939Q",
+    "aircraft_type": "B38M",
+    "timestamp": 1740528000.0,
+    "source_sha256": "0f60e3b19edf746ebf4c0b09acb0ae0c1a5d65c4c8d935ef599d477ef937f5e0",
+    "decoded_sha256": "3cee135187fafe1fbf00a6923c56a60bad8f2783397a9471bc0f3d2d73451a98",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/1b/trace_full_ac541b.json",
+      "bytes": 81462
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "acdbec",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_acdbec.json",
+    "points": 3510,
+    "geometric_altitude_points": 2932,
+    "registration": "N928AK",
+    "aircraft_type": "B39M",
+    "timestamp": 1740528000.0,
+    "source_sha256": "a350a228d5d83749209007cff23c813d87558b8415b5015a59e11b35bd0c84fb",
+    "decoded_sha256": "effe89a22477cd54f2e49a6210028ede0541c5acd8ec4c8335d4236b24e8f31b",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/ec/trace_full_acdbec.json",
+      "bytes": 87034
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "abef54",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_abef54.json",
+    "points": 4140,
+    "geometric_altitude_points": 3073,
+    "registration": "N8683D",
+    "aircraft_type": "B738",
+    "timestamp": 1740528000.0,
+    "source_sha256": "82c86287960a4de99ed849eb8bce2de9decfbd2b1666598c958c8230e9aea5a9",
+    "decoded_sha256": "02958a457b7403be59b7b801d3e24e82cdbca8c0eea9f268e4420761c020e9e6",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/54/trace_full_abef54.json",
+      "bytes": 102126
+    }
+  },
+  {
+    "day": "2025-02-26",
+    "icao": "ada227",
+    "ok": true,
+    "path": "2025-02-26/traces/trace_full_ada227.json",
+    "points": 5003,
+    "geometric_altitude_points": 4353,
+    "registration": "N978JB",
+    "aircraft_type": "A321",
+    "timestamp": 1740528000.0,
+    "source_sha256": "eca4b55248870291f4e57467b5b642eb9575aa64f0e0082687ce7eb14e5fe269",
+    "decoded_sha256": "d71c8b2f9e43439287cd079042b5282e012e69a26fd30c97cdef3788e78f7b19",
+    "acquisition": {
+      "cached": true,
+      "url": "https://globe.adsb.lol/globe_history/2025/02/26/traces/27/trace_full_ada227.json",
+      "bytes": 123130
+    }
+  }
+]

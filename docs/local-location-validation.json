@@ -1,0 +1,980 @@
+{
+  "schema_version": 1,
+  "engine_binary_sha256": "47ce666420d46168c2baf8ceeabf29d45bb0e2ff3faf11eab3d1fc35a5a6d248",
+  "kind": "real measured receiver positions in source local Cartesian frame",
+  "absolute_geographic_accuracy_measured": false,
+  "independent_sessions": 1,
+  "interpretation": "All six channels share one jet flyover. Source clock convention is explicitly assumed, not independently established. One protocol uses only supplied knots and a fixed common arrival slice; the other extrapolates a constant-velocity source model. Receiver coordinates were excluded from inference.",
+  "groups": {
+    "constant-velocity-extension": {
+      "cases": 6,
+      "answers": 6,
+      "median_error_m_on_answered": 131.99626593184263,
+      "median_origin_baseline_m_on_answered": 3.22486314924668,
+      "beats_origin_baseline": 0
+    },
+    "measured-knots": {
+      "cases": 6,
+      "answers": 0,
+      "median_error_m_on_answered": null,
+      "median_origin_baseline_m_on_answered": null,
+      "beats_origin_baseline": 0
+    }
+  },
+  "cases": [
+    {
+      "id": "dlr-rec139-mic-000-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 0,
+      "elapsed_s": 0.016,
+      "exit_code": 0,
+      "audio_sha256": "a91fc39c77c892fd770b6acba857e75bae3f897b9cf0ef471d7f77fa82172ad7",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-046-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 46,
+      "elapsed_s": 0.018,
+      "exit_code": 0,
+      "audio_sha256": "e79aa478d25691f5d11b3791757fc3c7341edbcfc14ddd37f639e3b615c3139c",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-092-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 92,
+      "elapsed_s": 0.017,
+      "exit_code": 0,
+      "audio_sha256": "b4d21f787fe43cc7d44f0e5c3a7c0743ab09470d79e9667b8713f0dd2bb86e54",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-138-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 138,
+      "elapsed_s": 0.018,
+      "exit_code": 0,
+      "audio_sha256": "518e2b7a9dea0a61b6468fb925786c93eede18274bcde0e49ef6f94263954cfd",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-184-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 184,
+      "elapsed_s": 0.016,
+      "exit_code": 0,
+      "audio_sha256": "e35800ad0b99a59ee6585cad9804e83f001e98fed925b96328c31f1ccc4ab9fe",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-230-measured-knots",
+      "protocol": "measured-knots",
+      "source_channel": 230,
+      "elapsed_s": 0.016,
+      "exit_code": 0,
+      "audio_sha256": "469ee4a98a517c79e767a74fa908b39ee5c5b5d2b3d282148a30661a62ef43ac",
+      "package_sha256": "335e1c1b418e5169cf8bdf215248fb85c331ecef857f4f8276fc6b296ed40ea5",
+      "config_sha256": "a13d864ce08b54e54dc5bc74ef9623122e16658c49bfb19ca897777eb581c0f5",
+      "status": "no_usable_events",
+      "events": 0,
+      "candidate_count": 0,
+      "search": null
+    },
+    {
+      "id": "dlr-rec139-mic-000-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 0,
+      "elapsed_s": 0.077,
+      "exit_code": 0,
+      "audio_sha256": "3acaac9b5b048b658f0f052786732669a6623ff4cea88b2c64704204b05ac24a",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 6,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 579,
+        "hypotheses_evaluated": 1579,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        -0.5320000052452087,
+        0.3490000069141388
+      ],
+      "origin_baseline_error_m": 0.6362586034050707,
+      "top1_error_m": 336.8975259878196,
+      "best_of_reported_candidates_error_m": 258.39428931822107,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            -322.96307607818966
+          ],
+          "horizontal_error_m": 336.8975259878196,
+          "score": -3.366657081303531,
+          "start_internal_s": 1000.025,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            308.500806424064
+          ],
+          "horizontal_error_m": 322.3767675754664,
+          "score": -3.368043523865567,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            -356.1198540431116
+          ],
+          "horizontal_error_m": 368.8350422370307,
+          "score": -3.370052327916266,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -107.73803808098238,
+            368.53611749774626
+          ],
+          "horizontal_error_m": 383.47736319906056,
+          "score": -3.372262985455536,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -82.73815240679188,
+            -273.298022259651
+          ],
+          "horizontal_error_m": 285.72809502746543,
+          "score": -3.3801901827446983,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -107.73803808392849,
+            -393.3686444070156
+          ],
+          "horizontal_error_m": 408.0523472832643,
+          "score": -3.390742620270596,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -70.23820957342299,
+            -248.46549535038173
+          ],
+          "horizontal_error_m": 258.39428931822107,
+          "score": -3.3934718088330458,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -107.73803808983482,
+            -438.94168582657227
+          ],
+          "horizontal_error_m": 452.18297321089983,
+          "score": -3.3988919956758465,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -117.85725715022117,
+            438.94168582657227
+          ],
+          "horizontal_error_m": 454.0140526664743,
+          "score": -3.39979352766791,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -117.85725714304799,
+            476.1904761904762
+          ],
+          "horizontal_error_m": 490.0921611482916,
+          "score": -3.419135016729256,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        }
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-046-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 46,
+      "elapsed_s": 0.074,
+      "exit_code": 0,
+      "audio_sha256": "920d3a8480aedf1dcab1a5286909f8e0b284fe5847a581c95c13a7081d868ed8",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 5,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 582,
+        "hypotheses_evaluated": 1594,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        2.3420000076293945,
+        0.9470000267028809
+      ],
+      "origin_baseline_error_m": 2.526217149476929,
+      "top1_error_m": 334.5186401222744,
+      "best_of_reported_candidates_error_m": 224.3788047675515,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            320.91706987869867
+          ],
+          "horizontal_error_m": 334.5186401222744,
+          "score": -1.8027687246302362,
+          "start_internal_s": 1000.025,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            -345.74959678796796
+          ],
+          "horizontal_error_m": 360.16719066433456,
+          "score": -1.8059664713000965,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            358.16586024260266
+          ],
+          "horizontal_error_m": 370.3068850050067,
+          "score": -1.8085596497821754,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -70.2382095769639,
+            250.5115015498727
+          ],
+          "horizontal_error_m": 259.9044579145416,
+          "score": -1.8098938406109673,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            -391.32263820752456
+          ],
+          "horizontal_error_m": 404.22437342220763,
+          "score": -1.8160204827588888,
+          "start_internal_s": 999.975,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -107.73803808521563,
+            403.73890166215915
+          ],
+          "horizontal_error_m": 417.5630860236921,
+          "score": -1.8197204856855658,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -82.7381524003203,
+            -320.9170698786986
+          ],
+          "horizontal_error_m": 332.9190769989445,
+          "score": -1.8226467668413138,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            -428.57142857142856
+          ],
+          "horizontal_error_m": 440.46334182718635,
+          "score": -1.8297480068995764,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -70.23820958045447,
+            213.26271118596873
+          ],
+          "horizontal_error_m": 224.3788047675515,
+          "score": -1.8300983035532958,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -117.85725715022117,
+            438.94168582657227
+          ],
+          "horizontal_error_m": 454.18851395673295,
+          "score": -1.835776129906316,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        }
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-092-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 92,
+      "elapsed_s": 0.067,
+      "exit_code": 0,
+      "audio_sha256": "dc429d847e2d2d0f9888fe99dc620f6cdac86ddf38b0b3bac584234b280da920",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 3,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 585,
+        "hypotheses_evaluated": 1605,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        -0.9160000085830688,
+        -0.6480000019073486
+      ],
+      "origin_baseline_error_m": 1.1220338756900818,
+      "top1_error_m": 59.77057180789833,
+      "best_of_reported_candidates_error_m": 1.1220338756900818,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            -12.499942822262035,
+            57.98930487419133
+          ],
+          "horizontal_error_m": 59.77057180789833,
+          "score": 4.29829847633194,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -12.499942822510269,
+            -70.40556832882594
+          ],
+          "horizontal_error_m": 70.71284232726791,
+          "score": 4.2682744313677485,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            0.0
+          ],
+          "horizontal_error_m": 1.1220338756900818,
+          "score": 4.245201461325761,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -12.499942824423593,
+            -107.6543586927299
+          ],
+          "horizontal_error_m": 107.63154059767814,
+          "score": 4.091520989221754,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -24.999885647966632,
+            107.65435869272996
+          ],
+          "horizontal_error_m": 110.94789067987182,
+          "score": 4.073386041204138,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            -47.61904761904765
+          ],
+          "horizontal_error_m": 46.9799783979025,
+          "score": 4.000409291502523,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -24.999885647966632,
+            -132.4868856019992
+          ],
+          "horizontal_error_m": 134.02061521931995,
+          "score": 3.929550781025994,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -12.499942823495028,
+            132.48688560199926
+          ],
+          "horizontal_error_m": 133.63788944720898,
+          "score": 3.5217785598712528,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.11910479102786,
+            -200.84644773133414
+          ],
+          "horizontal_error_m": 203.09916506482966,
+          "score": 3.3299877398673354,
+          "start_internal_s": 1000.025,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.11910479089923,
+            202.89245393082516
+          ],
+          "horizontal_error_m": 206.39420719558217,
+          "score": 3.28949810789746,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        }
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-138-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 138,
+      "elapsed_s": 0.087,
+      "exit_code": 0,
+      "audio_sha256": "1460a7b9065db763f2480a7c27c2d6756fa1f3725aac6d7d526aa812ff624020",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 7,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 585,
+        "hypotheses_evaluated": 1610,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        3.744999885559082,
+        -1.1699999570846558
+      ],
+      "origin_baseline_error_m": 3.9235091490164304,
+      "top1_error_m": 14.092961989427925,
+      "best_of_reported_candidates_error_m": 14.092961989427925,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            0.0,
+            12.416263454634652
+          ],
+          "horizontal_error_m": 14.092961989427925,
+          "score": -3.834134936158941,
+          "start_internal_s": 999.975,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            -24.832526909269305
+          ],
+          "horizontal_error_m": 23.957049190284316,
+          "score": -3.84623455782668,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            47.61904761904755
+          ],
+          "horizontal_error_m": 48.932567759406716,
+          "score": -3.898741181485857,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            -60.0353110736823
+          ],
+          "horizontal_error_m": 58.984318907627234,
+          "score": -3.94468280363259,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -12.499942824423593,
+            -107.6543586927299
+          ],
+          "horizontal_error_m": 107.71637210281548,
+          "score": -4.1150936283578226,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -12.499942824423593,
+            107.65435869272996
+          ],
+          "horizontal_error_m": 110.03017403964287,
+          "score": -4.117710361351826,
+          "start_internal_s": 999.975,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -24.999885647966632,
+            132.48688560199926
+          ],
+          "horizontal_error_m": 136.71295294042022,
+          "score": -4.279217034962353,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -24.999885647966632,
+            -132.4868856019992
+          ],
+          "horizontal_error_m": 134.4261615155884,
+          "score": -4.36466403825274,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.11910479102786,
+            200.84644773133408
+          ],
+          "horizontal_error_m": 205.7208394134156,
+          "score": -4.811189923600232,
+          "start_internal_s": 1000.025,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.1191047894266,
+            -200.84644773133414
+          ],
+          "horizontal_error_m": 203.42345594333713,
+          "score": -4.818866864823689,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        }
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-184-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 184,
+      "elapsed_s": 0.078,
+      "exit_code": 0,
+      "audio_sha256": "8c18b97baf9c2c438e50971cbbf1b61fe2ad726672734af20f9fb5a906c728e9",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 6,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 579,
+        "hypotheses_evaluated": 1583,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        4.328999996185303,
+        5.388000011444092
+      ],
+      "origin_baseline_error_m": 6.911641273264541,
+      "top1_error_m": 204.22196005578692,
+      "best_of_reported_candidates_error_m": 177.1207140590687,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            202.89245393082516
+          ],
+          "horizontal_error_m": 204.22196005578692,
+          "score": -3.503309328345411,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            -202.8924539308251
+          ],
+          "horizontal_error_m": 214.66100518126765,
+          "score": -3.503646194481907,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -70.23820957342299,
+            248.46549535038173
+          ],
+          "horizontal_error_m": 254.25762030517222,
+          "score": -3.517423520291632,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -70.23820956919589,
+            285.71428571428567
+          ],
+          "horizontal_error_m": 290.0742925498891,
+          "score": -3.5536592632932837,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            -238.0952380952381
+          ],
+          "horizontal_error_m": 248.96322397083028,
+          "score": -3.5679993067907443,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.119104792372276,
+            178.05992702155584
+          ],
+          "horizontal_error_m": 177.1207140590687,
+          "score": -3.580278478760955,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -82.73815239796211,
+            343.7035905884769
+          ],
+          "horizontal_error_m": 349.339559531285,
+          "score": -3.5822460815181065,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -95.23809523809523,
+            368.53611749774626
+          ],
+          "horizontal_error_m": 376.55034416029605,
+          "score": -3.596579221867196,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            -165.64366356692113
+          ],
+          "horizontal_error_m": 178.74683101363675,
+          "score": -3.5966124983116305,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -82.73815239226198,
+            -393.3686444070156
+          ],
+          "horizontal_error_m": 408.1513818338767,
+          "score": -3.617577848110167,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        }
+      ]
+    },
+    {
+      "id": "dlr-rec139-mic-230-constant-velocity-extension",
+      "protocol": "constant-velocity-extension",
+      "source_channel": 230,
+      "elapsed_s": 0.072,
+      "exit_code": 0,
+      "audio_sha256": "075aa9d84008d310ffaa5362dc27be01ca0e9312fa9c5561d94ead396c0b3963",
+      "package_sha256": "8a3b76050d9856ea60ae4d73170f894db9f0733adffeb1c516b2fdaaf4287dd2",
+      "config_sha256": "b1984a2577b48f2b591df5fa4e9c02ced83991adab6d1d6096d77047bec0aeb6",
+      "status": "ambiguous",
+      "events": 4,
+      "candidate_count": 10,
+      "search": {
+        "bounds": {
+          "east": 0.004491576420597607,
+          "north": 0.00452184738525191,
+          "south": -0.00452184738525191,
+          "west": -0.004491576420597607
+        },
+        "budget_exhausted": false,
+        "cells_evaluated": 585,
+        "hypotheses_evaluated": 1609,
+        "method": "coarse regional lattice; CPA clock proposals; joint ridge-shape score; multi-basin refinement; heuristic pruning",
+        "time_prior": {
+          "estimate_unix_s": null,
+          "sigma_s": null,
+          "windows": [
+            {
+              "end_unix_s": 1000.05,
+              "start_unix_s": 999.95,
+              "weight": 1.0
+            }
+          ]
+        }
+      },
+      "truth_xy_m": [
+        -3.632999897003174,
+        -18.68000030517578
+      ],
+      "origin_baseline_error_m": 19.03000524574264,
+      "top1_error_m": 20.677647067107987,
+      "best_of_reported_candidates_error_m": 7.145087253890162,
+      "candidates": [
+        {
+          "estimated_xy_m": [
+            -12.49994282173841,
+            0.0
+          ],
+          "horizontal_error_m": 20.677647067107987,
+          "score": 1.4662070777682175,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -35.11910479365328,
+            -153.2274001122865
+          ],
+          "horizontal_error_m": 138.18240697142798,
+          "score": 1.2107641620150602,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            178.05992702155584
+          ],
+          "horizontal_error_m": 201.597052058639,
+          "score": 1.118641525180844,
+          "start_internal_s": 1000.025,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            -178.05992702155578
+          ],
+          "horizontal_error_m": 165.33823947993588,
+          "score": 1.1119827496052501,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            142.85714285714283
+          ],
+          "horizontal_error_m": 167.41869971795083,
+          "score": 1.0014214786931284,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -60.118990447196,
+            202.89245393082516
+          ],
+          "horizontal_error_m": 228.6591778271784,
+          "score": 0.9520825653037406,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -47.61904761904761,
+            -215.30871738545974
+          ],
+          "horizontal_error_m": 201.48852268763181,
+          "score": 0.9428354472998555,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -60.118990449613285,
+            -238.0952380952381
+          ],
+          "horizontal_error_m": 226.5694456522749,
+          "score": 0.8009565603455817,
+          "start_internal_s": 1000.0,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            0.0,
+            -24.832526909269305
+          ],
+          "horizontal_error_m": 7.145087253890162,
+          "score": 0.7141477113445793,
+          "start_internal_s": 999.95,
+          "matched_events": 1
+        },
+        {
+          "estimated_xy_m": [
+            -72.61893328794694,
+            273.298022259651
+          ],
+          "horizontal_error_m": 300.0170406271721,
+          "score": 0.7127220157884526,
+          "start_internal_s": 1000.05,
+          "matched_events": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "rust_tests_passed": 24,
+  "node_tests_passed": 8,
+  "native_service_passed": true,
+  "portable_linux_service_passed": true,
+  "chromium_passed": [
+    "Wasm analysis",
+    "JSON export",
+    "candidate selection",
+    "responsive 390px",
+    "cancellation",
+    "no-package abstention",
+    "hosted historical data",
+    "GitHub Pages project subpath",
+    "no external requests"
+  ],
+  "trace_verification": {
+    "verified_traces": 491,
+    "days": [
+      {
+        "date": "2025-09-12",
+        "verified_traces": 188
+      },
+      {
+        "date": "2024-08-21",
+        "verified_traces": 245
+      },
+      {
+        "date": "2025-02-26",
+        "verified_traces": 19
+      },
+      {
+        "date": "2025-11-09",
+        "verified_traces": 3
+      },
+      {
+        "date": "2026-09-08",
+        "verified_traces": 36
+      }
+    ]
+  },
+  "static_catalog_packages": 7,
+  "static_flight_bytes": 5603566,
+  "static_total_bytes": 9956947,
+  "native_binary_sha256": "a1c871dc9302cddc22b359a249d28dbb6821e0608d2fbadf05e990469f58aee1",
+  "wasm_sha256": "07bf01ea6543856e6765bfb41954d2c0ea4bba430c91f2cd3c05e0d80ee9c29f",
+  "accuracy_passed": false,
+  "accuracy_report": "ALGORITHM_IMPROVEMENT.md",
+  "checked_utc": "2026-11-04T02:19:31.153512+00:00",
+  "coherent_native_wasm_parity_passed": true,
+  "coherent_chromium_passed": true,
+  "frozen_source_and_protocol_unchanged": true,
+  "new_separate_pathak_recordings_evaluated": 5,
+  "new_aerosonic_recordings_processed": 4,
+  "portable_binary_sha256": "777652977ffde9d8c61cd5b39bf88930511c325a93184f2e2500764c799cbe0a",
+  "ranking_improved_on_separate_recordings": true,
+  "rebuilt_baseline_reproduced_evaluated_case_exactly": true
+}

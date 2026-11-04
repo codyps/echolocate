@@ -1,0 +1,48 @@
+Back to flight index
+R06: N373DF
+UTC audio ridge and N373DF-track-EGM96.kml
+V constant H constant; analyzed; audio data with Method I and Method II fitted curves
+−16 −14 −12 −10 −8 −6 −4 −2 0 2 4 6 8 10 12 14 16 18 20 22
+180
+200
+220
+240
+260
+280
+300 fmax
+fmin
+Time relative to acoustic center,t − tc (s)
+Frequency, f (Hz)
+Audio data Method I Method II
+−10 0 10 20
+325
+330
+335
+Time, t − tc (s)
+V (kmh −1)
+ADS-B speed and height
+910
+920
+930
+H (m)
+−1000 0 1000 2000
+0
+100
+200
+∗
+L = 203 m
+Along flight direction,x (m)
+Across, y (m)
+Ground track
+Reference / method V (kmh −1) Rmin (m) L (m) H (m)
+ADS-B 329.64 940.94 203.06 918.77
+Method I 284.73 ± 1.143 766.20 ± 19.157 203.06 738.80 ± 19.867
+Method II 327.87 ± 1.510 963.01 ± 14.744 203.06 941.36 ± 15.083
+L is the ground-track offset from ADS-B; the same value is used in all three rows. Each height follows fromH =
+√
+R2min− L2, so a
+real height needsRmin > L. A dash meansRmin≤ L. For ADS-B,Rmin =
+√
+H 2 + L2.
+Method I guides: fmax = 296.171Hz (first 5 points) andfmin = 184.384Hz (last 5 points).
+4

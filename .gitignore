@@ -1,0 +1,21 @@
+/target
+/node_modules/
+/dist/
+/bin/
+/validation-runs/
+*.partial
+# Raw research inputs are restored from source manifests, not served by Pages.
+/corpus/news-tracks/*/traces/
+/corpus/news-tracks/*/replay/
+/corpus/ground-truth/*/*.wav
+/corpus/ground-truth/*/*.npy
+/corpus/ground-truth/colsto/*.png
+/corpus/ground-truth/aerosonic/audio/
+
+/corpus/audio/
+/corpus/pathak/*/audio.wav
+__pycache__/
+/corpus/pathak-heldout/*/audio.wav
+
+# Creator-owned evidence frames remain local research inputs.
+/corpus/ground-truth/colsto/evidence/

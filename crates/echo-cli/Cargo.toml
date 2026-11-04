@@ -1,0 +1,15 @@
+[package]
+name = "echo-locate"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+echo-core = { path = "../echo-core" }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+serde = "1"
+clap = { version = "4", features = ["derive"] }
+tiny_http = "0.12"
+sha2 = "0.10"
+flate2 = "1"
+csv = "1"

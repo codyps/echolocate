@@ -1,0 +1,29 @@
+{
+  "max_audio_s": 1080,
+  "max_hz": 450,
+  "hop_s": 0.5,
+  "grid_spacing_m": 500,
+  "max_cells": 5000,
+  "max_hypotheses": 2000000,
+  "clock_step_s": 2,
+  "clock_radius_s": 20,
+  "max_events": 16,
+  "refinement_levels": 2,
+  "observer_height_ellipsoid_m": -30,
+  "time_prior": {
+    "windows": [
+      {
+        "start_unix_s": 1788840000.0,
+        "end_unix_s": 1788926400.0,
+        "weight": 1
+      }
+    ]
+  },
+  "peak_candidates": 64,
+  "peak_threshold_db": 9,
+  "coherent_ridges": true,
+  "multiresolution": false,
+  "max_track_gap_s": 30,
+  "frequency_sigma_hz": 2,
+  "robust_shape": true
+}

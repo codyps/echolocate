@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "name": "DLR RECORD139 \u00b7 local-frame measured-knots",
+  "source": "Timo Schumacher; Henri Siller; DLR; https://zenodo.org/records/20494053",
+  "license": "CC-BY-4.0",
+  "coordinate_frame": "local_cartesian_embedded",
+  "clock_domain": "source_internal_seconds_plus_1000",
+  "coverage_start_unix_s": 1001.8659943559097,
+  "coverage_end_unix_s": 1004.3659943559097,
+  "search_bounds": {
+    "west": -0.001347472926179282,
+    "east": 0.001347472926179282,
+    "south": -0.001356554215575573,
+    "north": 0.001356554215575573
+  },
+  "synthetic": false,
+  "coverage_notes": [
+    "Real measured audio and receiver coordinates, but no absolute geography or UTC. Local x/y/z are embedded as east/north/up at arbitrary (0,0,0); output is not a geographic geolocation.",
+    "Zero-based reference samples interpreted as simultaneous source-state clock; source does not explicitly distinguish emission/reception convention. No alignment is fitted using receiver truth.",
+    "All channels are correlated observations of one flight. Uniform wind is supplied from the published 90-degree reference.",
+    "Source positions are original three measured knots; no source trajectory extrapolation."
+  ],
+  "flights": [
+    {
+      "id": "DLR-ATRA-REC139",
+      "aircraft_type": "A320",
+      "points": [
+        {
+          "time_unix_s": 1001.8659943559097,
+          "lat": 1.9498205925206237e-05,
+          "lon": 0.0011203069571311375,
+          "height_ellipsoid_m": 198.636
+        },
+        {
+          "time_unix_s": 1003.1669986719787,
+          "lat": -2.4417975880360316e-07,
+          "lon": 7.926734067070657e-05,
+          "height_ellipsoid_m": 186.22
+        },
+        {
+          "time_unix_s": 1004.3659943559097,
+          "lat": -1.0255549869751332e-05,
+          "lon": -0.0008726773659107502,
+          "height_ellipsoid_m": 175.365
+        }
+      ]
+    }
+  ]
+}
