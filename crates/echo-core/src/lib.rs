@@ -5,6 +5,7 @@ pub mod model;
 pub mod physics;
 pub mod ridge;
 pub mod search;
+pub mod session;
 pub mod spectral;
 use model::*;
 use serde::{Deserialize, Serialize};
@@ -25,6 +26,24 @@ pub fn analyze_with_control(
     request: &Request,
     cancel: &dyn Fn() -> bool,
 ) -> Result<Analysis, String> {
+    request.config.validate()?;
+    let decoded = audio::decode(bytes, request.config.max_audio_s)?;
+    analyze_decoded(
+        &decoded,
+        format!("{:x}", Sha256::digest(bytes)),
+        request,
+        cancel,
+    )
+}
+
+/// Analyze samples that were already decoded, e.g. a window assembled from several
+/// sample-contiguous session segments. `fingerprint` identifies the exact samples analyzed.
+pub fn analyze_decoded(
+    decoded: &audio::Decoded,
+    fingerprint: String,
+    request: &Request,
+    cancel: &dyn Fn() -> bool,
+) -> Result<Analysis, String> {
     let c = &request.config;
     c.validate()?;
     if let Some(p) = &request.package {
@@ -33,14 +52,13 @@ pub fn analyze_with_control(
     if cancel() {
         return Err("Analysis cancelled".into());
     }
-    let decoded = audio::decode(bytes, c.max_audio_s)?;
-    let (summary, spec, mut events) = audio::spectrogram_control(&decoded, c, cancel)?;
+    let (summary, spec, mut events) = audio::spectrogram_control(decoded, c, cancel)?;
     if c.multiresolution && c.window_s > 0.75 {
         let mut short = c.clone();
         short.window_s = 0.5;
         short.hop_s = short.hop_s.min(0.25);
         short.multiresolution = false;
-        let (_, _, fast) = audio::spectrogram_control(&decoded, &short, cancel)?;
+        let (_, _, fast) = audio::spectrogram_control(decoded, &short, cancel)?;
         events = audio::combine_events(events, fast, c.max_events, c.coherent_ridges);
     }
     let mut warnings=vec!["Research engine: match scores are uncalibrated; no confidence percentages or accuracy guarantee.".into(),"Stationary recorder, constant emitted tone per event, supplied uniform wind, constant supplied observer height. Terrain and height-varying weather are not modeled.".into()];
@@ -93,7 +111,7 @@ pub fn analyze_with_control(
         engine_version: env!("CARGO_PKG_VERSION").into(),
         status,
         synthetic: request.package.as_ref().is_some_and(|p| p.synthetic),
-        input_audio_sha256: format!("{:x}", Sha256::digest(bytes)),
+        input_audio_sha256: fingerprint,
         coordinate_frame: request
             .package
             .as_ref()
