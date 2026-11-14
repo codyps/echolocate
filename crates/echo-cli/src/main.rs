@@ -13,6 +13,7 @@ use std::{
 use tiny_http::{Header, Method, Response, Server, StatusCode};
 mod ingest;
 mod publish;
+mod session;
 
 #[derive(Parser)]
 #[command(
@@ -25,6 +26,40 @@ struct Args {
 }
 #[derive(Subcommand)]
 enum Command {
+    /// Summarize a field session: UTC span, clock fit, site, and flight-data fetch commands.
+    SessionInfo {
+        session: PathBuf,
+        /// Half-width of the suggested search square around the site.
+        #[arg(long, default_value_t = 5000.)]
+        radius_m: f64,
+        #[arg(short, long)]
+        output: Option<PathBuf>,
+    },
+    /// Analyze a field session in windows, with its measured clock and height, scored against its site.
+    SessionAnalyze {
+        session: PathBuf,
+        #[arg(long)]
+        package: PathBuf,
+        #[arg(long)]
+        config: Option<PathBuf>,
+        #[arg(long)]
+        output_dir: PathBuf,
+        #[arg(long, default_value_t = 600.)]
+        window_s: f64,
+        #[arg(long, default_value_t = 480.)]
+        step_s: f64,
+        /// Search half-width around the site when the config has no bounds.
+        #[arg(long, default_value_t = 5000.)]
+        radius_m: f64,
+        /// `session` applies the measured UTC as a time prior; `none` searches the clock blind.
+        #[arg(long, default_value = "session", value_parser = ["session", "none"])]
+        time_prior: String,
+        #[arg(long, default_value_t = 60.)]
+        label_tolerance_s: f64,
+        /// Skip checking segment SHA-256 values.
+        #[arg(long)]
+        no_verify: bool,
+    },
     FuseSite {
         #[arg(required=true,num_args=2..)]
         analyses: Vec<PathBuf>,
@@ -131,6 +166,60 @@ fn save(p: &Path, v: &impl serde::Serialize) -> Result<(), String> {
 }
 fn run() -> Result<(), String> {
     match Args::parse().command {
+        Command::SessionInfo {
+            session,
+            radius_m,
+            output,
+        } => {
+            let v = session::info(&session, radius_m)?;
+            match output {
+                Some(p) => save(&p, &v)?,
+                None => println!("{}", serde_json::to_string_pretty(&v).unwrap()),
+            }
+        }
+        Command::SessionAnalyze {
+            session,
+            package,
+            config,
+            output_dir,
+            window_s,
+            step_s,
+            radius_m,
+            time_prior,
+            label_tolerance_s,
+            no_verify,
+        } => {
+            let config: Config = config
+                .map(|p| read_json(&p))
+                .transpose()?
+                .unwrap_or_default();
+            if time_prior == "session"
+                && (!config.time_prior.windows.is_empty()
+                    || config.time_prior.estimate_unix_s.is_some())
+            {
+                return Err(
+                    "Config already has a time_prior; remove it or pass --time-prior none".into(),
+                );
+            }
+            let summary = session::analyze(
+                &session,
+                &output_dir,
+                session::AnalyzeOptions {
+                    config,
+                    package: read_json(&package)?,
+                    window_s,
+                    step_s,
+                    radius_m,
+                    use_time_prior: time_prior == "session",
+                    label_tolerance_s,
+                    verify: !no_verify,
+                },
+            )?;
+            println!(
+                "{}",
+                serde_json::to_string_pretty(&summary["aggregate"]).unwrap()
+            );
+        }
         Command::FuseSite { analyses, output } => {
             let mut results = Vec::new();
             for path in analyses {

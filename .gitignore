@@ -19,3 +19,6 @@ __pycache__/
 
 # Creator-owned evidence frames remain local research inputs.
 /corpus/ground-truth/colsto/evidence/
+
+# Field sessions recorded by android/ (audio is large and may contain speech).
+/sessions/

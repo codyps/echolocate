@@ -56,6 +56,23 @@ Supported decoders include WAV/PCM, FLAC, MP3, AAC/M4A, Ogg/Vorbis. Inputs are l
 
 Configuration fields are documented in [docs/CONFIG.md](docs/CONFIG.md). Geographic and clock coverage, budgets, warnings, input SHA-256, and the effective configuration are included in results. Match scores are **not** probabilities. A completed heuristic search is not evidence of global uniqueness.
 
+## Record field sessions with measured truth
+
+[`android/`](android/README.md) is a recorder app for the Pixel 8 Pro. It writes stationary
+**sessions** containing unprocessed float audio, audio timestamps tied to GPS time, GNSS fixes with
+ellipsoidal height, raw GNSS measurements (for a PPK/PPP site survey), barometric pressure, and
+"aircraft now" labels. The CLI reads them directly:
+
+```bash
+target/release/echo-locate session-info SESSION_DIR          # clock fit, site, adsb.lol fetch command
+target/release/echo-locate session-analyze SESSION_DIR --package flights.package.json   --config data/coherent.config.json --output-dir runs/SESSION
+```
+
+`session-analyze` analyzes overlapping windows, using the measured UTC as a time prior (or
+`--time-prior none` for a blind clock). It sets the observer's ellipsoidal height from the site and
+scores each window against the recorded position and the operator's labels. See
+[docs/SESSIONS.md](docs/SESSIONS.md).
+
 ## Obtain historical flight data
 
 The application needs a finite, configured historical-data corpus before audio can be matched to absolute locations. The acquisition helper discovers an adsb.lol daily release, checks the proposed download size, downloads/cache-checks its parts, streams trace files from the archive, and calls the Rust importer:

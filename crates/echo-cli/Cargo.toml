@@ -13,3 +13,6 @@ tiny_http = "0.12"
 sha2 = "0.10"
 flate2 = "1"
 csv = "1"
+
+[dev-dependencies]
+hound = "3.5"
